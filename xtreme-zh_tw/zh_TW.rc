@@ -1941,7 +1941,7 @@ BEGIN
     IDS_FILE_WARNING_DRM    "檔案 ""%s"" 似乎被數位版權管理保護(DRM).\r\n\r\n在沒有創作者的授權下大部分情況下您將不能使用這個檔案. 您必須注意到當開啟這個檔案大部分情況下會使您的多媒體播放器去開啟一個 Web 瀏覽器且將會自動連接到檔案的創作者網站並且要求獲得一個授權.\r\n\r\n您真的想要繼續開啟這檔案?"
     IDS_CHECK_FILE_OPEN     "當開啟未信任檔案時提出警告"
     IDS_BOOTABLE            "可啟動的"
-    IDS_UNSUPPORTEDIMAGE    "未支援的影像"
+    IDS_UNSUPPORTEDIMAGE    "未知援的影像"
 END
 
 
@@ -1975,22 +1975,22 @@ BEGIN
     IDS_XTREMESETTINGS      "Xtreme"
     IDS_ZOOMSTATIC          "放大: %u 倍"
     IDS_AVGQR               "平均隊列"
-    IDS_USEDOUBLESENDSIZE   "一次發送兩個封包"//orignial："雙倍發送尺寸" //"Use Double Sendsize"
+    IDS_USEDOUBLESENDSIZE   "一次發送兩個封包"
     IDS_LOGDROP             "記錄剔除動作"
     IDS_ANTILEECHER_GROUP   "Anti-Leecher"
     IDS_ANTILEECHER_CHECK   "啟用 Anti-Leecher 保護"
-    IDS_ANTILEECHERNAME_CHECK "檢測: Leecher by UserName"//"檢測: 不良的用戶名"
+    IDS_ANTILEECHERNAME_CHECK "檢測: Leecher by UserName"
     IDS_POWERRELEASE        "強力分享"
     IDS_DONTREMOVESTATICSERVER "禁止自動移除靜態伺服器"
 END
 
 STRINGTABLE 
 BEGIN
-    IDS_LISTREQUESTED       "被請求文件列表"//"被請求檔列表"
+    IDS_LISTREQUESTED       "被請求檔列表"
     IDS_HIGHPRIOPROCESS     "高"
-    IDS_ABOVENORMALPROCESS  "中"//"中高"
-    IDS_NORMALPROCESS       "一般"//"正常"
-    IDS_PROCESSGROUP        "程式優先級"//"程式優先順序"
+    IDS_ABOVENORMALPROCESS  "中高"
+    IDS_NORMALPROCESS       "正常"
+    IDS_PROCESSGROUP        "程式優先順序"
 END
 
 STRINGTABLE 
@@ -2055,7 +2055,7 @@ BEGIN
     IDS_SWAP_A4AF_TO_OTHER  "立刻交換(A4AF)來源到其他檔案"//"立刻交換(A4AF)來源到其他檔"
     IDS_ALL_A4AF_AUTO       "自動交換全部(A4AF)來源到此檔案"//"自動交換全部(A4AF)來源到此檔"
     IDS_LEECHER_ACTION_BAN  "封鎖"//"遮罩"
-    IDS_LEECHER_ACTION_REDUCE "減少積分"
+    IDS_LEECHER_ACTION_REDUCE "減分"//"減少積分"
     IDS_ANTILEECHERBADHELLO_CHECK "檢測: wrong Hello-Tag"//"檢測: 錯誤的握手標誌"
     IDS_ANTILEECHERSNAFU_CHECK "檢測: bad Tags"//"檢測: 錯誤的檔標誌"
 END
@@ -2065,7 +2065,7 @@ BEGIN
     IDS_ANTILEECHERMOD_CHECK "檢測: Leecher by Modstring"//"檢測: 不良的用戶端標示"
     IDS_ANTILEECHERTHIEF_CHECK "檢測: Nick-/ Modthiefs"//"檢測: 昵稱/用戶端標示竊賊"
     IDS_ANTILEECHERSPAMMER_CHECK "檢測: Spammers"//"檢測: 垃圾資訊發送者"
-    IDS_ANTILEECHERXSEXPLOITER_CHECK "檢測: XS-Exploiter"//"檢測: XS-Exploiter"
+    IDS_ANTILEECHERXSEXPLOITER_CHECK "檢測: XS-Exploiter"
     IDS_STATIC_LEECHERCOMMUNITY "Community Mods"//"社區用戶端"
     IDS_STATIC_LEECHERGHOST "Ghost-Mods"//"幽靈用戶端"
     IDS_STATIC_LEECHERTHIEF "Nick- / Modthiefs"//"昵稱/用戶端標示竊賊"
@@ -2092,7 +2092,7 @@ BEGIN
     IDS_SHOWBLOCKINGRATIO   "顯示Socket阻塞率"
     IDS_FUNNYNICK           "暱稱標記[FunnyNick]"//"使用隨機昵稱[FN]"
     IDS_AUTOUPDATEIPFILTER  "自動升級IP過濾檔(IPFilter.dat)"
-    IDS_DROPBLOCKINGSOCKETS "踢除頻繁阻塞的Sockets"
+    IDS_DROPBLOCKINGSOCKETS "剔除頻繁阻塞的Sockets"
     IDS_LOGPARTMISMATCH     "記錄大小不匹配的被請求檔"
     IDS_CN_UPNPTRYRANDOM    "對UPnP閘道使用隨機埠"
     IDS_CN_UPNPNAT          "啟用 UPnP"
@@ -2156,9 +2156,9 @@ BEGIN
                             "檔比 AICH 能處理的最小分塊還要小 - 導入不會有任何效果."
     IDS_SR13_IMPORTPARTS_IMPORTFINISH "導入完成. %i 個分塊被導入到文件 %s."
     IDS_OBFUSCATION_PADDING_LENGTH "協定加密附加長度 [10-254]"
-    IDS_PUSH_SMALL          "加速小檔案"//"推送小文件"
-    IDS_SMALL               "小檔案"
-    IDS_PUSH_SMALL_FILE_SIZE "小檔案大小上限 [1-2048 kb] "
+    IDS_PUSH_SMALL          "推送小文件"
+    IDS_SMALL               "小文件"
+    IDS_PUSH_SMALL_FILE_SIZE "小文件大小上限 [1-2048 kb] "
 END
 
 STRINGTABLE 
@@ -2176,557 +2176,6 @@ BEGIN
 END
 
 
-//other code base on ScarAngel v3.2 zh_CN.rc(tomchen1989) & Mephisto v2.2 zh_TW.rc(DargonD) 
-STRINGTABLE 
-BEGIN
-// ==> ScarAngel Preferences window - Stulle
-IDS_CON_TWEAKS          "連線調整"
-IDS_MISC                "雜項設定"
-// <== ScarAngel Preferences window - Stulle
-// ==> Global Source Limit [Max/Stulle] - Stulle
-IDS_GLOBAL_HL           "檔案來源硬性限制"//"全局硬限制"
-IDS_GLOBAL_HL_LIMIT     "檔案來源總硬性限制"//"全局硬限制"
-IDS_GLOBAL_HL_ALL       "對所有檔案啟用來源硬性限制"//"對所有檔案啟用"
-IDS_GLOBAL_HL_DEFAULT   "默認啟用來源總硬性限制"//"預設啟用全局硬限制"
-IDS_ENABLE              "允許"
-// <== Global Source Limit [Max/Stulle] - Stulle
-IDS_PUSH                "加速設定"//"推送設定" // push files - Stulle
-// ==> push small files [sivka] - Stulle
-IDS_PUSH_SMALL_BOOST    "加速小檔案速度"//"推送加速度"
-// <== push small files [sivka] - Stulle
-// ==> push rare file - Stulle
-IDS_PUSH_RARE           "加速稀有檔案"//"推送稀有檔案"
-IDS_RARE                "稀有"
-IDS_RARE_RATIO          "稀有檔案比率"
-// <== push rare file - Stulle
-IDS_SHOWINMSN7          "顯示 eMule 狀態在 MSN7(或上方)訊息欄中"//"在MSN消息欄里顯示eMule運行狀態" //Show in MSN7 [TPT] - Stulle
-// ==> Show sources on title - Stulle
-IDS_SHOWSRCONTITLE      "顯示來源數在視窗標題"//"在標題欄里顯示來源數"
-IDS_SHOWSRCSTRING       "來源數:"
-// <== Show sources on title - Stulle
-IDS_SHOWOVERHEADONTITLE "在標題欄裡顯示負載"// show overhead on title - Stulle
-// ==> CreditSystems [EastShare/ MorphXT] - Stulle
-IDS_CREDIT_SYSTEM       "積分系統"
-IDS_OFFICIAL_CREDIT     "官方 積分系統"
-IDS_LOVELACE_CREDIT     "lovelace 積分系統"
-IDS_RATIO_CREDIT        "Ratio 積分系統"
-IDS_PAWCIO_CREDIT       "Pawcio 積分系統"
-IDS_EASTSHARE_CREDIT    "EastShare 積分系統"
-IDS_SIVKA_CREDIT        "Sivka 積分系統"
-IDS_SWAT_CREDIT         "S.W.A.T. 積分系統"
-IDS_XMAN_CREDIT         "Xman 積分系統 "
-IDS_TK4_CREDIT          "TK4 積分系統"
-IDS_ZZUL_CREDIT         "ZZUL 積分系統"
-// <== CreditSystems [EastShare/ MorphXT] - Stulle
-// ==> SUQWT [Moonlight/EastShare/ MorphXT] - Stulle
-IDS_SUQWT_LOAD          "載入 %s"
-IDS_SUQWT               "保存客戶端排隊等待時間(SUQWT)"//"允許儲存上載排隊時間(SUQWT)"
-// <== SUQWT [Moonlight/EastShare/ MorphXT] - Stulle
-IDS_SHOW_FILE_HL_CONST  "總是顯示每個檔案來源硬性限制"//"總是顯示每個檔案的硬限制" // show HL per file constantly - Stulle
-IDS_SHOW_GLOBAL_HL      "顯示檔案來源硬性限制"//"顯示全局硬限制" // show global HL - Stulle
-// ==> file settings - Stulle
-IDS_NNS_TIMERLABEL      "自動NNS 計時器0-60秒"//"自動丟棄無需要部分的源(NNS)0-60秒"
-IDS_REMOVENNSLIMITLABEL "開始丟棄NNS > X%"
-IDS_FQS_TIMERLABEL      "自動FQS 計時器0-60秒"//"自動丟棄佇列已滿的源(FQS)0-60秒"
-IDS_REMOVEFQSLIMITLABEL "開始丟棄FQS > X%"
-IDS_HQRS_TIMERLABEL     "自動HQRS 計時器0-120秒"//"自動丟棄佇列位置太靠後的源(HQRS)0-120秒"
-IDS_REMOVEQRSLABEL      "最大允許QR <= X"//"最大允許的佇列位置 <= X"
-IDS_REMOVEQRSLIMITLABEL "開始丟棄 高QRS > X%"//"開始丟棄HQRS > X%"
-IDS_AUTO_NNS            "允許自動丟棄NNS"
-IDS_AUTO_FQS            "允許自動丟棄FQS"
-IDS_AUTO_QRS            "允許自動丟棄HighQS"
-IDS_SIVKAFILESETTINGS   "Sivka - 檔案設置"//"Sivka - 檔案設定"
-IDS_HARDLIMIT_LABEL     "硬性限制(0=使用默認值)"//"硬限制(0=使用預設值)"
-IDS_FILE_DEFAULTS       "檔案默認設置"//"檔案預設設定"
-IDS_XMAN_DROPPING       "使用Xman丟棄算法"
-IDS_SIVKA_DROPPING      "使用Sivka丟棄算法"
-IDS_HQR_WAY             "丟棄算法"
-// <== file settings - Stulle
-IDS_SHOW_DROPPED_SRC    "已丟棄的源" // show # of dropped sources - Stulle
-// ==> Source Graph - Stulle
-IDS_SRCGRAPH            "繪製來源統計圖"
-IDS_STATIC_STATSHL      "統計圖的最小/最大硬性限制"
-IDS_SP_SRCGRAPH         "來源統計圖"
-// <== Source Graph - Stulle
-IDS_FD_AVGDL            "平均下載速度:" // Average download speed - Stulle
-// ==> FunnyNick [SiRoB/Stulle] - Stulle
-IDS_FN_TAG              "暱稱標籤"//"FunnyNick標籤"
-IDS_NO_TAG              "沒有標籤"//"無"
-IDS_SHORT_TAG           "[FN]"
-IDS_FULL_TAG            "[FunnyNick]"
-IDS_CUSTOM_TAG          "自訂標籤"//"自訂"
-IDS_SET_CUSTOM_TAG      "設定自訂標籤："//"自訂標籤"
-IDS_FN_TAG_AT_END       "顯示標籤在末端"//"把標籤顯示在暱稱末尾"
-// <== FunnyNick [SiRoB/Stulle] - Stulle
-IDS_CLIENTQUEUEPROGRESSBAR "顯示客戶端排隊進度"//"顯示客戶端排隊進度" // Client queue progress bar [Commander] - Stulle
-IDS_ACC                 "允許主動連線控制" // ACC [Max/WiZaRd] - Max
-// ==> ScarAngel Version Check - Stulle
-IDS_VISITSVERSIONCHECK  "\n\n你想訪問ScarAngel網站嗎?"
-IDS_SVERSIONCHECK       "&V 版本檢查(ScarAngel)"
-IDS_NONEWSVERVERSION    "沒有檢查到新的ScarAngel版本"
-IDS_NEWSVERSIONAVL      "檢查到新的ScarAngel版本! 請訪問ScarAngel網站."
-IDS_NEWSVERSIONAVLPOPUP "檢查到新的ScarAngel版本! 點擊這裡獲得更多資訊."
-// <== ScarAngel Version Check - Stulle
-// ==> Quick start [TPT] - Max
-IDS_QUICK_START_GROUP   "快速啟動"
-IDS_QUICK_START         "啟用快速啟動"//"允許快速啟動"
-IDS_QUICK_START_MAX_TIME "快速啟動持續的時間(8-18分鍾)："
-IDS_QUICK_START_MAX_CONN_PER_FIVE "最大連線數/5秒："//"每5秒最大連接數"
-IDS_QUICK_START_MAX_CONN "最大連線數"
-IDS_QUICK_START_AFTER_IP_CHANGE "在IP改變之後啟用快速啟動"
-IDS_QUICK_START_MAX_CONN_PER_FIVE_BACK "返回到最大連線數/5秒："//"恢復到每5秒最大連接數"
-IDS_QUICK_START_MAX_CONN_BACK "返回到最大連線數："//"恢復到最大連接數"
-// <== Quick start [TPT] - Max
-// ==> CPU/MEM usage [$ick$/Stulle] - Stulle
-IDS_SYS_INFO_GROUP      "系統資訊"
-IDS_SYS_INFO_GLOBAL     "允許全局資訊"
-// <== CPU/MEM usage [$ick$/Stulle] - Stulle
-// ==> TBH: Backup [TBH/EastShare/MorphXT] - Stulle
-IDS_BACKUP_FILEFRAME    "選擇要備份的檔案格式"//"選擇要備份的檔案類型"
-IDS_BACKUP_SELECTALL    "全部選擇"
-IDS_BACKUP_AUTOFRAME    "自動備份"
-IDS_BACKUP_AUTOBACKUP   "於離開時自動備份"
-IDS_BACKUP_NOTE         "備註:"
-IDS_BACKUP_BACKUPNOW    "立即備份"
-IDS_BACKUP_MESSAGE      "名稱為「Backup」的資料夾建立於您的「config」資料夾內用於儲存備份資料"//"一個名叫""Backup""的目錄將被創建在你的eMule安裝目錄里,用來放置備份"
-IDS_BACKUP_AUTOBACKUP2  "雙重備份"
-IDS_ABORT               "中斷?"
-IDS_CONTINUE            "繼續(&C)"
-IDS_DONOTASKAGAIN       "不要再詢問我"
-IDS_DONOTSHOWAGAIN      "不要再告知我"
-IDS_DONOTTELLAGAIN      "不要再顯示"
-IDS_HELP                "幫助(&H)"
-IDS_IGNORE              "忽略(&I)"
-IDS_IGNOREALL           "全部忽略(&G)"
-IDS_NOTOALL             "全部皆否(&O)"
-IDS_OK                  "確定"
-IDS_REPORT              "觀看報告(&P)"
-IDS_RETRY               "重試(&R)"
-IDS_SKIP                "跳過(&S)"
-IDS_SKIPALL             "全部跳過(&K)"
-IDS_TRYAGAIN            "再試一次(&T)"
-IDS_YESTOALL            "全部皆是(&E)"
-// <== TBH: Backup [TBH/EastShare/MorphXT] - Stulle
-// ==> TBH: minimule - Max
-IDS_MM_SHOW             "使用 TBH 迷你騾 替代"//"使用新式迷你驢"
-IDS_MM_LIVES            "迷你騾持續更新數據"//"總是更新迷你驢的統計數據"
-IDS_MM_UPDATE_TIME      "迷你騾更新時間(X秒內)"//"更新時間(秒)"
-IDS_MM_TRANS            "迷你騾透明度(1-255)"//"透明度(1-255)"
-IDS_MM_ACTDL            "活動的下載: %i"
-IDS_MM_DATA             "上傳: %s | 下載: %s"
-IDS_MM_UPDOWN           "上傳: %s(%.1f) | 下載: %s(%.1f)"//"上: %s(%.1f) | 下: %s(%.1f)"
-IDS_MM_COMPL            "顯示連線中已完成檔案"//"顯示本次運行以來的完成數"
-IDS_MM_RATIO            "上傳:下載："
-IDS_MM_OPEN             "最小化到系統列時開啟迷你騾"//"最小化到托盤時顯示迷你驢"
-// <== TBH: minimule - Max
-// ==> Copy feedback feature [MorphXT] - Stulle
-IDS_COPYFEEDBACK        "產生檔案的回報明細"//"複製反饋資訊到剪貼簿"
-IDS_COPYFEEDBACK_US     "產生檔案的回報明細 (US)"//"複製反饋資訊到剪貼簿(US)"
-IDS_FEEDBACK_TRANSFERRED "已傳輸: %s (%s)"
-IDS_FEEDBACK_REQUESTED  "要求: %i (%i)"
-IDS_FEEDBACK_ACCEPTED   "接受要求: %i (%i)"
-IDS_FEEDBACK_FROM       "回報清單來自 %s 於 [%s]"
-IDS_FEEDBACK_FILENAME   "檔案名稱: %s"
-IDS_FEEDBACK_FILETYPE   "檔案型態: %s"//"檔案類型"
-IDS_FEEDBACK_FILESIZE   "大小: %s"
-IDS_FEEDBACK_DOWNLOADED "已下載: %s"
-IDS_FEEDBACK_TOTAL      "總來源數: %i"
-IDS_FEEDBACK_AVAILABLE  "有效來源數: %i"
-IDS_FEEDBACK_NONEEDPART "無需要來源數: %i"
-IDS_FEEDBACK_COMPLETE   "完整來源數估計: %i"
-IDS_FEEDBACK_ON_QUEUE   "排隊中"
-IDS_FEEDBACK_ALL_TRANSFERRED "已傳輸(所有檔案)"
-// <== Copy feedback feature [MorphXT] - Stulle
-// ==> Simple cleanup [MorphXT] - Stulle
-IDS_CHECKDOTTOSPACE     "將 ""."" 轉換為 "" """
-IDS_CHECKUNDERLINETOSPACE "將 ""_"" 轉換為 "" """
-IDS_CHECKCONVERTAPOSTROPHES "將錯誤的撇號 ""?""，""`"" 修正為正確的撇號 "" ' """
-IDS_CHECKCONVERTHEX     "將十六進位數字 ""%xx"" 還原為字元"
-IDS_CHECKSEARCHANDREPLACE "尋找並取代為:"
-IDS_SC_SEARCHFOR        "尋找:"
-IDS_SC_REPLACEBY        "取代為:"
-IDS_CHECKCASESENSITIVE  "分辨大小寫的搜尋"
-IDS_CHECKCHARACTERREPLACE "替換字元:"
-IDS_REPLACECHAR         "替換"
-IDS_REPLACECHARBY       "為"
-IDS_SC_ADD              "增加"
-IDS_SC_EDIT             "修改"
-IDS_SC_DELETE           "刪除"
-IDS_SEARCHFORCHAR       "搜尋"
-IDS_REPLACEBYCHAR       "取代為"
-IDS_SC_HEADLINE         "簡單過濾"
-// <== Simple cleanup [MorphXT] - Stulle
-// ==> Startupsound [Commander] - mav744
-IDS_STARTUPSOUND        "播放啟動音效"
-IDS_MISSING_STARTUPSOUND "缺少startup.wav! 注意: 'startup.wav' 必須置於config資料夾中"//"找不到啟動音效檔案startup.wav.它需要放在你的config目錄里"
-// <== Startupsound [Commander] - mav744
-IDS_COMPRESS_LVL        "壓縮等級(0 = 禁止)" // Adjust Compress Level [Stulle] - Stulle
-// ==> Smart Category Control (SCC) [khaos/SiRoB/Stulle] - Stulle
-IDS_CAT_MINIMUM         "最小"
-IDS_CAT_MAXIMUM         "最大"
-IDS_CAT_DLGHELP         "這些選項會指示為新下載檔案選擇類別時是否使用這些標準."//"這些複選框決定了為新檔案選擇分類時使用的標準."
-IDS_CAT_FILTERS         "類別過濾器"
-IDS_CAT_RS              "剩餘大小 (MB)"
-IDS_CAT_FS              "檔案大小 (MB)"
-IDS_CAT_RT              "剩餘時間 (M)"
-IDS_CAT_SC              "來源數"
-IDS_CAT_ASC             "有效來源數"
-IDS_CAT_THISCAT         "此類別"
-IDS_CAT_SUSPENDFILTERS  "暫停檢視過濾器"
-IDS_CAT_FROMCATSINFO    "您在將這個類別設定為全部檢視或是全部不指定前就將這類別中的所有檔案指定到其它類別中!"
-IDS_CAT_FROMCATSCAP     "未指定的檔案"
-IDS_CAT_FILTERSACTIVE   "過濾器啟動"
-IDS_CAT_FILTERSSUSP     "過濾器暫停"
-IDS_CAT_SETORDER        "設定優先順序"
-IDS_CAT_ORDER           "輸入一個大於或等於零的整數. 比較低的數值會先回復."
-IDS_CAT_PAUSEDSHOWN     " | 顯示暫停的檔案"
-IDS_CAT_PAUSEDHIDDEN    " | 隱藏暫停的檔案"
-IDS_CAT_COLCATEGORY     "類別"
-IDS_CAT_COLORDER        "順序"
-IDS_CAT_MNUAUTOINC      "自動增加順序"
-IDS_CAT_MNUSTEPTHRU     "逐項設定順序"
-IDS_CAT_MNUALLSAME      "設定為同一順序"
-IDS_CAT_EXPAUTOINC      "輸入一個非負數的起始數字:"
-IDS_CAT_EXPSTEPTHRU     "輸入一個非負數，比較低的數值會先回復.\n檔案:"
-IDS_CAT_EXPALLSAME      "輸入一個非負數，這會套用在所有選擇的檔案上:"
-IDS_CAT_ABORTSTEPTHRU   "您希望中斷這個設定優先順序的步驟嗎?"
-IDS_CAT_SHOWPAUSED      "顯示暫停檔"
-IDS_CAT_HIDEPAUSED      "隱藏暫停檔"
-IDS_CAT_SELDLGTXT       "從列表選擇一個類別或為新類別輸入一個標題:"
-IDS_CAT_SELDLGCAP       "選擇類別"
-IDS_CAT_SHOWCATNAME     "在 '類別' 欄位中顯示完整名稱"
-IDS_CAT_SHOWSELCATDLG   "顯示 '選擇類別' 對話框"
-IDS_CAT_USEACTIVE       "新下載檔案預設到啟動的類別"
-IDS_CAT_AUTORESUMEORD   "自動增加並指定優先順序"
-IDS_CAT_SMALLFILEDLPUSH "先下載小檔案 (< 150KB)"
-IDS_CAT_AUTOCAT         "進階過濾器遮罩 (分隔字元: | )"
-IDS_CAT_USEAUTOCAT      "使用檢視過濾器將新下載檔案加入類別"  
-IDS_CAT_MERGE           "合併類別"
-IDS_CAT_GROUP           "群組"
-IDS_CAT_RESUMEFILEONLYINSAMECAT	"繼續下一個已暫停的檔案(同類別)"
-IDS_CAT_RESUMENEXT      "回復下一個"
-IDS_CAT_PAUSELAST       "暫停最後一個"
-IDS_CAT_STOPLAST        "停止最後一個"
-IDS_SCC                 "智慧型類別管理 (SCC)"
-IDS_DL_MODE             "恢復模式"
-IDS_LP                  "線性優先級"
-IDS_CAT_STARTFILESONADD "加入新類別時開始 # 檔案"
-IDS_DL_MODE_DEFAULT     "默認恢復模式"
-IDS_DL_NONE             "無"
-IDS_SEARCH_INVALIDMINMAX "設置的最小/最大文件大小中使用了無效的單位"
-// <== Smart Category Control (SCC) [khaos/SiRoB/Stulle] - Stulle
-IDS_SHARED_PREFS        "已分享檔案管理" // Shared Files Management [Stulle] - Stulle
-// ==> Spread bars [Slugfiller/MorphXT] - Stulle
-IDS_SPREAD_BARS         "允許傳播條"
-IDS_SF_UPLOADED_PARTS   "散佈桿 (已上傳區塊)"
-IDS_SF_TURN_PART        "檔案上傳 (部分)"
-IDS_SF_TURN_SIMPLE      "檔案上傳 (簡單)"
-IDS_SF_FULLUPLOAD       "檔案上傳 (完整)"
-IDS_SPREAD_RESET        "重置傳播條"
-// <== Spread bars [Slugfiller/MorphXT] - Stulle
-// ==> HideOS & SOTN [Slugfiller/ MorphXT] - Stulle
-IDS_HIDEOS              "隱藏此區塊先前分流的次數(HideOS)"
-IDS_SHAREONLYTHENEED    "只分享需要的部份"
-IDS_HIDEOVERSHARES      "隱藏此區塊先前分流的次數 (0 = 取消)"
-IDS_SELECTIVESHARE      "主動選取分享區塊"
-IDS_ERR_HIDDENBLOCK     "已請求的隱藏區塊"
-// <== HideOS & SOTN [Slugfiller/ MorphXT] - Stulle
-// ==> PowerShare [ZZ/MorphXT] - Stulle
-IDS_POWERSHARE_ACTIVATED "啟動"
-IDS_POWERSHARE_DISABLED "關閉"
-IDS_POWERSHARE_ON_LABEL "開"
-IDS_POWERSHARE_OFF_LABEL "關"
-IDS_POWERSHARE_COLUMN_LABEL "強力分享(Powershare)"
-IDS_POWERSHARE_PREFIX   "PS"
-IDS_POWERSHARE          "強力分享(Powershare)"
-IDS_POWERSHARE_DENIED_LABEL "拒絕"
-IDS_POWERSHARE_ADVISED_LABEL "建議"
-IDS_POWERSHARE_AUTHORIZED_LABEL "認可"
-IDS_POWERSHARE_ACTIVATED_LABEL "啟動"
-IDS_POWERSHARE_DISABLED_LABEL "關閉"
-IDS_POWERSHARE_AUTO_LABEL "自動"
-IDS_POWERSHARE_AUTO     "自動"
-IDS_POWERSHARE_LIMITED  "使用者指定"
-IDS_POWERSHARE_LIMIT    "完整來源數"
-// <== PowerShare [ZZ/MorphXT] - Stulle
-// ==> Release Bonus [sivka] - Stulle
-IDS_RELEASE_BONUS_GROUP "釋放獎勵"
-IDS_RELEASE_BONUS_EDIT  "獎勵天數"
-IDS_RELEASE_BONUS_12    "12小時"
-// <== Release Bonus [sivka] - Stulle
-IDS_RELEASE_SCORE_ASSURANCE "為釋放的檔案指定預設的積分" // Release Score Assurance [Stulle] - Stulle
-// ==> Design Settings [eWombat/Stulle] - Stulle
-IDS_COLOR_MASTER1       "客戶端顏色"
-IDS_COLOR_MASTER2       "下載檔案的顏色"
-IDS_COLOR_MASTER3       "已分享檔案的顏色"
-IDS_COLOR_BOX           "外觀設置"
-IDS_COLOR_FONT_LABEL    "字體顏色"
-IDS_COLOR_BACK_LABEL    "背景色"
-IDS_COLOR_B7            "伺服器列表"
-IDS_COLOR_C1            "好友"
-IDS_COLOR_S1            "仍在下載"
-IDS_COLOR_S2            "強力分享的"
-IDS_COLOR_C2            "正在請求的強力已分享檔案"
-IDS_COLOR_C3            "正在請求的強力釋出檔案"
-IDS_COLOR_C4            "正在從其下載的"
-IDS_COLOR_C5            "正在向其上傳的"
-IDS_COLOR_C6            "吸血騾"
-IDS_COLOR_B1            "已知客戶端"
-IDS_COLOR_MASTER5       "背景色"
-IDS_COLOR_B2            "正在下載的客戶端"
-IDS_COLOR_B3            "正在等待的客戶端"
-IDS_COLOR_B4            "正在上傳的客戶端"
-IDS_COLOR_B5            "正在下載的檔案"
-IDS_COLOR_B6            "已分享檔案"
-IDS_COLOR_C7            "LowID"
-IDS_COLOR_C8            "積極評價"
-IDS_COLOR_ON            "開"
-IDS_COLOR_OFF           "關"
-IDS_COLOR_MASTER4       "伺服器外觀"
-IDS_COLOR_SE1           "當前連線的伺服器"
-IDS_COLOR_SE2           "靜態伺服器"
-IDS_COLOR_SE3           "已過濾的伺服器"
-IDS_COLOR_SE4           "失效伺服器"
-IDS_COLOR_SE5           "不可信伺服器"
-IDS_COLOR_W1            "Kad視窗"
-IDS_COLOR_W2            "伺服器視窗"
-IDS_COLOR_W3            "傳輸視窗"
-IDS_COLOR_W4            "搜尋視窗"
-IDS_COLOR_W5            "已分享檔案視窗"
-IDS_COLOR_W6            "消息視窗"
-IDS_COLOR_W7            "IRC視窗"
-IDS_COLOR_W8            "統計視窗"
-IDS_COLOR_W9            "狀態欄"
-IDS_COLOR_MASTER6       "視窗樣式"
-IDS_COLOR_W10           "工具列"
-IDS_COLOR_WARNING       "你正在使用WinXP或更高版本的作業系統. 只有在使用經典樣式時, 狀態欄和工具列才能改變顏色."
-IDS_COLOR_S3            "可分享"
-// <== Design Settings [eWombat/Stulle] - Stulle
-// ==> Limit PS by amount of data uploaded [Stulle] - Stulle
-IDS_PS_AMOUNT_LIMIT         "用上載數據量限制"
-IDS_PS_AMOUNT_LIMIT_LABEL   "用上載數據量限制(最大10000%)"
-IDS_PS_AMOUNT_LIMIT_WRONG   "無效的值."
-// <== Limit PS by amount of data uploaded [Stulle] - Stulle
-// ==> Enforce Ratio [Stulle] - Stulle
-IDS_RATIO_GROUP             "上載下載比率"
-IDS_ENFORCE_RATIO           "總是使用強制比率"
-IDS_RATIO_VALUE             "最大比率1"
-IDS_RATIO_REASON            "原因"
-IDS_RATIO_REASON2           "全局最大硬限制(為了公平)"
-IDS_RATIO_REASON3           "當上載速度低於11K/s時，使用強制1:3比率"
-IDS_RATIO_REASON4           "NAFC動態下載限制"
-IDS_RATIO_REASON5           "已強制比率"
-IDS_RATIO_ACTIVATION        "下載速度限制已啟用"
-IDS_RATIO_LIMIT             "上載下載比率將被限制在最大1:1"
-// <== Enforce Ratio [Stulle] - Stulle
-// ==> Tabbed Preferences [TPT] - Stulle
-IDS_SCARANGEL               "ScarAngel"
-IDS_BACKUP                  "備份"
-// <== Tabbed Preferences [TPT] - Stulle
-IDS_ERR_HIDDENSOURCE    "要求一個區塊之前未先告訴我們他需要的部分"//"Asked Block without telling us what he need" // Anti Anti HideOS & SOTN [SiRoB] - Stulle
-// ==> Improved ICS-Firewall support [MoNKi] - Max
-IDS_ICFSUPPORT          "允許ICF支援"
-IDS_ICFSUPPORTFIRST     "eMule檢測到Windows連線防火牆(ICF)正在運行,\n\r你想讓eMule自動配置它嗎? (推薦)"
-IDS_ICF                 "Windows連線防火牆(ICF)"
-IDS_ICF_SERVERUDP       "為伺服器UDP連線埠添加規則"
-// <== Improved ICS-Firewall support [MoNKi] - Max
-// ==> Invisible Mode [TPT/MoNKi] - Stulle
-IDS_CTRLKEY             "CTRL"
-IDS_ALTKEY              "ALT"
-IDS_SHIFTKEY            "SHIFT"
-IDS_INVMODE             "啟動隱形模式"
-IDS_INVMODE_MODKEY      "組合鍵:"
-IDS_INVMODE_VKEY        "按鍵:"
-IDS_INVMODE_GROUP       "隱形模式"
-IDS_INVMODE_START       "啟動時隱形"
-// <== Invisible Mode [TPT/MoNKi] - Stulle
-// ==> UPnP support [MoNKi] - leuk_he
-IDS_UPNP_INIT           "UPnP: 已在%s:%d啟動。尋找裝置中..."
-IDS_UPNP_FAILEDINIT     "UPnP: 在%d:%s啟動UPnP失敗"
-IDS_UPNP_PUBLICIP       "UPnP: 您的IP位址是公開的位址，不需要UPnP。"
-IDS_UPNP_FAILEDREGISTER "UPnP: 無法註冊一個控制點 [%s]"
-IDS_UPNP_NEWDEVICE      "UPnP: 找到相容的裝置%s"
-IDS_UPNP_VERBOSELOG     "UPnP事件"
-IDS_UPNP_NETSTATUS      "UPnP"
-IDS_UPNP_GROUP          "通用即插即用(UPnP)"
-IDS_UPNP_ENABLE         "允許UPnP"
-IDS_UPNP_ENABLE_WEB     "用UPnP建立Web介面的連接埠對映"
-IDS_UPNPBINDADDR        "UPnP建立對映的IP位址"
-IDS_UPNP_INFO_NONEED    "失敗或不被需要"
-IDS_UPNP_INFOUNINIT     ",未初始化\r\n"
-IDS_UPNP_INFOENABLED    ",啟用\r\n"
-IDS_UPNP_INFODISABLED   ",停用\r\n"
-IDS_UPNP_INFOSTANDBY    "找不到裝置\r\n"
-IDS_UPNFORCEUPDATE      "過一段時間就強制更新一次"
-// <== UPnP support [MoNKi] - leuk_he
-// ==> Random Ports [MoNKi] - Stulle
-IDS_RND_PORT_GROUP      "隨機連線埠"
-IDS_RND_PORT_FIRST      "連線埠範圍起始於"
-IDS_RND_PORT_LAST       "連線埠範圍終止於"
-IDS_RND_PORT_RESET      "隨機連線埠安全重啟時間"
-// <== Random Ports [MoNKi] - Stulle
-// ==> Support page in preferences [Stulle] - Stulle
-IDS_SUPPORT             "技術支援"
-IDS_HOMEPAGE            "主頁"
-IDS_BOARD_GER           "德文論壇"
-IDS_BOARD_ENG           "英文論壇"
-IDS_RATE                "評論ScarAngel"
-IDS_XTREME              "Xtreme主頁"
-// <== Support page in preferences [Stulle] - Stulle
-// ==> Automatic shared files updater [MoNKi] - Stulle
-IDS_AUTO_SHARED_UPDATER "自動刷新已分享檔案"
-IDS_ASFU_RELOADTIME     "ASFU: 已分享資料夾發生變化, %d秒後刷新已分享檔案"
-IDS_ASFU_DELAY          "ASFU: 偵測到一個檔案正在完成, 延遲刷新"
-IDS_ASFU_RELOAD         "已分享資料夾發生變化, 正在刷新已分享檔案"
-IDS_ASFU_RELOADING      "ASFU: 刷新已分享檔案"
-IDS_ASFU_SINGLE         "監視只分享了一個檔案的目錄"
-IDS_ASFU_TIMEBETWEEN    "自動刷新間隔時間 [秒]"
-// <== Automatic shared files updater [MoNKi] - Stulle
-// ==> Anti Uploader Ban [Stulle] - Stulle
-IDS_UNBAN_UPLOADER      "以MB為單位的預防封禁限定值[0=停用]"
-IDS_ANTI_CASE_1         "上載 >= 限制值"
-IDS_ANTI_CASE_2         "上載-下載 >= 限制值"
-IDS_ANTI_CASE_3         "上載-下載 >= 限制值且直到1:1"
-// <== Anti Uploader Ban [Stulle] - Stulle
-// ==> Emulate others [WiZaRd/Spike/shadow2004] - Stulle
-IDS_EMULATOR_GROUP      "模擬其它客戶端"
-IDS_EMULATE_ML          "模擬 MLDonkeys"
-IDS_EMULATE_DONK        "模擬 eDonkeys"
-IDS_EMULATE_DONK_HYB    "模擬 eDonkey-hybrids"
-IDS_EMULATE_SHA         "模擬 Sharezas"
-IDS_EMULATE_PHANT       "模擬 lPhants"
-IDS_EMULATE_LOG         "記錄模擬行為"
-// <== Emulate others [WiZaRd/Spike/shadow2004] - Stulle
-// ==> Spread Credits Slot [Stulle] - Stulle
-IDS_SPREAD_CREDITS_SLOT "散佈積分位置(SCS)"
-IDS_SPREAD_CREDITS_SLOT_COUNTER "散佈積分位置每個X位置： "
-// <== Spread Credits Slot [Stulle] - Stulle
-// ==> Pay Back First [AndCycle/SiRoB/Stulle] - Stulle
-IDS_PAYBACKFIRST        "優先還債"
-IDS_PAYBACKFIRSTLIMIT   "優先還債門檻 (預設為 10MB)"
-IDS_PAYBACKFIRST2       "優先還債給非SUI客戶端"
-IDS_PAYBACKFIRSTLIMIT2   "優先還債門檻(預設50MB)"
-// <== Pay Back First [AndCycle/SiRoB/Stulle] - Stulle
-IDS_IGNORE_THIRD        "不為eMule保留1/3的上載限制頻寬" // Do not reserve 1/3 of your uploadlimit for emule [Stulle] - Stulle
-IDS_UL_THRES            "只接受過去30分內請求過的客戶端" // Disable accepting only clients who asked within last 30min [Stulle] - Stulle
-IDS_FOLLOWTHEMAJORITY   "自動抓取最多數檔名" // Follow The Majority [AndCycle/Stulle] - Stulle
-IDS_FAIR_PLAY           "檔案上傳量公平分配 - 上傳X倍(0 = 停用)" // Fair Play [AndCycle/Stulle] - Stulle
-IDS_MAX_SLOTSPEED       "總是最大化通道速度" // Alwasy maximize slot speed [Stulle] - Stulle
-IDS_REASK_FILE_SRC      "向來源重覆請求檔案時間間隔[29-55 min.]" // Timer for ReAsk File Sources [Stulle] - Stulle// ==> Advanced Options [Official/MorphXT] - Stulle
-IDS_MINIMULEAUTOCLOSE   "自動關閉迷你騾"
-IDS_MINIMULETRANSPARENCY "迷你騾透明度"
-IDS_CHECKCOMCTL32       "檢察系統中的comctl32.dll版本"
-IDS_CHECKSHELL32        "檢察系統中的shell32.dll版本"
-IDS_IGNOREINSTANCES     "允許同時執行多個eMule"
-IDS_NOTIFIERMAILENCRYPTCERTNAME "通知信件的簽證名稱"
-IDS_MEDIAINFO_MEDIAINFODLLPATH "存放MediaInfo.dll的路徑"
-IDS_MEDIAINFO_RIFF      "用MediaInfo讀取RIFF格式"
-IDS_MEDIAINFO_ID3LIB    "用MediaInfo或ID3LIB讀取ID3標記"
-IDS_MAXLOGBUFF          "記錄所佔的記體最大值(KB)"
-IDS_MAXCHATHISTORY      "保留聊天記錄的筆數"
-IDS_PREVIEWSMALLBLOCKS  "允許預覽小區塊"
-IDS_RESTORELASTMAINWNDDLG "記住最後使用的主要分頁"
-IDS_RESTORELASTLOGPANE  "記住最後使用的記錄分頁"
-IDS_PREVIEWCOPIEDARCHIVES "預覽備份的壓縮檔"
-IDS_STRAIGHTWINDOWSTYLES "視窗外觀樣式"
-IDS_LOGFILEFORMAT       "記錄檔使用UTF-8"
-IDS_RTLWINDOWSLAYOUT    "排版由右至左"
-IDS_PREVIEWONICONDBLCLK "雙擊檔案的圖示開始預覽"
-IDS_INTERNETSECURITYZONE "網路安全區域"
-IDS_TXTEDITOR           "文字編輯器"
-IDS_SERVERUDPPORT       "與ED2K伺服器溝通的UDP連接埠"
-IDS_MAXMSGSESSIONS      "可開啟的聊天數"
-IDS_PREFERRESTRICTEDOVERUSER "受限制的使用者帳戶"
-IDS_WEBFILEUPLOADSIZELIMITMB "Web介面允許下載的檔案大小(MB)"
-IDS_HIGHRESTIMER        "使用高精度的Timer"
-IDS_ALLOWEDIPS          "允許連接Web介面的IP位址 (;分隔)"
-IDS_REMOVEFILESTOBIN    "移除檔案至資源回收筒"
-IDS_DEBUGSEARCHDETAILLEVEL "搜尋的除錯資訊等級"
-IDS_CRYPTTCPPADDINGLENGTH "模糊連線額外的資料大小"
-IDS_USEUSERSORTEDSERVERLIST "使用者排序伺服器清單"
-IDS_MINIMULE            "迷你騾"
-IDS_INSPECTALLFILETYPES "分析所有檔案格式"
-IDS_X_ADJUSTNTFSDAYLIGHTFILETIME "調整NTFS的日光節約時間"
-IDS_X_DATETIMEFORMAT    "時間格式"
-IDS_X_DATETIMEFORMAT4LOG "時間格式(記錄)"
-IDS_X_LOGWARNING        "警告訊息的顏色"
-IDS_X_LOGSUCCESS        "成功訊息的顏色"
-IDS_X_LOGERROR          "錯誤訊息的顏色"
-IDS_X_ICH               "智慧型容錯(ICH)"
-IDS_X_DONTCOMPRESSAVI   "不要壓縮AVI檔"
-IDS_X_SHOWCOPYED2KLINK  "在右鍵選單顯示“複製ED2K連結”"
-IDS_X_ICON_FLASH_ON_NEW_MESSAGE "收到新訊息的時候使工作列項目閃爍"
-IDS_X_SHOWVERTICALHOURMARKERS "在統計圖形中顯示小時的標線"
-IDS_X_REBARTOOLBAR      "調整一些工具列的選項"
-IDS_BINDADDR            "本地端的IP位址"
-IDS_MEDIAINFO_MEDIADET  "使用Media Detector(MediaDet)獲取媒體檔案的資訊"
-IDS_MEDIAINFO_RM        "使用mediainfo.dll識別Real媒體檔案"
-IDS_MEDIAINFO_WM        "使用mediainfo.dll識別Windows Media檔案"
-// <== Advanced Options [Official/MorphXT] - Stulle
-// ==> Advanced Updates [MorphXT/Stulle] - Stulle
-IDS_UPDATEANTILEECHERONSTART "啟動時更新antiLeech.dll"
-IDS_AUTOUPWEEK          "每周更新一次"
-IDS_URL_FOR_UPDATING    "更新地址"
-IDS_UPDATEIPCURL        "更新"
-IDS_UPDATEIPFILTERONSTART "啟動時更新ipfilter.dat"
-IDS_RESET               "重置"
-IDS_COUNTRY             "國家"
-IDS_AUTOUPIP2COUNTRY    "啟動時更新Ip-to-country.csv"
-IDS_SCHED_UPDATE_IPCONFIG_LOG "啟動已排程的 IPFILTER.DAT-更新."
-IDS_SCHED_UPDATE_ANTILEECH_LOG "啟動已排程的antiLeech.dll-更新"
-IDS_SCHED_UPDATE_IPCONFIG "更新 IPFILTER.DAT 檔案"
-IDS_SCHED_UPDATE_ANTILEECH "更新 antiLeech.dll 檔案"
-IDS_SCHED_UPDATE_WARNING "自動更新排程勿過於頻繁以免網路流量過高!\r\n每週一次應已足夠!"
-IDS_SCHED_WARNENDTIME   "只執行一次的動作的結束的時間應該要開始的時間相同"
-IDS_IP2COUNTRY_DWNFILE  "下載 國籍判斷 檔案"
-IDS_IP2COUNTRY_UPUNLOAD "IP2Country.csv 卸載因更新中"
-IDS_IP2COUNTRY_UPLOAD   "IP2Country.csv 載入於成功的更新後"
-IDS_LOG_ERRDWN          "下載 %s 錯誤"
-IDS_IP2COUNTRY_ERROR7   "由已下載的 國籍判斷 壓縮檔 ""%s"" 解壓失敗."
-IDS_IP2COUNTRY_ERROR8   "已下載的 國籍判斷 壓縮檔 ""%s"" 為一未知內容的 ZIP 檔案."
-IDS_AUTODLPFAILED       "檢查新版本DLP失敗"
-IDS_ANTILEECH_DWNFILE   "下載DLP檔案"
-IDS_AUTOIPFILTERFAILED  "檢查IPFilter版本失敗"
-// <== Advanced Updates [MorphXT/Stulle] - Stulle
-// ==> Links for Server list and nodes file [Stulle] - Stulle
-IDS_NODESFILEBUTTON     "節點列表"
-IDS_SERVER_LISTS        "伺服器列表"
-// <== Links for Server list and nodes file [Stulle] - Stulle
-IDS_SHOW_SPEED_METER    "在工具欄上顯示速度統計圖" // High resolution speedmeter on toolbar [eFMod/Stulle] - Myth88
-// ==> Control download priority [tommy_gun/iONiX] - MyTh88
-IDS_AUTO_DOWN_GROUP     "控制下載優先權"
-IDS_AUTO_DOWN_PERC      "已完成百分比"
-IDS_AUTO_DOWN_PERC_VAL  "完成百分比"
-IDS_AUTO_DOWN_SIZE      "已剩餘大小"
-IDS_AUTO_DOWN_SIZE_VAL  "剩餘大小(MB)"
-IDS_AUTO_DOWN_PRIO      "更改優先權為"
-// <== Control download priority [tommy_gun/iONiX] - MyTh88
-// ==> XP Style Menu [Xanatos] - Stulle
-IDS_MENU_PREVIEW        "預覽"
-IDS_HISTORY             "歷史任務"
-IDS_COLUMNS             "欄"
-IDS_PS_LIMITED_SRC      "用來源數限制"
-IDS_PS_LIMITED_AMNT     "用數量限制"
-IDS_FUNCTION            "功能"
-IDS_RELEASER            "附加功能(資源發佈者用)"
-// <== XP Style Menu [Xanatos] - Stulle
-IDS_FINECS              "Fine 積分系統 (門檻: 4個區塊)"
-IDS_IPFILTERWHITELOADED "%u個IP已被載入IP過濾器的白名單。"
-IDS_TRAY_COMPLETE       "在托盤圖標上顯示已完成的下載數"
-// ==> Feedback personalization [Stulle] - Stulle
-IDS_COLOR_FEEDBACK      "彩色上傳反饋"//"定製上載反饋"
-IDS_COLOR_MASTER7       "反饋"
-IDS_COLOR_F1            "標籤"
-IDS_COLOR_F2            "名字"
-IDS_COLOR_F3            "檔案類型和下載"
-IDS_COLOR_F4            "下載狀態"
-IDS_COLOR_F5            "已傳輸的數據"
-IDS_COLOR_F6            "請求"
-IDS_COLOR_F7            "來源(Part檔案)"
-IDS_COLOR_F8            "排隊中的客戶"
-// <== Feedback personalization [Stulle] - Stulle
-IDS_STATIC_ICON         "總是顯示托盤圖示" // Static Tray Icon - MyTh88
-END
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // Chinese (Taiwan) resources
