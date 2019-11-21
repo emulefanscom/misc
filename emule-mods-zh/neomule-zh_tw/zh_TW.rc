@@ -1,0 +1,4426 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "zh_TW.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "zh_TW.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Windows-Sockets 初始化失敗."
+    IDS_ABOUTBOX            "關於 eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s 從 %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "連線到 %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "解析名稱: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "解析名稱到 %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "連線到 %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "改變方向到 %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "取得檔案資訊"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "嘗試下載檔案時發生錯誤, 錯誤:%s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER "連線到這個伺服器時發生錯誤, 錯誤:%s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE 
+                            "從這個伺服器接收一個有效回應失敗"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE 
+                            "從這個伺服器接收一個有效的 HTTP 回應失敗"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "下載這個檔案時發生錯誤, 錯誤:%s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "下載中: %s%% 於 %s 已完成"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "重新取得這個檔案"
+    IDS_HTTPDOWNLOAD_OF     "%s 於 %s"
+    IDS_FILELINK            "檔案連結"
+    IDS_LD_BASICOPT         "基本的選項"
+    IDS_LD_ADDSOURCE        "加入您自己成為來源"
+    IDS_LD_EMULEHASH        "加入 eMule AICH 切細值來幫助損壞的處理"
+    IDS_LD_ADVANCEDOPT      "進階選項"
+    IDS_CANCEL              "取消"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LD_ADDHTML          "加入 HTML-標籤"
+    IDS_HTTP_CAPTION        "伺服器清單更新中"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s 已複製)"
+    IDS_LD_ADDHASHSET       "加入完整的片段切細值"
+    IDS_HSAV                "片段切細值可得"
+    IDS_DL_SHOWED2KLINK     "顯示 eD2K 連結..."
+    IDS_FD_CORR             "已損壞"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE "檔案 '%s' 已經存在.\n您想取代它嗎?"
+    IDS_FD_RECOV            "已恢復"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN "開啟已下載完成的檔案時發生錯誤, 錯誤:%s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "傳輸已中斷"
+    IDS_FD_COMPR            "壓縮"
+    IDS_WIZARD_NETWORK      "選擇您想要使用的網路"
+    IDS_MAIN_READY          "eMule 版本 %s 已備妥"
+    IDS_WIZARD_ED2K         "eD2K 設定"
+    IDS_SEL_SKIN            "選擇面板..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_SOCKETERROR    "重大錯誤: 無法建立插口在連接埠 %u"
+    IDS_MAIN_BTN_DISCONNECT "離線"
+    IDS_ERR_WRONGFILEID     "不正確的檔案 ID 傳送"
+    IDS_ERR_BADHASHSET      "已接收到損壞或無效的片段切細值"
+    IDS_ERR_BADDATABLOCK    "已接收到損壞或無效的資料區塊"
+    IDS_ERR_ILLFORMEDHASH   "不正確的切細格式"
+    IDS_ERR_BADED2KLINK     "不是一個正規的 eD2K 連結"
+    IDS_ERR_NOSLLINK        "不是一個 eD2K 伺服器或檔案的連結"
+    IDS_ERR_WRONGPACKAGESIZE "無效的 檔案要求操作碼 封包大小"
+    IDS_ERR_WRONGHPACKAGESIZE "無效的 片段切細值要求操作碼 封包大小"
+    IDS_ERR_UNKNOWNCLIENTACTION "未知的客戶端傳送延伸協定封包"
+    IDS_ERR_OPENMET         "錯誤: 開啟 part.met 檔案失敗! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "錯誤: 無效的 part.met 檔案版本! (%s => %s)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_METCORRUPT      "錯誤: %s (%s) 已經損壞, 無法載入檔案"
+    IDS_ERR_FILEERROR       "意外的檔案錯誤當讀取 %s (%s) 時: %s"
+    IDS_ERR_FILEOPEN        "開啟失敗 %s (%s)"
+    IDS_SEL_SKINDIR         "選擇面板資料夾..."
+    IDS_ERR_REHASH          "警告: %s 也許已經損壞, 執行已完成部分的重新切細"
+    IDS_SKIN_PROF           "面板設定檔"
+    IDS_ERR_PART_FNF        "部分檔案找不到"
+    IDS_KADOPEN             "直接"
+    IDS_ERR_SAVEMET         "錯誤 當儲存部分檔時: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "發現已損壞部分 (%u) 在 %s"
+    IDS_HASHINGDONE         "檔案重新切細完成 %s, 檔案看來似乎完整"
+    IDS_ERR_PARTCORRUPT     "已下載部分 %u 損壞了 :(  (%s)"
+    IDS_ICHWORKED           "I.C.H.: 重新恢復損壞部分 %u (%s), 儲存: %s"
+    IDS_ERR_OUTOFSPACE      "您的磁碟空間已不足夠來下載 ""%s""!"
+    IDS_SE                  "來源交換"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_WRITEERROR      "意外的檔案寫入錯誤 %s : %s"
+    IDS_ERR_COMPLETIONFAILED 
+                            "完成中時意外的檔案錯誤 %s. 檔案已暫停, 重新啟動 eMule 來開始另一個完全的嘗試"
+    IDS_ERR_DELETEFAILED    "刪除失敗 %s, 您將必須手動刪除這個"
+    IDS_DOWNLOADDONE        "下載已完成 %s :-)"
+    IDS_ERR_DELETE          "刪除失敗 %s"
+    IDS_ERR_HASHERRORWARNING "警告: 無法切細已下載部分 - 片段切細值不完全 (%s)"
+    IDS_ERR_INCOMPLETEHASH  "錯誤: 無法切細已下載部分 - 片段切細值不完全 (%s). 這應該從不會發生"
+    IDS_DOWNLOADING         "下載中"
+    IDS_WAITING             "等待中"
+    IDS_HASHING             "切細中"
+    IDS_COMPLETING          "完成中"
+    IDS_COMPLETE            "已完成"
+    IDS_PAUSED              "已暫停"
+    IDS_ERRORLIKE           "已損壞"
+    IDS_ASSIGNED2K          "eMule 和 eD2K 連結未產生關聯. 您現在想要 eMule 和 eD2K 產生關聯嗎 (建議使用) ?"
+    IDS_ERR_EMPTYADRESSESDAT 
+                            "在 'address.dat' 找不到伺服器清單網址. 為了使用自動更新您的伺服器清單功能請貼一個有效伺服器清單網址到這個檔案. 或是在 [選項]->[伺服器]->[在啟動時自動更新伺服器清單] 打勾取消不使用這個功能."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "無效的版本標籤在 server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%u 個伺服器在 server.met 已找到"
+    IDS_SERVERSADDED        "%u 個伺服器已增加, %u 未被加入 (已在清單內或無效的)"
+    IDS_ERR_BADSERVERLIST   "錯誤: server.met 檔案已經損壞, 無法載入伺服器清單"
+    IDS_ERR_FILEERROR_SERVERMET 
+                            "意外的檔案錯誤當讀取 server.met 時: %s, 無法載入伺服器清單"
+    IDS_ERR_SAVESERVERMET   "儲存 server.met 失敗!"
+    IDS_PASSIVE             "被動"
+    IDS_MAIN_BTN_CANCEL     "取消"
+    IDS_AVAIL               "部分數: %u , 有用的: %u (%.1f%%)\n\n"
+    IDS_TYPE                "類型"
+    IDS_FILEID              "檔案 ID"
+    IDS_FILE                "檔案"
+    IDS_DOWNLOAD            "下載"
+    IDS_SL_SERVERNAME       "伺服器名稱"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IP                  "IP"//!
+    IDS_DESCRIPTION         "描述"
+    IDS_PING                "反應"
+    IDS_FILES               "檔案數"
+    IDS_PREFERENCE          "喜好程度"
+    IDS_PRIONOPREF          "未定"
+    IDS_CONNECTTHIS         "連線到已選擇的伺服器"
+    IDS_MAIN_BTN_CONNECT    "連線"
+    IDS_ERR_SAVESERVERMET2  "儲存 server.met 失敗! 您需要刪除 server.met 並重新命名 server.met.old 到 server.met!"
+    IDS_NOTCONNECTED        "未連線"
+    IDS_DISCONNECTED        "已離線"
+    IDS_USERS               "使用者數: %u"
+    IDS_UPDOWN              "上載: %.1f(%.1f) | 下載: %.1f(%.1f)"
+    IDS_CONNECTED           "已連線"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LINKNOTADDED        "沒有連結加入"
+    IDS_MAIN_EXIT           "您真的想要離開 eMule 中文版?"
+    IDS_MAIN_POPUP_RESTORE  "還原"
+    IDS_CONNECTTOANYSERVER  "連線到任何一個伺服器"
+    IDS_EXIT                "離開"
+    IDS_CONNECTING          "連線中"
+    IDS_FAILED              "失敗"
+    IDS_ERR_BADSERVERREPLY  "從伺服器接收到損壞或無效的登入回應"
+    IDS_NEWCLIENTID         "新的客戶端 ID 是 %u"
+    IDS_SHAREDFOLDERS       "已分享的資料夾"
+    IDS_VIEW1               "檢視 "
+    IDS_VIEW2               " (未分享)"
+    IDS_PRIOLOW             "低"
+    IDS_PRIONORMAL          "一般"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PRIOHIGH            "高"
+    IDS_DOWNLOADMENUTITLE   "下載"
+    IDS_PRIORITY            "優先權"
+    IDS_NEWSERVERS          "已接收到 %u 個新的伺服器"
+    IDS_DL_STOP             "停止"
+    IDS_DL_PAUSE            "暫停"
+    IDS_DL_RESUME           "繼續"
+    IDS_DL_OPEN             "開啟檔案"
+    IDS_DL_INFO             "顯示檔案詳細資訊..."
+    IDS_DL_CLEAR            "清除已完成項目"
+    IDS_DL_LINK1            "複製 eD2K 連結到剪貼簿"
+    IDS_DL_LINK2            "複製 eD2K 連結到剪貼簿 (HTML)"
+    IDS_SHOWDETAILS         "顯示詳細資訊..."
+    IDS_SEND_MSG            "傳送訊息"
+    IDS_ASKING              "要求中"
+    IDS_CONNVIASERVER       "經由伺服器連線中"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ONQUEUE             "等候中"
+    IDS_TRANSFERRING        "傳輸中"
+    IDS_RECHASHSET          "片段切細值接收中"
+    IDS_NONEEDEDPARTS       "沒有需要的部分"
+    IDS_NOCONNECTLOW2LOW    "無法連線 低-ID 到 低-ID"
+    IDS_UNKNOWN             "未知"
+    IDS_ASKED4ANOTHERFILE   "已在另一個檔案中要求"
+    IDS_Q_CANCELDL          "您確定您要取消並刪除這些檔案?\n"
+    IDS_Q_CANCELDL2         "您確定您要取消並刪除這個檔案?\n"
+    IDS_DL_FILENAME         "檔案名稱"
+    IDS_DL_SIZE             "大小"
+    IDS_DL_TRANSF           "已傳輸"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DL_SPEED            "速度"
+    IDS_DL_PROGRESS         "進度"
+    IDS_DL_SOURCES          "來源數"
+    IDS_ERR_BADSERVERLISTRECEIVED "已接收到無效的伺服器清單封包"
+    IDS_STATUS              "狀態"
+    IDS_DL_REMAINS          "剩餘"
+    IDS_UPDATEFROM          "從網址更新: (filter.dat- 或 PeerGuardian-格式)"
+    IDS_QL_USERNAME         "使用者名稱"
+    IDS_LOADURL             "載入"
+    IDS_DELETEAFTERALLOC    "檔案 '%s' 目前正在分配磁碟空間並且在這個動作完成之後才會刪除檔案"
+    IDS_QL_RATING           "等級"
+    IDS_CONNECTINGTO        "連線到 %s (%s:%u) 中..."
+    IDS_CLIENTS             "客戶端"
+    IDS_SEARCH_ANY          "任何的"
+    IDS_SEARCH_AUDIO        "音樂"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SEARCH_PICS         "圖片"
+    IDS_SEARCH_PRG          "程式"
+    IDS_SEARCH_VIDEO        "影像"
+    IDS_SEARCH_CDIMG        "光碟影像"
+    IDS_SEARCH_ARC          "壓縮檔"
+    IDS_ERR_INVALIDLINK     "這個是無效的 eD2K 連結 (%s)"
+    IDS_ERR_LINKERROR       "無效的連結: %s"
+    IDS_ERR_NOTCONNECTED    "您尚未連線到一個伺服器!"
+    IDS_REMOVETHIS          "移除已選擇的伺服器"
+    IDS_REMOVEALL           "移除所有伺服器"
+    IDS_SRV_ADDR            "請輸入一個伺服器位址"
+    IDS_SRV_PORT            "不完整的伺服器連接埠: 請輸入伺服器連接埠"
+    IDS_SRV_NOTADDED        "伺服器沒有被加入!"
+    IDS_SRV_NOURLAV         "沒有可用的網址."
+    IDS_INVALIDURL          "無效的網址"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "從 %s 下載伺服器清單失敗"
+    IDS_PERMISSION          "許可"
+    IDS_SHAREDFILES         "已分享檔案"
+    IDS_PRIOVERYLOW         "最低"
+    IDS_PRIORELEASE         "釋放"
+    IDS_TRAYDLG_SPEED       "eMule 速度"
+    IDS_FSTATUS_FRIENDSONLY "限好友"
+    IDS_VIAPASSIVE          "經由被動"
+    IDS_ERR_RENAMESF        "重新命名失敗\r\n    ""%s""\r\n到\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "有用的"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FSTAT_TRANSFER      "傳輸"
+    IDS_FSTAT_CONNECTION    "連線"
+    IDS_FSTAT_SERVERS       "伺服器"
+    IDS_FSTAT_WAITING       "等待中..."
+    IDS_TIME                "時間"
+    IDS_STATS_DDATA         "已下載資料: %s"
+    IDS_STATS_UDATA         "已上載資料: %s"
+    IDS_STATS_AVGDL         "平均下載速率: %s"
+    IDS_STATS_AVGUL         "平均上載速率: %s"
+    IDS_STATS_FOUNDSRC      "發現來源數: %u"
+    IDS_STATS_ACTDL         "動作中下載 (區塊): %u"
+    IDS_STATS_ACTUL         "動作中上載: %u"
+    IDS_STATS_WAITINGUSERS  "上載等待中: %u"
+    IDS_STATS_RECONNECTS    "重新連線數: %u"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "未知: %u"
+    IDS_STATS_TOTAL         "總計: %u"
+    IDS_DISABLED            "已關閉"
+    IDS_STOPPED             "已停止"
+    IDS_STATS_UPDATELABEL   "更新延遲: %u 秒"
+    IDS_ASKEDFAF            "\n已在另一個檔案中要求"
+    IDS_WAITED              "已等待"
+    IDS_ERR_LOADCREDITFILE  "載入額度檔案失敗, 將會建立一個新檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "額度檔案太舊並且將會取代它"
+    IDS_CREDITFILELOADED    "額度檔案已載入, %u 個客戶端已知"
+    IDS_CREDITFILECORRUPT   "錯誤: 這個額度檔案已經損壞並且將會取代它!"
+    IDS_ERR_CREDITFILEREAD  "意外的檔案錯誤當讀取額度檔案時: %s"
+    IDS_ERR_FAILED_CREDITSAVE "儲存額度檔案失敗"
+    IDS_NOPARTSFOUND        "找不到部分檔案"
+    IDS_FOUNDPARTS          "找到 %u 個部分檔"
+    IDS_NEWDOWNLOAD         "下載中 %s"
+    IDS_ERR_ALREADY_DOWNLOADING "您正在下載這個檔案 %s"
+    IDS_ERR_ALREADY_DOWNLOADED "您已經下載這個檔案 %s"
+    IDS_ERR_SERVERMET_BAD   "錯誤: known.met 檔案已經損壞, 無法載入已知的檔案"
+    IDS_ERR_SERVERMET_UNKNOWN 
+                            "意外的檔案錯誤當 known.met 檔案讀取時: %s, 無法載入已知的檔案"
+    IDS_ERR_CONNECTIONERROR "連線到 %s (%s:%u) 發生錯誤: %s"
+    IDS_ERR_SOCKET          "錯誤在伺服器插口: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "找到 %u 個已知分享的檔案"
+    IDS_SHAREDFOUNDHASHING  "找到 %u 個已知分享的檔案, 找到 %u 個新檔案現在切細中"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "已要求不完全的區塊"
+    IDS_ERR_OPEN            "開啟要求的檔案失敗"
+    IDS_ERR_CLIENTERRORED   "客戶端 '%s' 造成錯誤當建立封包 (%s) - 從客戶端斷線中"
+    IDS_ERR_REQ_FNF         "找不到要求的檔案"
+    IDS_DESC                "描述: %s"
+    IDS_PORT                "連接埠"
+    IDS_ERR_NOVALIDSERVERSFOUND "在伺服器清單中找不到有效的伺服器來連線"
+    IDS_CONNECTEDTOREQ      "已連線到 %s (%s:%u), 登入要求送出中"
+    IDS_ERR_FATAL           "嘗試連線重大錯誤. 網路可能已斷線"
+    IDS_ERR_LOSTC           "失去連線 %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) 似乎已經掛掉."
+    IDS_ERR_FULL            "%s (%s:%u) 似乎已到達人數上限"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONNECTEDTO         "連線已建立在: %s"
+    IDS_DL_PREVIEW          "預覽"
+    IDS_VIEWQUEUE           "顯示等候中"
+    IDS_TW_UPLOADS          "上載中"
+    IDS_TW_DOWNLOADS        "下載中"
+    IDS_TW_QUEUE            "等候中客戶端:"
+    IDS_SW_SEARCHBOX        "搜尋"
+    IDS_SW_NAME             "名稱"
+    IDS_SW_GLOBAL           "全球搜尋"
+    IDS_SW_DIRECTDOWNLOAD   "貼上 eD2K 連結"
+    IDS_SW_LINK             "eD2K 連結"
+    IDS_SW_START            "開始"
+    IDS_SCHEDULER           "時間表"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "搜尋結果"
+    IDS_SW_DOWNLOAD         "下載已選擇"
+    IDS_SV_SERVERLIST       "伺服器清單"
+    IDS_SV_SERVERINFO       "伺服器資訊"
+    IDS_SV_LOG              "紀錄"
+    IDS_SV_NEWSERVER        "新增伺服器"
+    IDS_SV_ADDRESS          "IP 或 位址"
+    IDS_SV_PORT             "連接埠"
+    IDS_SV_ADD              "增加到清單"
+    IDS_SV_MET              "server.met 從這個網址更新"
+    IDS_SV_UPDATE           "更新"
+    IDS_SF_FILES            "已分享檔案"
+    IDS_SF_STATISTICS       "統計"
+    IDS_SF_RELOAD           "重新載入"
+    IDS_SF_CURRENT          "目前工作階段"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_TOTAL            "總計"
+    IDS_SF_TRANS            "已傳輸:"
+    IDS_SF_ACCEPTED         "已接受上載:"
+    IDS_SF_REQUESTED        "已要求:"
+    IDS_ST_DOWNLOAD         "下載-速度"
+    IDS_ST_UPLOAD           "上載-速度"
+    IDS_ST_CURRENT          "現在"
+    IDS_ST_SESSION          "工作階段平均值"
+    IDS_ST_ACTIVED          "動作中下載數"
+    IDS_ST_ACTIVEU          "動作中上載數"
+    IDS_CW_MESSAGES         "訊息"
+    IDS_CW_FRIENDS          "好友"
+    IDS_CW_SEND             "傳送"
+    IDS_CW_CLOSE            "關閉"
+    IDS_PW_GENERAL          "一般"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_DIR              "資料夾"
+    IDS_PW_NICK             "暱稱"
+    IDS_PW_INCOMING         "新進檔案資料夾"
+    IDS_PW_TEMP             "暫存檔案資料夾"
+    IDS_PW_BROWSE           "瀏覽..."
+    IDS_PW_SHARED           "已分享資料夾 (按住Ctrl再點擊則包含子目錄)"
+    IDS_PW_CONNECTION       "連線"
+    IDS_PW_DOWNL            "下載限制"
+    IDS_PW_UPL              "上載限制"
+    IDS_PW_MAXC             "最大連線數"
+    IDS_PW_CLIENTPORT       "客戶端連接埠"
+    IDS_PW_AUTOCON          "啟動時自動連線"
+    IDS_PW_RECON            "斷線時重連"
+    IDS_PW_SERVER           "伺服器"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_RDEAD            "刪除已掛伺服器於"
+    IDS_PW_RETRIES          "次重試"
+    IDS_PW_SCORE            "使用優先權系統"
+    IDS_PW_USC              "連線到一個伺服器時更新伺服器清單"
+    IDS_PW_UCC              "連線到一個客戶端時更新伺服器清單"
+    IDS_PW_FILTER           "過濾伺服器及客戶端區域網路 IP"
+    IDS_PW_USS              "在啟動時自動更新伺服器清單"
+    IDS_PW_MISC             "多方面的"
+    IDS_PW_TRAY             "最小化時縮到系統列"
+    IDS_PW_BEEP             "錯誤時發出聲音"
+    IDS_PW_PROMPT           "離開時提示"
+    IDS_PW_SPLASH           "顯示啟動畫面"
+    IDS_PW_DBLCLICK         "下載清單點二下來擴展"
+    IDS_PW_TOOL             "工具提示延遲時間 [秒]"
+    IDS_PW_FRONT            "點下eD2K連結後彈出 eMule 視窗"
+    IDS_PW_LANG             "語言"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_FILES            "檔案"
+    IDS_PW_SHARE            "看見我分享的檔案/資料夾"
+    IDS_PW_EVER             "每一個人"
+    IDS_PW_FRIENDS          "只限好友"
+    IDS_PW_NOONE            "沒有人"
+    IDS_PW_RESET            "重置"
+    IDS_PW_APPLY            "套用"
+    IDS_EM_TRANS            "傳輸"
+    IDS_EM_SERVER           "伺服器"
+    IDS_EM_SEARCH           "搜尋"
+    IDS_EM_FILES            "檔案"
+    IDS_EM_MESSAGES         "訊息"
+    IDS_EM_STATISTIC        "統計"
+    IDS_EM_PREFS            "選項"
+    IDS_MB_LANGUAGEINFO     "已經選用預設語言. 您能在任何時候於選項中設定使用的語言."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FD_GENERAL          "一般"
+    IDS_FD_MET              "part.met-檔案:"
+    IDS_FD_HASH             "切細值:"
+    IDS_FD_SIZE             "大小:"
+    IDS_FD_TRANSFER         "傳輸"
+    IDS_FD_PARTS            "部分"
+    IDS_FD_TRANS            "已傳輸:"
+    IDS_FD_DATARATE         "速率:"
+    IDS_FD_COMPSIZE         "已完成大小:"
+    IDS_FD_CLOSE            "關閉"
+    IDS_FD_TITLE            "檔案明細"
+    IDS_CD_GENERAL          "一般"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CD_UNAME            "使用者名稱:"
+    IDS_CD_UHASH            "使用者切細值:"
+    IDS_CD_CSOFT            "客戶端軟體"
+    IDS_CD_UIP              "IP 位址:"
+    IDS_CD_SIP              "伺服器 IP:"
+    IDS_CD_VERSION          "客戶端版本:"
+    IDS_CD_SNAME            "伺服器名稱:"
+    IDS_CD_CDOWN            "目前下載中:"
+    IDS_CD_DOWN             "已下載 (這個工作階段):"
+    IDS_CD_ADOWN            "平均下載速率:"
+    IDS_CD_TDOWN            "已下載總計:"
+    IDS_CD_UP               "已上載 (這個工作階段):"
+    IDS_CD_AUP              "平均上載速率:"
+    IDS_CD_TUP              "已上載總計:"
+    IDS_CD_TRANS            "傳輸"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CD_SCORES           "積分"
+    IDS_CD_MOD              "上載/下載 比例:"
+    IDS_CD_RATING           "等級 (總計):"
+    IDS_CD_USCORE           "上載等候積分:"
+    IDS_CD_TITLE            "客戶端明細"
+    IDS_EMULEW              "按下"
+    IDS_EMULEW2             "檢查是否有新的版本可取得"
+    IDS_EMULEW3             "這裡"
+    IDS_PW_MAXSOURCES       "每個檔案最大來源數"
+    IDS_SHAREDFILESCOUNT    "已分享檔案數量: %u"
+    IDS_SF_SIZE             "已分享檔案大小總計: %s"
+    IDS_ERR_BADPORT         "不正確的連接埠號碼"
+    IDS_ERR_NOHELLO         "沒有指明要求事件"
+    IDS_ERR_INVALIDPACKAGE  "無效或已損壞的封包已接收"
+    IDS_ERR_CLIENTERROR     "客戶端 '%s' (IP:%s) 造成一個錯誤: %s. 客戶端斷線中!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_BADSIZE         "無效的大小 (等候排名操作碼)"
+    IDS_ERR_NOTAFILELINK    "不是一個檔案連結"
+    IDS_ERR_CREATEPARTFILE  "錯誤: 建立部分檔失敗)"
+    IDS_CHAT_START          "*** 聊天動作開始 : "
+    IDS_FILEPRIO            "檔案優先權"
+    IDS_SCORE               "積分"
+    IDS_ASKED               "已要求"
+    IDS_LASTSEEN            "最後看見"
+    IDS_BANNED              "已禁止"
+    IDS_UUSERS              "使用者數"
+    IDS_UFAILED             "已失敗"
+    IDS_OPENFILE            "開啟檔案"
+    IDS_DATE                "日期"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PARTINFOS           "部分檔案名稱:"
+    IDS_PARTINFOS2          "下載中 (從 %u 個來源)"
+    IDS_USERID              "使用者 ID"
+    IDS_CLIENT              "客戶端"
+    IDS_SERVER              "伺服器"
+    IDS_SOURCEINFO          "已要求: %u 次; 可得部分計數: %u"
+    IDS_CLIENTSOURCENAME    "\n客戶端的檔案名稱: "
+    IDS_USERINFO            "暱稱: %s\n"
+    IDS_FILESTATS_SESSION   "這個工作階段的檔案狀態: 已接收 %u 於 %u 個需求數, %s 位元組已傳輸\n"
+    IDS_FILESTATS_TOTAL     "所有工作階段的檔案狀態: 已接收 %u 於 %u 個需求數, %s 位元組已傳輸"
+    IDS_REQ_UNKNOWNFILE     "已要求未知的檔案"
+    IDS_SF_AVERAGESIZE      "平均檔案大小: %s"
+    IDS_SF_REQUESTS         "已要求"
+    IDS_SF_ACCEPTS          "已接受要求"
+    IDS_SF_TRANSFERRED      "已傳輸資料"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REMOVESEARCHSTRING  "關閉這個搜尋結果分頁"
+    IDS_REMOVESELECTED      "移除已選擇的"
+    IDS_REMOVEALLSEARCH     "移除全部的搜尋"
+    IDS_ENTERQUEUE          "已加入等候"
+    IDS_SF_FAIL             "已失敗伺服器"
+    IDS_SF_WUSER            "在工作中伺服器的使用者數"
+    IDS_SF_WFILE            "在工作中伺服器的檔案數"
+    IDS_SF_USER             "使用者數總計"
+    IDS_SF_FILE             "檔案數總計"
+    IDS_UPLOADTIME          "上載時間"
+    IDS_LASTSEENCOMPL       "最後看見完整的:"
+    IDS_YES                 "是"
+    IDS_NO                  "否"
+    IDS_UNBAN               "不禁止"
+    IDS_SF_WORKING          "工作中伺服器"
+    IDS_ADDTOSTATIC         "增加到靜態伺服器清單"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ADDED2SSF           "已增加到靜態伺服器清單"
+    IDS_STATICSERVER        "靜態的"
+    IDS_ERROR_SSF           "開啟 staticservers.dat 失敗"
+    IDS_SF_ACTIVECON        "動作中連線數 (估計)"
+    IDS_SF_MAXCONLIMITREACHED "最大連線數限制已到達"
+    IDS_SF_AVGCON           "平均連線數 (估計)"
+    IDS_SF_PEAKCON          "連線數尖峰 (估計)"
+    IDS_ST_ACTIVEC          "動作中連線數"
+    IDS_NETWORK             "網路"
+    IDS_SF_DELCOUNT         "已刪除伺服器"
+    IDS_QUEUEFULL           "等候區已滿"
+    IDS_AVG                 "平均"
+    IDS_BYTES               "位元組"
+    IDS_KBYTES              "KB"//!
+    IDS_MBYTES              "MB"//!
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_GBYTES              "GB"//!
+    IDS_TBYTES              "TB"//!
+    IDS_SECS                "秒"
+    IDS_MINS                "分"
+    IDS_HOURS               "時"
+    IDS_DAYS                "天"
+    IDS_ED2KLINKFIX         "eD2K 連結"
+    IDS_RECONNECT           "自動連線到伺服器將於 %u 秒後重試"
+    IDS_SERVERADDED         "已增加伺服器: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "忽略加入資訊之訊息"
+    IDS_STATS_SUCCUPCOUNT   "上載成功工作階段總計: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "忽略告別資訊之訊息"
+    IDS_STATS_FAILUPCOUNT   "上載失敗工作階段總計: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "平均上載時間: %s"
+    IDS_SEARCHMINSIZE       "最小大小 [MB]"
+    IDS_SEARCHMAXSIZE       "最大大小 [MB]"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PREF_ONLINESIG      "啟用上線簽名檔案"
+    IDS_ERROR_SAVEFILE      "儲存失敗"
+    IDS_REQ_SHAREDFILES     "使用者 %s (%u) 要求您的已分享檔案清單 -> %s"
+    IDS_ACCEPTED            "已接受"
+    IDS_DENIED              "已拒絕"
+    IDS_PW_CON_DOWNLBL      "下載"
+    IDS_PW_CON_UPLBL        "上載"
+    IDS_PW_AUTOCONNECTSTATICONLY "只自動連線到靜態伺服器"
+    IDS_PW_CON_LIMITFRM     "限制"
+    IDS_STATS_AVGLABEL      "圖形平均時間: %u 分"
+    IDS_GRAPHS              "圖形"
+    IDS_STREE               "樹狀統計"
+    IDS_IRC_IGNOREQUITMESSAGE "忽略離開資訊之訊息"
+    IDS_STATSSETUPINFO      "統計"
+    IDS_IRC_SOUNDEVENTS     "播放聲音事件"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HARDLIMIT           "硬性限制"
+    IDS_COL_MORECOLORS      "更多..."
+    IDS_TOOMANYCONNS        "太多連線數"
+    IDS_DOWNLOADRENAMED     "已經有一個檔案以這個名稱存在了, 這個檔案被儲存成 %s"
+    IDS_TBN_DOWNLOADDONE    "已下載:"
+    IDS_PW_TBN_USESOUND     "使用聲音"
+    IDS_PW_TBN_ONLOG        "新增項目在記錄"
+    IDS_PW_TBN_ONCHAT       "聊天會議已開始"
+    IDS_PW_TBN_POP_ALWAYS   "聊天訊息已接收"
+    IDS_PW_TBN_ONDOWNLOAD   "下載已經完成"
+    IDS_PW_EKDEV_OPTIONS    "通知"
+    IDS_PW_TASKBARNOTIFIER  "訊息彈出"
+    IDS_PW_TBN_OPTIONS      "彈出當"
+    IDS_TBN_NEWCHATMSG      "訊息來自"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_CON_CAPFRM       "能力"
+    IDS_IRC_PRIVATECHANSTART "* 私人的聊天會議已開始"
+    IDS_IRC_SLAPMSG         "* %s 用大隻的巴別魚打了 %s 一巴掌!"
+    IDS_IRC_PRIVMESSAGE     "私人訊息"
+    IDS_WEB_REMOTE_LINK_ADDED "連結已被加入: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "連結未被加入. 不正確的密碼."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "下載時預覽必需的部分優先"
+    IDS_IRC_KICK            "踢人"
+    IDS_IRC_SLAP            "打人"
+    IDS_IRC_JOIN            "加入"
+    IDS_IRC_CHANNELLIST     "頻道清單"
+    IDS_IRC_CONNECT         "連線"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_DISCONNECT      "斷線"
+    IDS_IRC_HASJOINED       "* %s 已經加入 %s"
+    IDS_IRC_HASPARTED       "* %s 已經離開 %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s 已被 %s (%s) 踢出"
+    IDS_DOWNLOAD_ALPHABETICAL "依字母次序下載"
+    IDS_IRC_HASQUIT         "* %s 已經離開 (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s 已改變暱稱為 %s"
+    IDS_IRC_SETSMODE        "* %s 設定模式: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** 一些已經設定的模式尚未支援. 您必須離開並重新進入頻道來更新暱稱清單.."
+    IDS_IRC_CHANNEL         "頻道"
+    IDS_IRC_NICK            "暱稱"
+    IDS_IRC_SEND            "送出"
+    IDS_IRC_NAME            "名稱"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION 用大隻的巴別魚掌了 %s!\001"
+    IDS_IRC_ADDTIMESTAMP    "在訊息上加時間標籤"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_USEFILTER       "使用頻道清單過濾器"
+    IDS_IRC_PERFORM         "執行"
+    IDS_IRC_USEPERFORM      "在連線時使用執行字串"
+    IDS_IRC_ADDTOFRIENDLIST "增加到好友清單"
+    IDS_IRC_LOADCHANNELLISTONCON "在連線時載入伺服器頻道"
+    IDS_IRC_ADDASFRIEND     "已增加您成好友!"
+    IDS_PW_WARNING          "您選擇的這個數字 ""%s"" 是大於您系統所支援的:  %u\n這也許造成您系統的不穩定.\n\n您確定您要這麼做?"
+    IDS_TAKEOVER            "抓取檔名"
+    IDS_CLEANUP             "清理"
+    IDS_RENAME              "重新命名"
+    IDS_IRC_ADDLINKTOIRC    "增加這個到 IRC 剪貼簿"
+    IDS_IRC_SENDLINK        "傳送這個給好友: "
+    IDS_IRC_RECIEVEDLINK    "%s 傳送 (%s) 已經自動開始下載."
+    IDS_IRC_ACCEPTLINKS     "接受 eD2K 連結在 IRC (使用這個要小心!)"
+    IDS_SHARED              "已分享"
+    IDS_DOWNLOADED          "已下載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SOURCENAMES         "來源名稱"
+    IDS_PREF_STARTMIN       "啟動時最小化"
+    IDS_PS_TBN_IMPORTANT    "緊急的: 磁碟空間不足, 伺服器失去連線"
+    IDS_COLORS              "顏色"
+    IDS_SP_BACKGROUND       "背景"
+    IDS_SP_GRID             "框線"
+    IDS_SP_DL1              "目前下載"
+    IDS_SP_DL2              "下載平均"
+    IDS_SP_DL3              "下載工作階段平均"
+    IDS_SP_UL1              "目前上載"
+    IDS_SP_UL2              "上載平均"
+    IDS_SP_UL3              "上載工作階段平均"
+    IDS_SP_ACTCON           "動作中連線數"
+    IDS_SP_ACTDL            "動作中下載數"
+    IDS_SP_ACTUL            "動作中上載數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_UNLIMITED        "無限制"
+    IDS_PW_MINREC           "最小建議\t%u "
+    IDS_PW_UA               "設成全速 上載/下載-速度"
+    IDS_PW_PA               "調節 上載/下載-速度"
+    IDS_IRC_IGNOREINFOMESSAGE "忽略通知訊息"
+    IDS_CONNECTIONLOST      "失去連線"
+    IDS_WIZ_OS_FRAME        "作業系統"
+    IDS_HASHINGFILE         "檔案切細中:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "準確的上載頻寬"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "準確的下載頻寬"
+    IDS_FRIENDLIST          "好友"
+    IDS_CHATDISCONNECTED    "*** 已斷線"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WIZARD              "精靈..."
+    IDS_ADDFRIEND           "加入到好友名單內"
+    IDS_REMOVEFRIEND        "移除好友"
+    IDS_REMOVEFROMSTATIC    "從靜態伺服器清單移除"
+    IDS_LENGTH              "長度"
+    IDS_VIDEO               "影像"
+    IDS_AUDIO               "音樂"
+    IDS_FILEINFO            "多媒體資訊"
+    IDS_CODEC               "編碼"
+    IDS_BITRATE             "位元率"
+    IDS_WIDTH               "寬度"
+    IDS_FPS                 "畫格/秒"
+    IDS_CHANNELS            "頻道"
+    IDS_SAMPLERATE          "取樣率"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HEIGHT              "高度"
+    IDS_SHAREDFILES_FAILED  "無法從 '%s' 取得已分享檔案清單"
+    IDS_SHAREDFILES_REQUEST "從 '%s' 要求已分享檔案清單"
+    IDS_VIEWFILES           "檢視檔案"
+    IDS_FRIENDSLOT          "建立好友位置"
+    IDS_FRIENDDETAIL        "(好友位置)"
+    IDS_UDPDISABLED         "停用"
+    IDS_WIZ_CTFRAME         "連線類型"
+    IDS_CONCURDWL           "同時下載數量"
+    IDS_WIZARD_CUSTOM       "自訂"
+    IDS_WIZARD_ENTERBELOW   "(輸入在下面!)"
+    IDS_STATS_MAXAVGDL      "最大下載速率平均: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_MAXDL         "最大下載速率: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND "忽略 eMule 加入好友的協定訊息"
+    IDS_PW_FASTSRVCON       "安全的連線"
+    IDS_SOURCELINKFAILED    "您需要一個 高-ID 來建立一個有效來源連結"
+    IDS_ERR_LOADSERVERMET   "載入失敗 server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "已損壞壓縮封包於 %s 已接收 (錯誤 %u)"
+    IDS_ERR_EMFRIENDSINVALID "這個檔案 emfriends.met 是無效或已損壞!"
+    IDS_ERR_READEMFRIENDS   "未知的錯誤當讀取 emfriends.met 中: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "未知伺服器資訊已接收!"
+    IDS_WIZ_DOWN            "下載 (Kbit/秒)"
+    IDS_WIZ_UP              "上載 (Kbit/秒)"
+    IDS_SELECT_INCOMINGDIR  "選擇一個新進檔案的資料夾"
+    IDS_SELECT_TEMPDIR      "選擇一個暫存檔案的資料夾"
+    IDS_PRIOAUTO            "自動"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PRIOAUTONORMAL      "自動 [一般]"
+    IDS_PRIOAUTOHIGH        "自動 [最高]"
+    IDS_PRIOAUTORELEASE     "自動 [釋放]"
+    IDS_PRIOAUTOLOW         "自動 [最低]"
+    IDS_ERR_CONTIMEOUT      "嘗試連線到 ""%s"" (%s:%u ) 已逾時"
+    IDS_OUTOFSERVERS        "在清單中的所有伺服器連線失敗. 使用其他途徑."
+    IDS_PW_CONLIMITS        "連線限制"
+    IDS_MAXCON5SECLABEL     "新的連線之最大數量 / 5秒"
+    IDS_PW_UAP              "加入新的分享檔案時自動設定優先權"
+    IDS_MAXCLIENT           "最大使用者數"
+    IDS_PW_TWEAK            "延伸"
+    IDS_TWEAKS_WARNING      "警告: 不要更改這些設定除非您知道您在做什麼. 否則容易使您自己網路品質更糟. 即使沒有更改這些設定值 eMule 也能執行的很好."
+    IDS_ADDAFRIEND          "增加好友..."
+    IDS_PAF_REQINFO         "必要的資訊"
+    IDS_PAF_MOREINFO        "附加的資訊"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "您未輸入一個有效的IP及連接埠!"
+    IDS_ADD                 "增加"
+    IDS_RECOVERED_PARTMET   "已恢復 part.met 檔案於: %s"
+    IDS_CMT_QUEST           "註解這個檔案! (這個文字將會顯示給所有使用者)"
+    IDS_CMT_AIDE            "在一個影片, 您能說他的長度, 他的故事, 語言... 並且如果它是個假檔您能通知其他的 eMule 使用者... "
+    IDS_CMT_ADD             "編輯檔案註解..."
+    IDS_CMT_NONE            "沒有註解"
+    IDS_CMT_READ            "檔案註解:"
+    IDS_CMT_SHOWALL         "顯示註解..."
+    IDS_CMT_READALL         "註解"
+    IDS_CMT_RATEQUEST       "檔案等級"
+    IDS_CMT_RATEHELP        "選擇這個檔案的等級或是在這個檔案是無效的時候通知其他的使用者!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CMT_FAKE            "無效 / 損壞 / 假的"
+    IDS_CMT_POOR            "差的"
+    IDS_CMT_GOOD            "好的"
+    IDS_CMT_FAIR            "尚可"
+    IDS_CMT_EXCELLENT       "優良"
+    IDS_CMT_NOTRATED        "沒有等級"
+    IDS_KILO                "K"//!
+    IDS_MEGA                "M"//!
+    IDS_GIGA                "G"//!
+    IDS_TERRA               "T"//!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "忽略 eMule 協定訊息"
+    IDS_SMARTLOWIDCHECK     "在連線時使用智慧型 低-ID 檢查"
+    IDS_SF_SRVOCC           "伺服器佔有期間: %.2f%%"
+    IDS_3DDEP               "進度條樣式"
+    IDS_AUTOTAKEED2KLINKS   "只在執行 eMule 時自動抓取 eD2K 連結"
+    IDS_ADDNEWFILESPAUSED   "增加檔案到下載時為""已暫停""模式"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "嘗試首先下載預覽區塊"
+    IDS_UPDATEQUEUE         "不要即時更新等候中清單"
+    IDS_RECOVER_SINGLE      "1 個檔案已還原."
+    IDS_RECOVER_MULTIPLE    "%u 個檔案已還原."
+    IDS_ATTEMPTING_RECOVERY "嘗試還原檔案中..."
+    IDS_RECOVERY_SUCCESSFUL "檔案還原成功."
+    IDS_RECOVERY_FAILED     "檔案還原失敗."
+    IDS_STARTNEXTFILE       "完成一個檔案時自動下載下一個已暫停的檔案"
+    IDS_FULLCHUNKTRANS      "嘗試上載傳輸完整區塊"
+    IDS_MANUALSERVERHIGHPRIO "手動增加伺服器時將其設為高優先權"
+    IDS_VERBOSE             "詳細模式 (回覆程式附加資訊)"
+    IDS_FLAT                "平的"
+    IDS_ROUND               "圓的"
+    IDS_SAMEUSERHASH        "客戶端 '%s' 和 '%s' 有著相同的使用者切細值或 IP - 已移除 '%s'"
+    IDS_SEARCHEXTENTION     "副檔名"
+    IDS_SEARCHAVAIL         "可得性"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_NOHELP          "請參觀我們首頁的下載區來取得新版本的使用說明檔案!\n\n您現在想要以線上瀏覽來替代?"
+    IDS_SHOWOVERHEAD        "顯示額外支出的頻寬"
+    IDS_UPDOWNSMALL         "上載: %.1f | 下載: %.1f"
+    IDS_EDITLIST            "清單..."
+    IDS_SP_ICONBAR          "系統列圖示的速度條"
+    IDS_RATINGRECV          "'%s' 檔案等級已接收: %u"
+    IDS_DESCRIPTIONRECV     "'%s' 檔案描述已接收: %s"
+    IDS_WEBSERVICES         "Web 服務"
+    IDS_WEBSVEDIT           "編輯 Web 服務..."
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK "忽略 eMule 送出連結的協定訊息"
+    IDS_CHECK4UPDATE        "檢查是否有新版本"
+    IDS_STARTUP             "啟動"
+    IDS_NEWVERSIONAVL       "一個新版的 eMule 已可取得! 按這裡到 專案-首頁 取得更多資訊."
+    IDS_NEWVERSIONAVLPOPUP  "一個新版的 eMule 已可取得. 按這裡來讀取新版的相關資訊!"
+    IDS_NEWVERSIONFAILED    "無法檢查是否有新版本."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "已偵測到新版的 eMule"
+    IDS_NONEWERVERSION      "未偵測到新版的 eMule."
+    IDS_VERSIONCHECK        "版本檢查"
+    IDS_VISITVERSIONCHECK   "\n\n您現在想要參觀通知網頁嗎?"
+    IDS_PW_VIDEOPLAYER      "影像播放器"
+    IDS_VIDEOBACKUP         "建立備份來預覽"
+    IDS_MYINFO              "我的資訊"
+    IDS_ID                  "ID"//!
+    IDS_IDLOW               "低-ID"
+    IDS_IDHIGH              "高-ID"
+    IDS_UPSTATUS            "已獲得部分"
+    IDS_TOVERHEAD           "額外支出的傳輸量總計 (封包): %s (%s)"
+    IDS_FROVERHEAD          "檔案要求額外支出的傳輸量 (封包): %s (%s)"
+    IDS_SSOVERHEAD          "來源交換額外支出的傳輸量 (封包): %s (%s)"
+    IDS_SOVERHEAD           "伺服器額外支出的傳輸量 (封包): %s (%s)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "檔案完成階段建立時失敗"
+    IDS_FILEBUFFERSIZE      "檔案緩衝區大小"
+    IDS_QUEUESIZE           "等候區大小"
+    IDS_DAYS2               "天"
+    IDS_ERR_MAKEBAKCREDITFILE "建立備份的額度檔案失敗"
+    IDS_COMMENT             "註解"
+    IDS_IPFILTERED          "已過濾 IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "已完成"
+    IDS_DL_ACTIVE_TIME      "動作中下載時間"
+    IDS_STATS_FILTEREDCLIENTS "已過濾: %u"
+    IDS_FILTERLABEL         "過濾訊息包含: (以 | 做分隔)"
+    IDS_ERR_LARGEREQBLOCK   "客戶端要求一個太大的區塊."
+    IDS_SHOWRATEONTITLE     "顯示傳輸速率在視窗標題"
+    IDS_TBN_NOMESSAGEHISTORY "沒有歷史訊息!"
+    IDS_PW_DAP              "加入新的下載時自動設定優先權"
+    IDS_FD_LASTCHANGE       "最後接受:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_RUNTIME       "運作時間"
+    IDS_ALL                 "全部"
+    IDS_CAT_ADD             "增加類別..."
+    IDS_CAT_EDIT            "編輯類別..."
+    IDS_CAT_REMOVE          "移除類別"
+    IDS_CAT                 "類別"
+    IDS_TITLE               "標題"
+    IDS_COLOR               "顏色"
+    IDS_DEFAULT             "預設值"
+    IDS_PW_DISPLAY          "顯示"
+    IDS_INDICATERATINGS     "以圖示來表現出下載的 註解/等級 狀態"
+    IDS_ALLOTHERS           "未分配"
+    IDS_TOCAT               "分配到一類別"
+    IDS_CAT_UNASSIGN        "(未分配)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "增加這些 eD2K-檔案連結 到下載?\n"
+    IDS_PF_WATCHCB          "抓取剪貼簿的 eD2K-檔案連結"
+    IDS_SECURITY            "防護"
+    IDS_IPFILTERLOADED      "%u IP-過濾已載入"
+    IDS_IPFILTER            "IP-過濾器"
+    IDS_EDIT                "編輯..."
+    IDS_FILTERLEVEL         "過濾等級"
+    IDS_FILTERSERVERBYIPFILTER "也過濾伺服器"
+    IDS_FILTERCOMMENTSLABEL "忽略註解包含下列字串: (以 | 做分隔)"
+    IDS_CLIENTLIST          "已知的客戶端"
+    IDS_FOLDER              "資料夾"
+    IDS_CL_UPLOADSTATUS     "上載狀態"
+    IDS_CL_TRANSFUP         "上載已傳輸"
+    IDS_CL_DOWNLSTATUS      "下載狀態"
+    IDS_CL_TRANSFDOWN       "下載已傳輸"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CL_PENDING          "懸而未決的"
+    IDS_CL_LOW2LOW          "低-ID 到 低-ID"
+    IDS_ERROR               "錯誤"
+    IDS_OPENINC             "開啟新進資料夾"
+    IDS_HOTMENU             "常用選單"
+    IDS_DISABLEKNOWNLIST    "停用已知客戶端清單"
+    IDS_DISABLEQUEUELIST    "停用等候中清單"
+    IDS_USECREDITSYSTEM     "使用額度系統 (獎賞上載者)"
+    IDS_FIRSTAUTODOWN       "假如您想要讓 eMule 管理您的下載優先權, 啟用這個選項.\n\n開啟這項功能將會允許 eMule 使一個檔案下載有大量的來源但不會影響到少量來源檔案的下載. 這項功能將只會影響未來的下載."
+    IDS_FIRSTAUTOUP         "假如您想要讓 eMule 管理您的上載優先權, 啟用這個選項.\n\n開啟這項功能將會允許 eMule 去增進稀有檔案的流通率將會幫助不易取得的人得到它. 關閉這項功能將會允許 eMule 去上載一個流通的檔案優先於稀有的檔案. 這項功能將只會影響未來的分享檔案."
+    IDS_FIRSTSAFECON        "假如您想要讓 eMule 使用安全的方式連線, 啟用這個選項.\n\n關閉這項功能將允許 eMule 加快一些連線到伺服器的速度, 但或許會造成您得到 低-ID 或連線失敗的機會."
+    IDS_FIRSTAUTOCON        "假如您想要 eMule 在啟動時連線, 啟用這個選項."
+    IDS_FIRSTCOMPLETE       "您現在已完成第一次的精靈設定.\n\n所有的設定值都能由按下選項圖示來改變. 如需解釋及說明請在 eMule 按 F1 !"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ENTERUSERNAME       "請輸入您的使用者名稱:"
+    IDS_STATIC_CPUMEM       "節省 CPU && 記憶體 使用率"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT 
+                            "關鍵字太短.\r\n\r\n使用 Kad 搜尋的語法的關鍵字最小長度是 3 個字元."
+    IDS_LOG2DISK            "儲存記錄到磁碟"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING 
+                            "在那裡已經有一個 Kad 搜尋關鍵字 ""%s"" 正在進行.\r\n\r\n若要再次搜尋那個關鍵字, 必須等到關鍵字搜尋完成或是關閉相同關鍵字的搜尋頁."
+    IDS_KAD_SEARCH_KEYWORD_INVALID 
+                            "無效的 Kad 關鍵字.\r\n\r\nKad 搜尋語法有下列格式:\r\n\r\n\t<kad-關鍵字> [ <ed2k-搜尋-語法> ]\r\n\r\n<kad-關鍵字> 必須不包含下列任何字元:\r\n\r\n\t%s"
+    IDS_EDITCAT             "編輯類別內容"
+    IDS_PW_WS               "Web-界面"
+    IDS_ENABLED             "啟用"
+    IDS_WEB_LOGIN           "登入"
+    IDS_WEB_ENTER_PASSWORD  "輸入您的密碼在這裡"
+    IDS_WEB_LOGIN_NOW       "立即登入"
+    IDS_WEB_CONFIRM_REMOVE_SERVER "您確定您要從清單中移除這個伺服器?"
+    IDS_WEB_CONTROL         "Web 界面"
+    IDS_WEB_LOGOUT          "登出"
+    IDS_WEB_ACTIONS         "動作"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "顯示等候上載"
+    IDS_WEB_GZIP_COMPRESSION "Gzip 網頁壓縮"
+    IDS_WEB_GZIP_COMMENT    "節省您的流量, 特別是在圖形."
+    IDS_WEB_REFRESH_TIME    "頁面刷新時間"
+    IDS_WEB_REFRESH_COMMENT "時間-秒 (0-表示停用):"
+    IDS_SV_URL              "網址"
+    IDS_WS_RELOAD_TMPL      "樣板"
+    IDS_SV_DEBUGLOG         "除錯記錄"
+    IDS_WS_PASS             "密碼"
+    IDS_WS_ERR_LOADTEMPLATE "無法載入樣板: 用一個新版本來取代檔案 %s !"
+    IDS_WEB_CONLIMITS       "連線限制"
+    IDS_INFLST_USER_TOTALDOWNLOAD "已下載總計"
+    IDS_INFLST_USER_TOTALUPLOAD "已上載總計"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SPEED_LIMITS        "速度限制"
+    IDS_CAPACITY_LIMITS     "頻寬限制"
+    IDS_ADMIN               "管理員"
+    IDS_ACCESSDENIED        "存取禁止!"
+    IDS_WEB_LOWUSER         "客人"
+    IDS_WEB_ERR_CANTLOAD    "無法載入樣板: 無法開啟檔案 %s"
+    IDS_GLOBALSEARCH        "全球搜尋 (伺服器)"
+    IDS_METHOD              "方式"
+    IDS_UNDO                "復原"
+    IDS_DAYLY               "每天"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DAY_MO_FR           "一到五"
+    IDS_DAY_SA_SO           "六到日"
+    IDS_MO                  "星期一"
+    IDS_DI                  "星期二"
+    IDS_MI                  "星期三"
+    IDS_DO                  "星期四"
+    IDS_FR                  "星期五"
+    IDS_SA                  "星期六"
+    IDS_SO                  "星期日"
+    IDS_WEB_ADMINLOGIN      "Web-界面: 管理員-登入"
+    IDS_WEB_GUESTLOGIN      "Web-界面: 客人-登入"
+    IDS_WEB_SESSIONEND      "Web-界面: 登出"
+    IDS_DETAILS             "詳細"
+    IDS_ACTION              "動作"
+    IDS_REMOVE              "移除"
+    IDS_NEW                 "新增"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Web-界面: 登入嘗試已經失敗"
+    IDS_ERR_TOOLARGEFILE    "檔案超過 eDonkey 協定支援的大小 (>=256GB)"
+    IDS_MSGONLYFRIENDS      "只接受好友訊息"
+    IDS_MSGONLYSEC          "只接受有效的客戶端訊息"
+    IDS_DAY_MO_SA           "一-六"
+    IDS_LIMITSOURCES        "限制來源數"
+    IDS_LIMITCONS5SEC       "限制連線數/5秒"
+    IDS_SCHED_CATSTOP       "類別:停止下載"
+    IDS_SCHED_CATRESUME     "類別:繼續下載"
+    IDS_S_DAYS              "天"
+    IDS_STARTTIME           "開始時間"
+    IDS_VALUE               "數值"
+    IDS_SCHED_ENTERDATARATELIMIT "輸入限制的傳輸速率:"
+    IDS_SCHED_ENTERVAL      "請輸入新的數值:"
+    IDS_SCHED_ACTCONFIG     "設置動作"
+    IDS_SELECTCAT           "選擇類別"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ALLUNASSIGNED       "全部未分配的"
+    IDS_ACTSESSIONS         "個工作階段動作中"
+    IDS_WEBSRV              "Web-界面"
+    IDS_SW_REFETCHRES       "重新抓取結果"
+    IDS_FILEHASH            "檔案切細值"
+    IDS_PW_PROXY            "代理"
+    IDS_PROXY_ENABLE        "啟用代理"
+    IDS_PROXY_TYPE          "代理類型:"
+    IDS_PROXY_HOST          "代理主機:"
+    IDS_PROXY_PORT          "代理連接埠:"
+    IDS_PROXY_AUTH          "啟用授權"
+    IDS_AUTH                "授權"
+    IDS_SHOWCATINFO         "在類別分頁當中顯示下載資訊"
+    IDS_SW_SEARCHINGINFO    "搜尋在處理中. 重新抓取結果請稍候!"
+    IDS_LOGENTRY            "記錄項目"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COPY                "複製"
+    IDS_SELECTALL           "全選"
+    IDS_AUTOSCROLL          "自動捲軸"
+    IDS_WIZ1_WELCOME_TITLE  "歡迎使用 eMule"
+    IDS_WIZ1_WELCOME_ACTIONS "這個精靈將會一步一步的指導您設置 eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "繼續下面動作, 按下一步."
+    IDS_WIZ1_END_TITLE      "精靈完成中"
+    IDS_WIZ1                "eMule 第一次執行精靈"
+    IDS_WIZ1_END_BTN_HINT   "關閉這個精靈, 按完成."
+    IDS_WIZ1_UPLOAD_SUBTITLE "區塊完整傳輸"
+    IDS_DL_RESUMENEXT       "繼續下一個已暫停"
+    IDS_STARTPRIO           "改變新分配檔案的優先權"
+    IDS_PREF_STARTNEXTFILECAT "偏好使用相同類別"
+    IDS_REPAINTGRAPHS       "在改變視窗大小時不重新建立統計圖形"
+    IDS_SOFTFILES           "軟性檔案限制"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HARDFILES           "硬性檔案限制"
+    IDS_FILTER              "過濾器"
+    IDS_LINKS               "連結"
+    IDS_HM_SCHED_ON         "啟用時間表"
+    IDS_HM_SCHED_OFF        "停用時間表"
+    IDS_HM_LINKHP           "eMule 首頁"
+    IDS_HM_LINKFAQ          "eMule FAQ"//!
+    IDS_HM_LINKVC           "eMule 版本檢查"
+    IDS_DEBUG_SOURCE_EXCHANGE "記錄客戶端來源交換及伺服器來源查詢/回覆"
+    IDS_SHAREDREQ1          "使用者 %s (%u) 要求您的已分享資料夾清單 -> %s"
+    IDS_SHAREDREQ2          "使用者 %s (%u) 要求您的已分享資料夾中的檔案清單 '%s' -> %s"
+    IDS_SHAREDANSW          "使用者 %s (%u) 分享資料夾 '%s'"
+    IDS_SHAREDANSW2         "使用者 %s (%u) 傳送分享資料夾非要求清單 - 已忽略"
+    IDS_SHAREDINFO1         "使用者 %s (%u) 傳送清單於已分享資料夾中的檔案 '%s'"
+    IDS_SHAREDINFO2         "使用者 %s (%u) 已完成分享檔案清單的傳送"
+    IDS_SHAREDANSW3         "使用者 %s (%u) 傳送分享資料夾中的檔案非要求清單 '%s' - 已忽略"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHAREDREQDENIED     "使用者 %s (%u) 拒絕存取已分享的 資料夾/檔案 清單"
+    IDS_AUTOCLEANUPFN       "自動清理檔案名稱"
+    IDS_ONNEWDOWNLOAD       "設定初始值"
+    IDS_FILTERFILENAMEWORD  "輸入要過濾的字, 以 | 做分隔"
+    IDS_FNFILTERTITLE       "編輯清理檔案名稱的過濾文字"
+    IDS_CHANGECATVIEW       "選擇檢視過濾器"
+    IDS_STATUS_NOTCOMPLETED "不完全的"
+    IDS_STATS_CUMULATIVE    "累積的"
+    IDS_STATS_OVRHD         "額外支出的"
+    IDS_STATS_RECORDS       "記錄"
+    IDS_STATS_COMPDL        "已完成下載"
+    IDS_STATS_SVRECWORKING  "最大工作中伺服器數"
+    IDS_STATS_SVRECUSERS    "最大使用者上線數"
+    IDS_SEARCH_TEXT         "搜尋於"
+    IDS_STATS_SVRECFILES    "最大檔案可得數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_SHRECNUM      "曾經最大分享檔案數"
+    IDS_SEARCH_COLUMN       "搜尋在欄位"
+    IDS_STATS_SHRECSIZE     "最大分享大小"
+    IDS_STATS_SHRECASIZE    "最大平均檔案大小"
+    IDS_STATS_SESSION       "工作階段"
+    IDS_STATS_SRATIO        "工作階段 上載:下載 比例:"
+    IDS_STATS_CRATIO        "累積的 上載:下載 比例:"
+    IDS_SEARCH_NORESULT     "沒有相符合的項目."
+    IDS_STATS_CURRSRVDUR    "目前停留伺服器時間"
+    IDS_LONGSECS            "秒"
+    IDS_STATS_DLSES         "下載工作階段"
+    IDS_LONGMINS            "分"
+    IDS_STATS_SDLSES        "工作階段成功的下載數"
+    IDS_STATS_FDLSES        "工作階段失敗的下載數"
+    IDS_STATS_AVGDATADLSES  "每個工作階段平均下載數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_ULSES         "工作階段上載"
+    IDS_STATS_GAINCOMP      "已得到壓縮部分: %s"
+    IDS_STATS_LOSTCORRUPT   "已失去損壞部分: %s"
+    IDS_STATS_AVGDATAULSES  "每個工作階段平均上載數"
+    IDS_STATS_ICHSAVED      "部分已由 I.C.H 儲存: %u"
+    IDS_STATS_MBRESET_TXT   "您確定您想要重置您累積的統計?\n\n假如您改變主意, 您能按 '還原統計' 按鈕來做反向動作."
+    IDS_STATS_MBRESTORE_TXT "您確定您想要從備份的檔案還原您累積的統計?\n\n按下 '還原統計' 將會再次重新載入您目前的統計."
+    IDS_ERR_NOSTATBKUP      "錯誤: 備份的統計檔案找不到..."
+    IDS_STATS_NFOLOADEDBKUP "已載入備份的統計資料..."
+    IDS_STATS_NFORESET      "統計已經重置!"
+    IDS_STATS_BNRESET       "重置統計"
+    IDS_STATS_BNRESTORE     "還原統計"
+    IDS_PPGSTATS_YSCALE     "連線數統計 Y-軸 刻度:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "動作中連線數比例:"
+    IDS_STATS_PROBLEMATIC   "有問題的"
+    IDS_LONGHRS             "時"
+    IDS_STATS_LARGESTFILE   "最大已分享檔案"
+    IDS_SPLIT_WINDOW        "分割視窗"
+    IDS_STATS_DSPF          "部分檔案"
+    IDS_STATS_DATASOURCE    "資料來源"
+    IDS_STATS_DSFILE        "完成的檔案"
+    IDS_STATS_GENERAL       "一般"
+    IDS_STATS_TRANSTIME     "傳輸時間"
+    IDS_STATS_DOWNTIME      "下載時間"
+    IDS_STATS_UPTIME        "上載時間"
+    IDS_STATS_TOTALSRVDUR   "總計停留伺服器時間"
+    IDS_STATS_MAXAVGUL      "最大上載平均速率"
+    IDS_STATS_MAXUL         "最大上載速率"
+    IDS_STATS_AVGDLTIME     "平均下載時間"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_PRTDEF        "預設值"
+    IDS_STATS_PRTOTHER      "其他"
+    IDS_STATS_MNUTREETITLE  "統計樹狀"
+    IDS_STATS_MNUTREECPYSEL "複製已選的分枝"
+    IDS_STATS_MNUTREECPYALL "複製全部統計"
+    IDS_STATS_MNUTREEHTML   "HTML 特徵"
+    IDS_STATS_EXPORT2HTML   "匯出全部統計..."
+    IDS_STATS_MNUTREECPYVIS "複製全部可見的"
+    IDS_STATS_MNUTREEEXPANDALL "擴展全部項目"
+    IDS_STATS_MNUTREECOLLAPSEALL "收縮全部項目"
+    IDS_STATS_MNUTREEEXPANDMAIN "擴展主要項目"
+    IDS_STATS_LASTRESETSTATIC "統計最後重置: %s"
+    IDS_STATS_MONTHLY       "每月"
+    IDS_STATS_YEARLY        "每年"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_TIMESTATS     "時間統計"
+    IDS_STATS_AVGANDPROJ    "專案平均數"
+    IDS_STATS_TIMESINCERESET "最後重置至今時間: %s"
+    IDS_CRYPT_INITFAILED    "cryptokeys 初始化失敗 - 安全識別已停用"
+    IDS_CD_IDENT            "識別:"
+    IDS_IDENTOK             "成功"
+    IDS_IDENTFAILED         "無效"
+    IDS_IDENTNOSUPPORT      "不支援的或已停用"
+    IDS_COMMITFILES         "安全的 .met/.dat 檔案寫入"
+    IDS_ERR_BADUNC          "無效的 UNC-資料夾 名稱"
+    IDS_NEVER               "從未"
+    IDS_ALWAYS              "總是"
+    IDS_ONSHUTDOWN          "在關機時"
+    IDS_UNCFOLDERS          "UNC-資料夾"
+    IDS_USESECIDENT         "使用安全識別"
+    IDS_ADVSPAMFILTER       "進階廣告過濾器"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CUT                 "剪下"
+    IDS_STATS_SECUREIDENT   "安全的識別 (確認 : 失敗)"
+    IDS_ONDISK              "在磁碟大小: "
+    IDS_CLIENTCOL           "警告: 發現相同的客戶端, 在一個已連線的客戶端: %s (%s) 和 %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "沒有中止字串"
+    IDS_SEARCH_GENERALERROR "一般錯誤"
+    IDS_SEARCH_MISSINGORRIGHT "右邊缺少 OR 運算元"
+    IDS_SEARCH_MISSINGNOTRIGHT "右邊缺少 NOT 運算元"
+    IDS_SEARCH_MISSINGEXPRPARANT "缺少 '(' ')' 語法"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "缺少 ')' 結束"
+    IDS_SEARCH_EXPRERROR    "分析搜尋語法失敗"
+    IDS_SEARCH_TOOCOMPLEX   "語法太複雜"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VERSION             "版本"
+    IDS_PASTE               "貼上"
+    IDS_A4AF                "來源處理"
+    IDS_MOBILEMULE          "MobileMule"//!
+    IDS_ENABLEMM            "啟用 MobileMule"
+    IDS_AUTOCAT_LABEL       "自動 類別-分配 (樣式, 以 | 做分隔)"
+    IDS_SHOWEXTSETTINGS     "顯示更多控制 (進階的模式控制)"
+    IDS_TREEOPTIONS_TRUE    "真的"
+    IDS_TREEOPTIONS_FALSE   "假的"
+    IDS_TREEOPTIONS_OK      "好的"
+    IDS_HYPERTEXT_FONT_HINT "伺服器-, 訊息- 及 IRC-視窗 的字型"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_FONT         "選擇字型"
+    IDS_SERVER_LIMITS       "軟性- / 硬性-檔案限制"
+    IDS_KBITSSEC            "千位元/秒"
+    IDS_KBYTESSEC           "千位元組/秒"
+    IDS_ERR_CREATE_DIR      "建立 %s 資料夾失敗 ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED 
+                            "新進檔案資料夾必須不是設定在安裝 eMule 程式的資料夾."
+    IDS_WRN_TEMPFILES_RESERVED 
+                            "暫存檔案資料夾必須不是設定在安裝 eMule 程式的資料夾."
+    IDS_WRN_INCTEMP_SAME    "新進檔案資料夾及暫存檔案資料夾必須不能相同."
+    IDS_MMFAILED            "建立 MobileMule 插口失敗!"
+    IDS_MMSTARTED           "MobileMule 伺服器已啟動在連接埠 %u. 協定版本: %s"
+    IDS_SHOWDWLPERCENTAGE   "在進度條顯示下載完成百分比"
+    IDS_TBN_ONNEWDOWNLOAD   "下載已加入"
+    IDS_ARTIST              "藝人"
+    IDS_ALBUM               "專輯"
+    IDS_MMGUIDELINK         "MobileMule 指南"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CD_UPLOADREQ        "已要求上載:"
+    IDS_SETTINGCHANGED_RESTART "為了使已經改變的設定值生效, 請重新啟動 eMule!"
+    IDS_CREDITSEXPIRED      ", %u 個客戶端已經刪除 (在 5 個月內沒再看見過)"
+    IDS_SOURCESINFO         "%u  (有用的: %u, NNP: %u); A4AF: %u"
+    IDS_META_DATA           "詮釋資料"
+    IDS_TIMEBEFORE          "(%s 以前)"
+    IDS_FD_TIMEDATE         "日期"
+    IDS_FILEINFORMATION     "檔案資訊"
+    IDS_STATS_FREESPACE     "可用空間"
+    IDS_IRC_HELPCHANNEL     "連線到幫助頻道"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-chinese"
+    IDS_IRC_ACCEPTLINKSFRIENDS "只有來自好友"
+    IDS_COMPLSOURCES        "完成的來源數"
+    IDS_CHECKNOENDTIME      "沒有結束時間"
+    IDS_FD_DOWNLOADSTARTED  "下載已經開始:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FAILEDREOPEN        "重大錯誤: 重新開啟部分檔 '%s' (%s) 已經失敗!"
+    IDS_ERR_PREVIEWALREADY  "從這個客戶端那裡已經有一個預覽要求懸而未決的"
+    IDS_ERR_PREVIEWFAILED   "從使用者 '%s' 預覽已經失敗"
+    IDS_DWTOT               "磁碟空間"
+    IDS_DWTOT_NR            "下載數量: %u"
+    IDS_DWTOT_TSD           "下載總計大小: %s"
+    IDS_DWTOT_TCS           "已完成總計大小: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "已傳輸總計大小: %s"
+    IDS_DWTOT_TSN           "全部下載所需空間總計: %s"
+    IDS_DWTOT_FS            "暫存裝置可用空間: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (您需要清空磁碟 %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "伺服器連線更新間隔 [分]"
+    IDS_MORE                "更多"
+    IDS_TOOLS               "工具"
+    IDS_SEARCHPARAMS        "搜尋參數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u 切細中)"
+    IDS_CHECKDISKSPACE      "檢查磁碟空間"
+    IDS_YOURHOSTNAME        "自己的 eD2K 連結主機名稱"
+    IDS_INSUFFICIENT        "磁碟空間不足"
+    IDS_MINFREEDISKSPACE    "最小的可用磁碟空間 [MB]"
+    IDS_WARNING             "警告"
+    IDS_IMPORTSPLPF         "匯入下載 (eM, eD, ON)"
+    IDS_IMP_STEPREADPF      "部分資料夾讀取中"
+    IDS_IMP_STEPBASICINF    "部分檔案基本資訊擷取中"
+    IDS_IMP_STEPCRDESTFILE  "目的部分檔案建立中"
+    IDS_IMP_LOADDATA        "從舊式部分檔載入資料 (%u 於 %u)"
+    IDS_IMP_SAVEDATA        "儲存資料區塊轉入新的單一部分檔案 (%u 於 %u)"
+    IDS_IMP_IOERROR         "部分檔案變換中出錯"
+    IDS_IMP_GETPFINFO       "來源部分檔案基本資訊擷取中"
+    IDS_IMP_ADDDWL          "加入下載並儲存新的部分檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IMP_FETCHSTATUS     "抓取狀態..."
+    IDS_IMP_INPROGR         "在處理"
+    IDS_IMP_ERR_DISKSP      "錯誤: 磁碟空間不足"
+    IDS_IMP_ERR_PARTMETIO   "錯誤: 部分檔(partmet)找不到"
+    IDS_IMP_ERR_IO          "錯誤: IO 錯誤!"
+    IDS_IMP_ERR_FAILED      "錯誤: 已失敗!"
+    IDS_IMP_STATUSQUEUED    "排隊"
+    IDS_IMP_ALRDWL          "已經在下載中"
+    IDS_IMP_ADDBTN          "增加匯入"
+    IDS_IMP_RETRYBTN        "重試已選擇的"
+    IDS_IMP_REMOVEBTN       "移除已選擇的"
+    IDS_IMP_SELFOLDER       "請選擇資料夾來搜尋下載的暫存檔! (子目錄將包含在內)"
+    IDS_IMP_DELSRC          "您想要刪除已成功匯入至下載的原始部分檔案?"
+    IDS_IMP_SIZE            "%s (磁碟:%s)"
+    IDS_IMP_STATUS          "匯入中 %s: %s"
+    IDS_DYNUPENABLED        "自動地找出最佳上載限制"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "反應的容差值 (最低反應的百分比%)"
+    IDS_DYNUP_GOINGUPDIVIDER "上升延遲"
+    IDS_DYNUP_GOINGDOWNDIVIDER "下降延遲"
+    IDS_DYNUP_NUMBEROFPINGS "反應平均值的最大計數次數"
+    IDS_DYNUP_MINUPLOAD     "上載最低允許速度"
+    IDS_ESTTIMELEFT         "預估剩餘時間:"
+    IDS_TRANSFER_RATE_LABEL "傳輸速率:"
+    IDS_SAVELOG             "儲存記錄"
+    IDS_CMT_COPYCLIPBOARD   "複製註解到剪貼簿"
+    IDS_ASKDOWNLOADLANG     "您選擇的語言尚未安裝在您的系統. 您想要 eMule 從 emule-project.net 下載它?"
+    IDS_ASKDOWNLOADLANGCAP  "下載語言檔案"
+    IDS_DELETESELECTED      "刪除"
+    IDS_ERR_FAILEDDOWNLOADLANG "從 %s 下載並安裝已選擇的語言 DLL 檔案失敗!"
+    IDS_ERR_BADFOLDER       "無效的資料夾.\n資料夾不能被建立. 請檢查名稱及位置."
+    IDS_AUTOREMOVEFD        "自動清除已完成下載"
+    IDS_MM_BLOCK            "3 次登入 MobileMule 失敗 - 在未來的 10 分鐘內都會封鎖!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MM_NEWUSER          "新的使用者登入到 MobileMule-伺服器 成功"
+    IDS_RADCLIENTS          "來自已知的客戶端"
+    IDS_KADUDPPORTERR       "Kad UDP 連接埠和 eMule 的延伸 UDP 連接埠或 eMule 的伺服器 UDP 連接埠的其中一個發生衝突. 連接埠已經改變到 %u."
+    IDS_CONFIRM_FILEDELETE  "您真的想要從磁碟中移除全部已選擇的檔案?"
+    IDS_OPENFOLDER          "開啟資料夾"
+    IDS_RUNASUSER           "以沒有特權的使用者執行 eMule"
+    IDS_DELETE              "從磁碟刪除"
+    IDS_BOOTSTRAP           "啟動"
+    IDS_VIAED2KSQ           "經由 eD2K 伺服器"
+    IDS_EM_KADEMLIA         "Kad"
+    IDS_VIAKAD              "經由 Kad"
+    IDS_VIASE               "經由來源交換"
+    IDS_SELECTTOOLBARBITMAP "選擇工具列的點陣圖..."
+    IDS_SELECTTOOLBARBITMAPDIR "選擇點陣圖資料夾..."
+    IDS_TOOLBARSKINS        "工具列面板"
+    IDS_NOTEXTLABELS        "沒有文字標籤"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "文字在圖示的右方"
+    IDS_TEXTLABELS          "文字標籤選項"
+    IDS_ENABLETEXTLABELS    "顯示文字標籤"
+    IDS_CUSTOMIZETOOLBAR    "自訂工具列..."
+    IDS_MINBITRATE          "最小位元率 [kBit/秒]"
+    IDS_KAD_RECHECKFW       "重新檢查防火牆"
+    IDS_SHAREDTITLE         "分享 eD2K|Kad"
+    IDS_FIREWALLED          "防火牆內"
+    IDS_KADEMLIA            "Kad"//!
+    IDS_KADCONTACTLAB       "聯繫"
+    IDS_KADDISTANCE         "距離"
+    IDS_KEY                 "鍵"
+    IDS_NUMBER              "號碼"
+    IDS_KAD_SEARCHSRC       "搜尋來源"
+    IDS_KAD_SEARCHKW        "搜尋關鍵字"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KAD_NODE            "節點查詢"
+    IDS_KAD_STOREFILE       "儲存檔案"
+    IDS_KAD_STOREKW         "儲存關鍵字"
+    IDS_KAD_UNKNOWN         "未知的"
+    IDS_SRV_TCPCOMPR        "TCP 壓縮"
+    IDS_KADSEARCHLAB        "目前的搜尋"
+    IDS_SRV_UDPSR           "來源要求的延伸 UDP 協定"
+    IDS_SRV_UDPFR           "檔案要求的延伸 UDP 協定"
+    IDS_MINLENGTH           "最小長度 [時:分:秒]"
+    IDS_EM_HELP             "說明"
+    IDS_WRN_FRIENDDUPLIPPORT 
+                            "好友沒有被加入.\r\n\r\n在那裡已經有一個以相同 IP 位址及連接埠的好友可使用."
+    IDS_DYNUP               "上載速度感應器"
+    IDS_KADOVERHEAD         "Kad 額外支出的傳輸量 (封包): %s (%s)"
+    IDS_FIND                "尋找..."
+    IDS_LOG_BANNED_CLIENTS  "記錄已被禁止客戶端"
+    IDS_LOG_RATING_RECV     "記錄已接收檔案描述及等級"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOG_SECURE_IDENT    "記錄安全識別"
+    IDS_LOG_FILTERED_IPS    "記錄已過濾 和/或 已忽略 IP"
+    IDS_LOG_FILE_SAVING     "記錄檔案儲存動作"
+    IDS_DELETEIPFILTERS     "您真的想要刪除所選擇的 IP 過濾?"
+    IDS_TOTAL_IPFILTER_LABEL "總計 IP 過濾數:"
+    IDS_TOTAL_IPS_LABEL     "總計 IP:"
+    IDS_RAU_WARNING         "這個設定將會給 eMule 附加的防護阻止攻擊並且我們鼓勵使用這個選項.\n無論如何在使用之前強烈建議您先閱讀使用說明!\n\n變更將會在下次啟動 eMule 時生效."
+    IDS_APPEND              "附加..."
+    IDS_SAVE                "儲存"
+    IDS_IP_START            "開始"
+    IDS_IP_END              "結束"
+    IDS_IP_LEVEL            "等級"
+    IDS_IP_DESC             "描述"
+    IDS_IP_HITS             "命中"
+    IDS_IP_RULES            "IP 過濾:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "您目前尚未連線到 Kad 網路!"
+    IDS_IRC_NOSFS           "沒有選擇已分享檔案"
+    IDS_RESETLABEL          "自動完成 (記錄輸入過的文字)"
+    IDS_IRC_IGNOREMISCMESSAGE "忽略雜項資訊之訊息"
+    IDS_KNOWN               "已知的"
+    IDS_RAU_RUNNING         "以沒有特權的使用者 ""%s"" 執行 eMule"
+    IDS_RAU_FAILED          "啟動 eMule 失敗以沒有特權使用者 ""eMule_Secure"". 保留目前使用者 (""%s"") 特權."
+    IDS_KADCONTACTSREAD     "從檔案讀取 %u 個聯繫."
+    IDS_ERR_KADCONTACTS     "找不到聯繫, 請設啟動節點, 或下載一個 nodes.dat 檔案."
+    IDS_METATAGS            "詮釋標籤計數:"
+    IDS_FILEFORMAT          "格式"
+    IDS_UDPREASKS           "UDP 檔案再要求數"
+    IDS_DYNUP_PINGTOLERANCE_MS "反應容差值 (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "反應容差值方式"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "毫秒 (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "百分比 (%)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOG_A4AF            "記錄 A4AF 動作"
+    IDS_A4AF_SAVE_CPU       "停用 A4AF 檢查來節省 CPU"
+    IDS_SEARCH_DOC          "文件"
+    IDS_INSTALL_SKIN        "安裝 eMule 面板"
+    IDS_INSTALL_SKIN_NODIR  "沒有 eMule 面板檔案資料夾被選擇或資料夾無法被存取!"
+    IDS_INSTALL_SKIN_DIR_ERROR "建立資料夾 ""%s"" 失敗於 eMule 面板 - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR 
+                            "解開檔案 ""%s"" 失敗從 eMule 面板到本地檔案 ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "這不是一個有效的 eMule 面板封裝檔案."
+    IDS_NEXT_REASK          "下次要求這個客戶端"
+    IDS_A4AF_FILES          "A4AF 檔案"
+    IDS_FO_TEMPTCP_S        "已開啟連接埠 %u (TCP) 在 WinXP 內部防火牆於這個 eMule 工作階段"
+    IDS_FO_TEMPTCP_F        "開啟連接埠 %u (TCP) 失敗在 WinXP 內部防火牆於這個 eMule 工作階段"
+    IDS_FO_TEMPUDP_S        "已開啟連接埠 %u (UDP) 在 WinXP 內部防火牆於這個 eMule 工作階段"
+    IDS_FO_TEMPUDP_F        "開啟連接埠 %u (UDP) 失敗在 WinXP 內部防火牆於這個 eMule 工作階段"
+    IDS_FO_PREFBUTTON       "在 WinXP 內建防火牆開啟這些連接埠"
+    IDS_FO_PREF_SUCCCEEDED  "已成功開啟已選擇連接埠在 WinXP 內部防火牆.\n請注意第三方個人電腦防火牆(一般另外加裝的防火牆軟體)或路由器不會受這個影響!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule 偵測到選擇的連接埠已有存在的規則, 將不會覆寫或取代它. 缺少的規則已被成功的加入.\n請注意第三方個人電腦防火牆(一般另外加裝的防火牆軟體)或路由器不會受這個影響!"
+    IDS_FO_PREF_FAILED      "在 WinXP 內部防火牆設定已選擇的連接埠失敗!"
+    IDS_FO_PREF_STARTUP     "當 啟動/離開 eMule 時 開啟/關閉 在 WinXP 防火牆的連接埠"
+    IDS_LOG_LEVEL           "記錄標準"
+    IDS_DISABLEPEERACHE     "停用從 PeerCache 下載"
+    IDS_NEWMSG              "新的訊息來自 '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "只在相同的類別"
+    IDS_LOG_ULDL_EVENTS     "記錄 上載/下載 事件"
+    IDS_PEERCACHE_ENABLED   "您的 ISP 支援 PeerCache 技術, 啟用快取下載!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "允許使用者將您加入成為好友"
+    IDS_SOURCESWAPBLOCKED   "置換被封鎖"
+    IDS_TRICKLING           "待命"
+    IDS_A4AF_CHECK_THIS_NOW "立即檢查這個來源 (除錯)"
+    IDS_STATS_FRATIO        "工作階段 上載:下載 比例 (好友的上載排除在外):"
+    IDS_STATS_UDATA_FRIENDS "已上載給好友位置的資料 (工作階段): %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "未知的或不良的暫存檔案格式."
+    IDS_SEARCH_INVALIDCHAR  "搜尋語法包含無效的字元. 您輸入了一個 '?' 字元或是輸入的字元不能被使用在這個網路."
+    IDS_PORTSCON            "連接埠及連線"
+    IDS_PORTINFO            "eMule 使用二個連接埠來和伺服器及客戶端溝通. 這些連接埠必須可被遠端的客戶端自由的使用. TCP 連接埠必須可使用以確保 eMule 的主要功能. UDP 連接埠是使用在 Kad (無伺服器網路) 及減少網路的使用量 (額外支出的).\n\n您能改變連接埠直到不能動作的網路被啟動時."
+    IDS_STARTTEST           "測試連接埠"
+    IDS_TESTINFO            "在這裡您能測試, 假如您的 TCP 和 UDP 連接埠能從遠端被連線. 對於伺服器和客戶端與您之間的連線這個測試的成功是必要的. TCP 連接埠必須測試成功!"
+    IDS_CONNECTIONTEST      "連線測試"
+    IDS_NOPORTCHANGEPOSSIBLE 
+                            "變更之後的連接埠不允許您馬上的連線到客戶端或連線到一個伺服器/Kad!\n\n請重新啟動 eMule 來使連接埠設定值改變."
+    IDS_NETWORK_INFO        "網路資訊"
+    IDS_SP_TOTALUL          "上載的總數量"
+    IDS_SP_ULFRIENDS        "好友上載位置"
+    IDS_SP_ULSLOTSNOOVERHEAD "目前上載 (精確額外支出的)"
+    IDS_ST_ACTIVEU_ZZ       "動作中上載數"
+    IDS_ST_ULCURRENT        "目前"
+    IDS_ST_ULSLOTSNOOVERHEAD "目前 (精確額外支出的)"
+    IDS_ST_ULFRIEND         "好友上載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "動作中 上載/需要 去填充的頻寬: %u"
+    IDS_STATS_TOTALUL       "上載的總數量: %u"
+    IDS_CHAT_DOWNLOADED     "已下載:"
+    IDS_CHAT_UPLOADED       "已上載:"
+    IDS_CHAT_IDENT          "識別:"
+    IDS_MAXHALFOPENCONS     "半開啟的連線之最大數量"
+    IDS_WIZ_STARTWITHWINDOWS 
+                            "啟用這個 eMule 將會在您的 Windows 啟動時執行."
+    IDS_KAD_WAITCBK         "等待 Kad 回覆"
+    IDS_KAD_TOOMANDYKADLKPS "太多的 Kad 回授"
+    IDS_PCDS_CLIENTWAIT     "客戶端等待"
+    IDS_PCDS_CACHEWAIT      "快取等待"
+    IDS_CACHE               "快取"
+    IDS_INDEXED             "索引"
+    IDS_KADINFO_SRC         "\t來源: %u\r\n"
+    IDS_KADINFO_KEYW        "\t關鍵字: %u\r\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STARTWITHWINDOWS    "在 Windows 啟動時執行"
+    IDS_ADDSRCMANUALLY      "加入來源..."
+    IDS_BUDDY               "夥伴"
+    IDS_BUDDYNONE           "無"
+    IDS_INFO                "資訊"
+    IDS_HALF                "半開啟"
+    IDS_CONCOMPL            "完成"
+    IDS_KADSTATUS_STOPPING  "停止中"
+    IDS_KADSTATUS_ACTIVE    "動作中"
+    IDS_FORMAT              "格式"
+    IDS_META_COLLECTION     "收藏"
+    IDS_META_PARTPATH       "部分檔路徑"
+    IDS_META_PARTHASH       "部分檔切細值"
+    IDS_META_GAPSTART       "區間開始"
+    IDS_META_GAPEND         "區間結束"
+    IDS_FAIL                "失敗"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_META_PREFERENCES    "喜好程度"
+    IDS_META_VERSION        "版本"
+    IDS_META_TEMPFILE       "暫存檔案"
+    IDS_META_SERVERPORT     "伺服器連接埠"
+    IDS_META_SERVERIP       "伺服器 IP"
+    IDS_META_SRCUDPPORT     "來源 UDP 連接埠"
+    IDS_META_SRCTCPPORT     "來源 TCP 連接埠"
+    IDS_META_SRCIP          "來源 IP"
+    IDS_META_SRCTYPE        "來源類型"
+    IDS_SEARCH_UNICODE      "以 Unicode 搜尋"
+    IDS_PF_ADVANCEDCALC     "使用進階的方式來計算剩餘時間"
+    IDS_LD_ED2KLINK         "ED2K 連結"
+    IDS_LD_COPYCLIPBOARD    "複製到剪貼簿"
+    IDS_LD_HOSTNAME         "使用主機名稱 (選項所設定的) 取代建立來源連結時的 IP"
+    IDS_SAVEACFAILED        "儲存 AICH 片段切細值失敗!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IACHHASH            "AICH 切細值"
+    IDS_BYTESPERSEC         "位元組/秒"
+    IDS_KBYTESPERSEC        "KB/秒"
+    IDS_MBYTESPERSEC        "MB/秒"
+    IDS_GBYTESPERSEC        "GB/秒"
+    IDS_TBYTESPERSEC        "TB/秒"
+    IDS_STATS_MINORCLIENTS  "少數的"
+    IDS_AICH_SYNCTOTAL      "發現 %u 個檔案無有效的 AICH 片段切細值, 現在將重新切細那些檔案"
+    IDS_AICH_CALCFILE       "%s 檔案 AICH 切細值計算中"
+    IDS_AICH_WARNUSER       "自從 eMule 0.44a 版本使用一個附加的檔案切細值對檔案在偵測到損壞時有助於資料流失的減少. 因為您從較先前的版本更新, eMule 需要重新切細您分享的所有檔案來計算新的切細值. 這會花上一段時間但它只執行一次.  "
+    IDS_AICH_WORKED         "AICH 成功的恢復 %s 在大小為 %s 的部分 %u 於檔案 %s"
+    IDS_SOURCECLIENT        "來源客戶端"
+    IDS_USERSIP             "使用者 IP"
+    IDS_FEATURES            "特徵"
+    IDS_IRC_NEWNICK         "選擇一個 IRC 暱稱."
+    IDS_IRC_NEWNICKDESC     "一個暱稱應該少於 20 個字元包含 (A-Z, 0-9). 能在 選項->IRC 再次改變它."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SPARSEPARTFILES     "建立新的部分檔案成 '疏鬆檔案' (限 NTFS 使用)"
+    IDS_ASPECTRATIO         "畫面比例"
+    IDS_NEGATEFILTER        "反相過濾"
+    IDS_SEENCOMPL           "曾經看見完整的"
+    IDS_SELSKINPROFILEDIR   "選擇面板設定檔資料夾"
+    IDS_ASKDLINCOMPLETE     "可能是不完整檔案:\r\n\r\n%s\r\n\r\n這個檔案在網路上被推測為不完整的檔案並且大多數會因此而不能順利的下載成功! 您真的想要下載這個檔案?"
+    IDS_DEADSOURCES         "掛掉的來源"
+    IDS_LARGEICONS          "大圖示"
+    IDS_SMALLICONS          "小圖示"
+    IDS_SHORTTAGS           "縮寫的標籤"
+    IDS_THELOAD             "載入"
+    IDS_PACKSENT            "封包送出"
+    IDS_RESPONSES           "回應"
+    IDS_EXTRACT_META_DATA   "擷取詮釋資料"
+    IDS_META_DATA_MEDIADET  "DirectShow (用於全部其他的 聲音/影像 檔案)"
+    IDS_META_DATA_ID3LIB    "ID3 程式庫 (只用於 MPEG 聲音檔案)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD 
+                            "Windows 通用控制項程式庫 (COMCTL32.DLL) 太舊!\r\n\r\neMule 偵測到 ""Windows 通用控制項程式庫 (COMCTL32.DLL)"" 的版本太舊不能被 eMule 恰當的使用. 為確保 eMule 的完整且無缺陷的功能我們強烈建議更新 ""Windows 通用控制項程式庫 (COMCTL32.DLL)"" 到最新版本 5.8.\r\n\r\n請在 Microsoft (R) 下載中心 下載及安裝 ""Windows 通用控制項程式庫 (COMCTL32.DLL)"". 您想要拜訪相對應的網址嗎?"
+    IDS_ASREGEXPR           "使用正規表示式"
+    IDS_STATIC_REGEXP       "檢視過濾器的正規表示式:"
+    IDS_CARE4ALL            "評估所有檔案"
+    IDS_REGEXPRESSION       "正規表示式"
+    IDS_SEARCHKAD           "搜尋 Kad"
+    IDS_DWL_IPFILTERFILE    "IP 過濾檔案下載中"
+    IDS_DWLIPFILTERFAILED   "IP 過濾檔案下載失敗"
+    IDS_FINDBUDDY           "尋找夥伴"
+    IDS_ERR_IPFILTERZIPEXTR "從已經下載的 IP 過濾 ZIP 檔案 ""%s"" 解開 IP 過濾檔案失敗."
+    IDS_ERR_IPFILTERCONTENTERR 
+                            "已經下載的 IP 過濾檔案 ""%s"" 是一個包含未知內容的 ZIP 檔案."
+    IDS_STORENOTES          "儲存註解"
+    IDS_NOTES               "註解"
+    IDS_KADSEARCHALREADY    "另一個搜尋已經在處理. 請稍後再試一次!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WEB_SHUTDOWN        "關閉 eMule"
+    IDS_WEB_REBOOT          "重新啟動系統"
+    IDS_WEB_SHUTDOWNSYSTEM  "關閉系統"
+    IDS_WEB_ADMINMENU       "管理選單"
+    IDS_WEB_MAIN_CLOSE      "您真的想要結束 eMule?"
+    IDS_WEB_MAIN_REBOOT     "您真的想要重新啟動系統?"
+    IDS_WEB_MAIN_SHUTDOWN   "您真的想要關閉系統?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "在等候區顯示被禁止的客戶端"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "在等候區顯示好友"
+    IDS_WEB_SESSIONTIMEOUT  "工作階段逾時"
+    IDS_WEB_ALLOWHILEVFUNC  "允許離開 eMule, 重開機及關機"
+    IDS_SETPFSLIMIT         "來源限制..."
+    IDS_SETPFSLIMITEXPLAINED 
+                            "請輸入已選擇的檔案的新來源限制 ! \n(設 0 使用全域設定值)"
+    IDS_UPDATECATINCOMINGDIRS 
+                            "您想要新進資料夾包含舊的新進資料夾立即被更新?"
+    IDS_USESPEECH           "以語音說出通知訊息"
+    IDS_CONDTCPACCEPT       "快速連線拒絕"
+    IDS_TCPIP_CONNS         "TCP/IP 連線"
+    IDS_ERR_DELFILE         "刪除 ""%s"" 檔案失敗"
+    IDS_MANUAL_FILENAMECLEANUP "您想要清理已選擇檔案的檔案名稱?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s 似乎損壞了並且將會被取代"
+    IDS_UPLOADING           "上載中"
+    IDS_CANCELLED           "已取消"
+    IDS_PW_REMEMBERDOWNLOADED "記住已經下載的檔案"
+    IDS_PW_REMEMBERCANCELLED "記住已經取消的檔案"
+    IDS_AVAILABLEPARTS      "可用的部分"
+    IDS_NOSOUND             "沒有聲音"
+    IDS_PW_RECEIVERADDRESS  "收件者位址:"
+    IDS_PW_ENABLEEMAIL      "啟用電子郵件通知"
+    IDS_EMULENOTIFICATION   "eMule 通知"
+    IDS_PW_EMAILNOTIFICATIONS "電子郵件通知"
+    IDS_PW_SMTPSERVER       "SMTP-伺服器:"
+    IDS_PW_SENDERADDRESS    "寄件者位址:"
+    IDS_PW_SHOWTRANSTOOLBAR "在傳輸視窗顯示額外的工具列"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHARED_STATUS       "已分享部分"
+    IDS_INCOMING_FILES      "新進的檔案"
+    IDS_INCOMPLETE_FILES    "不完整的檔案"
+    IDS_SHARED_DIRECTORIES  "已分享的資料夾"
+    IDS_SHAREDIR            "分享資料夾"
+    IDS_SHAREDIRSUB         "分享包含子目錄"
+    IDS_UNSHAREDIR          "去除資料夾分享"
+    IDS_UNSHAREDIRSUB       "去除子目錄分享"
+    IDS_ALLSHAREDFILES      "全部已分享檔案"
+    IDS_ALLDIRECTORIES      "全部的資料夾"
+    IDS_SEARCHRELATED       "找出相關的檔案"
+    IDS_RELATED             "相關的"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLLECTIONLIST      "收藏清單"
+    IDS_SEARCH_EMULECOLLECTION "收藏"
+    IDS_COLL_REPLACEEXISTING "您想要取代已經存在的檔案?"
+    IDS_COLL_ERR_DELETING   "在刪除舊檔案時發生一些未知的錯誤. 離開且不儲存?"
+    IDS_CREATECOLLECTION    "建立收藏"
+    IDS_COLL_SIGN           "在收藏加上名字和密鑰的簽名"
+    IDS_AUTHOR              "作者"
+    IDS_AUTHORKEY           "作者密鑰"
+    IDS_COLL_ADDINCAT       "加入新的下載在一個收藏類別"
+    IDS_MODIFYCOLLECTION    "修改收藏"
+    IDS_VIEWCOLLECTION      "檢視收藏"
+    IDS_COLL_TEXTFORMAT     "用簡單文字格式儲存收藏"
+    IDS_SEARCHAUTHORCOLLECTION "搜尋作者的收藏"
+    IDS_ERR_DUPL_FILES      "重複分享檔案: ""%s"" 和 ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED 
+                            "上載速度感應器: 追蹤路由失敗太多次. 停用上載速度感應器."
+    IDS_USS_STARTING        "上載速度感應器: 完成準備. 開始控制上載速度. (剛開始的 60 秒將會在快速反應模式)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED 
+                            "上載速度感應器: 在選項內偵測到上載限制的提升. 進入快速反應模式 60 秒."
+    IDS_USS_STATE_PREPARING "準備中..."
+    IDS_USS_STATE_WAITING   "等待中..."
+    IDS_USS_STATE_ERROR     "錯誤!"
+    IDS_SHAREWARNING        "(資料夾將會被分享!)"
+    IDS_REMOVEALLSERVERS    "您真的想要移除全部的伺服器?"
+    IDS_SEARCH_UNKATTR      "未知的搜尋屬性 '%s'"
+    IDS_SEARCH_ATTRERR      "語法錯誤在 '%s' 搜尋屬性"
+    IDS_SEARCH_MISSINGANDRIGHT "AND 運算式缺少右邊的值"
+    IDS_SEARCH_OPRERR       "語法錯誤在比較運算式 '%s'"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "語言檔案下載中"
+    IDS_DOWNLOADING_SERVERMET_FROM "server.met 從 %s 下載中"
+    IDS_DOWNLOADING_SERVERMET "server.met 下載中..."
+    IDS_FULLALLOC           "分配完整檔案大小為非疏鬆部分檔案"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "切細值找不到."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "間斷清單損壞."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "間斷清單找不到."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "片段切細值損壞."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "片段切細值找不到."
+    IDS_CONVERTINGKNOWN2MET "轉換 %s 到 %s 來支援大檔案..."
+    IDS_CONVERTINGKNOWN2FAILED 
+                            "...轉換 known2.met 失敗, 忽略舊記錄"
+    IDS_CONVERTINGKNOWN2DONE "... 完成, 已經完成轉換"
+    IDS_ERR_MET_BAD         "錯誤: 檔案 %s 已經損壞, 無法載入到已知的檔案"
+    IDS_SRV_LARGEFILES      "支援大檔案"
+END
+
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE 
+                            "您不能下載這個檔案因為您的檔案系統不支援檔案大於 4GB, 請考慮轉換磁碟格式為 NTFS"
+    IDS_NEWVERSIONAVLBETA   "這個測試版本已經過期. 由於是測試版本, 它可能包含許多臭蟲, 可能的話盡快更新到穩定的發佈版本是重要的!"
+    IDS_KADSEARCHACTIVE     "(Kad 搜尋在處理中...)"
+    IDS_BOLD                "固定為粗體文字"
+    IDS_UNDERLINE           "固定為加底線文字"
+    IDS_COLOUR              "選擇前景文字顏色,(背景顏色為選用)."
+    IDS_RESETFORMAT         "重置之前的全部格式,(作為一個重置標籤)."
+    IDS_RESTORESEARCHPARAMS "還原搜尋參數"
+    IDS_COMMAND             "命令"
+    IDS_ARGUMENTS           "參數"
+    IDS_AP_CREATEPREVCOPY   "建立預覽檔案"
+    IDS_ARCHIVEDETAILS      "壓縮檔-詳細資訊"
+    IDS_ARCHTYPE            "壓縮檔類型"
+    IDS_ATTRIBUTES          "屬性"
+    IDS_LASTMODIFIED        "最後修改日期"
+END
+
+
+STRINGTABLE 
+BEGIN
+    IDS_RARFULLENCR         "標頭已加密 - 無法讀取"
+    IDS_ARCPARSED           "壓縮檔已掃描."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "檔案清單或許不完整."
+    IDS_ARCPREV_DIRNOTFOUND "目錄找不到."
+    IDS_ARCPREV_INSUFFDATA  "沒有足夠的資料可用."
+    IDS_PASSWPROT           "密碼保護"
+    IDS_ARCPREV_DIRSUCCREAD "目錄已成功讀取."
+    IDS_ARCPREV_UNKNOWNFORMAT "(未知/未支援的)"
+    IDS_ARCPREV_PLEASEWAIT  "壓縮檔掃描中.."
+    IDS_OBFUSCATION         "模糊"
+    IDS_SUPPORTED           "已支援"
+    IDS_ESTIMATED           "預計"
+    IDS_MEDIAINFO_DLLMISSING 
+                            "這裡沒有安裝 MediaInfo 程式庫. 假如您想要取得 聲音/影像 檔案的相關資訊在這個視窗,\r\n在 http://sourceforge.net/projects/mediainfo/ 下載 MediaInfo 程式庫並複製 MediaInfo.dll 檔案到\r\neMule 的安裝資料夾 ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION 
+                            "警告: 檔案的副檔名 ""%s"" 沒有相對應的典型副檔名\r\n來使用這個檔案格式. 您或許想要重新命名檔案到\r\n那些副檔名 ""%s"" 其中之一\r\n來適當的使用或檢視那樣的檔案格式.\r\n"
+    IDS_MEDIAINFO_DRMWARNING 
+                            "警告: 這個檔案 ""%s"" 似乎被數位版權管理保護.\r\n您大多數將不能夠在沒有原始檔案的一個授權情形使用那樣的檔案.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule 工具列點陣圖檔案"
+    IDS_LOADFILTER_EMSKINFILES "eMule 面板檔案"
+    IDS_OPTIONS             "選項"
+    IDS_ERR_FAILEDTOLOAD    "載入失敗 %s: %s "
+    IDS_RUNNINGRESTRICTED   "eMule 目前以特權較少的方式執行中"
+    IDS_ARCHPREV_ATTRIBINFO "檔案屬性能包含:\r\n\r\nP\t檔案是密碼保護的\r\nD\t是一個資料夾\r\nC\t註解\r\nLx\t壓縮等級為 x\r\nM\t壓縮資料尚未完全下載\r\n<\t檔案延伸上一個卷宗\r\n>\t檔案繼續下一個卷宗\r\n"
+    IDS_CONTENT_INFO        "內容"
+END
+
+
+STRINGTABLE 
+BEGIN
+    IDS_MESSAGESCOMMENTS    "訊息和註解"
+    IDS_DISABLEOBFUSCATION  "停用模糊化連線支援"
+    IDS_ONLYOBFUSCATED      "只允許模糊化連線 (不建議使用)"
+    IDS_ENABLEOBFUSCATION   "啟用模糊協定"
+    IDS_PROTOCOLOBFUSCATION "模糊協定"
+    IDS_CONNECTINGTOOBFUSCATED 
+                            "連線到 %s (%s:%u - 使用模糊協定) ..."
+    IDS_CONNECTEDTOOBFUSCATED "模糊連線已建立在: %s"
+    IDS_VERIFIED            "已驗證"
+    IDS_OBFUSCATED          "模糊化"
+    IDS_UNVERIFIED          "未驗證"
+    IDS_INVALIDFILEEXT      "無效的副檔名"
+    IDS_UNKNOWNFILEEXT      "未知的副檔名"
+    IDS_ENABLEMINIMULE      "啟用 MiniMule"
+    IDS_DISABLE_AUTOARCHPREV 
+                            "在檔案詳細資訊內停用自動壓縮檔預覽"
+    IDS_US_STALLEDW4BR      "動彈不得! 區塊要求等待中."
+    IDS_US_STALLEDREADINGFDISK "動彈不得! 從磁碟讀取中."
+    IDS_SERVERFEATURE_INTTYPETAGS "整數型態標籤"
+    IDS_FILLGRAPHS          "繪製時填滿圖表"
+    IDS_PARAMETER           "參數"
+    IDS_TEST                "測試"
+END
+
+
+STRINGTABLE 
+BEGIN
+    IDS_UPNPSTART           "使用 UPnP 來設定連接埠"
+    IDS_UPNPSETUP           "嘗試以 UPnP 設定連接埠轉向..."
+    IDS_UPNPFAILED          "UPnP 連接埠轉向設定失敗, 假如需要請手動轉向那些連接埠!"
+    IDS_UPNPSUCCESS         "UPnP 設定連接埠 %u (TCP) 及 %u (UDP) 轉向成功"
+    IDS_FO_PREFBUTTON_NEW   "在 WinXP SP1 防火牆開啟連接埠"
+    IDS_UPNP_NOSERVICE      "UPnP 裝置主機服務沒有執行, 略過 UPnP 設定"
+    IDS_DELAYEDBYUPNP       "連線到網路有點延遲, 因為 UPnP 仍然忙於連接埠轉向的設定."
+    IDS_DELAYEDBYUPNP2      "請稍候, eMule 將儘快完成 UPnP 連線."
+    IDS_UPNP                "UPnP"//!
+    IDS_UPNPCLOSEONEXIT     "在離開時移除 UPnP 連接埠的轉向"
+    IDS_UPNPSKIPWANIP       "略過 WAN IP 設定"
+    IDS_UPNPSKIPWANPPP      "略過 WAN PPP 設定"
+    IDS_SHAREEMULELABEL     "和本電腦的其他使用者共用 eMule"
+    IDS_SHAREEMULEMULTI     "每個使用者有自己的設定及下載"
+    IDS_SHAREEMULEPUBLIC    "每個人使用相同的設定及下載"
+    IDS_SHAREEMULEOLD       "儲存設定及下載在程式資料夾"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHAREEMULEWARNING   "改變這個選項將會讓 eMule 使用其他的設定. 您目前設定將被忽略而且已經開始的下載或許再也不能看見. 在任何時間您能使用這個選項來換回您目前的設定.\n\n您需要重新啟動 eMule 來使這個變更生效."
+    IDS_SPAM                "廣告"
+    IDS_MARKSPAM            "標記為廣告"
+    IDS_MARKNOTSPAM         "標記為非廣告"
+    IDS_SEARCHSPAMFILTER    "啟用搜尋結果廣告過濾"
+    IDS_SHOWSMILEYS         "顯示表情符號"
+    IDS_CAPTCHAREQUEST      "為了避免廣告訊息, 這個使用者需要您回覆正確的 Captcha 您才可以傳送訊息給他. 請在這個圖片中輸入您所看到的字母:"
+    IDS_CAPTCHAFAILED       "您回覆的 Captcha 不正確且您的訊息將被忽略. 您可以再提出一個新的 Captcha 請求來傳送新訊息."
+    IDS_CAPTCHASOLVED       "您通過 Captcha 檢查且這個使用者也接收了您的訊息."
+    IDS_USECAPTCHAS         "要求 Captcha 認證"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat 來自 URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Nodes.dat 從 %s 下載中"
+    IDS_DOWNLOADING_NODESDAT "Nodes.dat 下載中..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Nodes.dat 從 %s 下載失敗"
+    IDS_PREVENTSTANDBY      "當 eMule 執行時避免進入休眠模式"
+    IDS_KADID               "KadID"//!
+    IDS_SEARCHINGFRIENDKAD  "正在 Kad 網路搜尋好友"
+    IDS_FOUND               "發現"
+    IDS_EXTERNUDPPORT       "外部 UDP 連接埠"
+    IDS_STORESEARCHES       "在重新啟動時記住開啟的搜尋"
+    IDS_WRN_INCFILE_EXISTS  "您已經選擇做為新進檔案的一個新資料夾並不是空的. 所有已經存在於這個資料夾的檔案將會被 eMule 自動地分享."
+    IDS_EDITSPAMFILTER      "編輯廣告過濾器..."
+    IDS_EDITSPAMFILTERCOMMENTS "編輯用於註解的廣告過濾器"
+    IDS_WIZZARDOBFUSCATION  "假如您想要啟用模糊化協定請啟用這個選項\n\n如果您的 ISP 嘗試壓制或封鎖 eMule, 啟用模糊化將會幫助改善像這樣的限制."
+    IDS_BETANAG             "這是一個測試版的 eMule. 請回報問題並經常地在我們的論壇檢查是否有更新 (http://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD 
+                            "您想要下載並使用 Kad 聯繫 (nodes.dat) 來自這個位址:\n%s ?"
+    IDS_AUTOMATIC           "Automatic"
+    IDS_NOTCONNECTEDANY     "You are not connected to a server or the Kad network!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SV_MOD_LOG        "Mod日誌"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_TEST              "測試"
+    IDS_X_LINKHP            "Neo首頁"
+    IDS_X_LINKVC            "Neo設計網站"
+    IDS_X_LINKFORUM         "Neo論壇"
+    IDS_X_MAIN_TWEAKS       "主要調整"
+    IDS_X_MAIN_TWEAKS_INFO  "主要NeoMule調整"
+    IDS_X_SELECT_FOLDER     "請具體指定一個資料夾"
+    IDS_X_SELECT_FILE       "請具體指定一個檔案"
+    IDS_X_ALL_FILES         "所有檔案(*.*)|*.*||"
+    IDS_X_CFG_NEO           "Neo"
+    IDS_X_PW_NEO            "Neo調整"
+    IDS_X_CFG_NORMAL        "一般"
+    IDS_X_ISHASHING         " (正在切細: %i區塊)"
+    IDS_X_AICH_HASH_MISSMATCH 
+                            "警告: 為已完成檔案%s計算出的AICH 切細與我們的%s切細不匹配: %s, 被計算%s."
+    IDS_X_AICH_HASH_VERIFYED "校檢"
+    IDS_X_AICH_HASH_TRUSTED "可信"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_AICH_HASH_UNTRUSTED "不可信"
+    IDS_X_AICH_HASH_MATCH   "檔案%s成功完成, AICH 切細也與計算出的切細匹配: %s"
+    IDS_X_AICH_HASH_COMPLETE "完成"
+    IDS_X_PART_NOT_DONE     "未完成"
+    IDS_X_PART_DONE         "完成"
+    IDS_X_PARTS             "區塊"
+    IDS_X_PART_ENTRY        "區塊 #%d"
+    IDS_X_IMPORTING         "輸入"
+    IDS_X_EXPORT_PARTS      "輸出區塊"
+    IDS_X_IMPORT_PARTS      "輸入區塊"
+    IDS_X_IMPORTPARTS_ABORT "您確定您想要中止區塊輸入/輸出程式嗎？"
+    IDS_X_IMPORTPARTS_ABORTED 
+                            "區塊輸入/輸出程式被使用者中止."
+    IDS_X_EXPORTPARTS_ERR_NULL "輸出失敗: 嘗試輸出無效區塊!"
+    IDS_X_EXPORTPARTS_ERR_FILETOOSMALL "輸出失敗: 檔案太小."
+    IDS_X_EXPORTPARTS_ERR_CANTOPENFILE "輸出失敗: 不能開啟%s!"
+    IDS_X_EXPORTPARTS_ERR_COMPLETING 
+                            "輸出失敗: 嘗試輸出正在被完成的檔案, 幾秒之後將再一次嘗試."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_REQUESTED_FILES   "要求檔案"
+    IDS_X_DOWNFILES_NONE    "您沒有從這個使用者下載任何東西"
+    IDS_X_DOWNFILES_COUNT   "這個使用者是您所下載的%i個檔案的來源"
+    IDS_X_UPFILES_NONE      "這個使用者沒有從您這裡下載任何東西"
+    IDS_X_UPFILES_COUNT     "您是這個使用者所下載的%i個檔案的來源"
+    IDS_X_SRC_MANAGEMENT    "手動管理"
+    IDS_X_SWAP_TO_CLIENT    "換至下載這個檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SWAP_FROM_CLIENT  "換至下載另一個檔案"
+    IDS_X_MP_UNLOCK_CLIENT  "將客戶端解鎖於這個檔案"
+    IDS_X_MP_UNLOCKFROM_CLIENT "解鎖於另一個檔案"
+    IDS_X_MP_LOCK_CLIENT    "將客戶端鎖定於這個檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DROP_CLIENT       "捨棄這個客戶端"
+    IDS_X_STOP_CLIENT       "放棄來自這個客戶端的下載"
+    IDS_X_SWAP_TO_A4AF      "轉移全部A4AF到這個檔案"
+    IDS_X_SWAP_FROM_A4AF    "轉移全部A4AF到其它檔案"
+    IDS_X_A4AF_MENU         "A4AF處理"
+    IDS_X_SWAPED_TO_SOURCE  "已轉移%i來源到: %s"
+    IDS_X_SWAPED_FROM_SOURCE "已轉移%i來源從: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CD_PV             "版本: %u"
+    IDS_X_CD_US             "不支援"
+    IDS_X_CD_PV4            "支援, NAT連線埠%u, 連線%s"
+    IDS_X_CD_PROTOCOL       "延伸協定"
+    IDS_X_CD_COMMENTS       "註解:"
+    IDS_X_CD_INCPARTS       "未完成區塊:"
+    IDS_X_CD_SCT            "子區塊傳輸:"
+    IDS_X_CD_NEOPROT        "Mod協定:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CD_NEOXS          "Neo延伸交換:"
+    IDS_X_NAT               "NAT Traversal"
+    IDS_X_NAT_INFO          "網絡位址轉換(NAT)的穿透(Traversal)功能相關設定"
+    IDS_X_NAT_SUPPORT_ENABLE "啟用NAT Traversal"
+    IDS_X_NAT_SUPPORT_ENABLE_INFO 
+                            "啟用UDP的NAT Traversal, 這個功能將允許低-ID之間的互相連線"
+    IDS_X_NAT_PING_INTERVALS "Ping間隔"
+    IDS_X_NAT_PING_INTERVALS_INFO "NAT Ping的時間間隔"
+    IDS_X_NAT_PING_MAX_FAILS "最大Ping失敗數"
+    IDS_X_NAT_PING_MAX_FAILS_INFO 
+                            "達到這個最大Ping失敗數後將認為連線通道已損壞"
+    IDS_X_LOWID_CALLBACK    "低-ID上傳回調"
+    IDS_X_LOWID_CALLBACK_INFO 
+                            "對等待上傳的客戶啟用伺服器/Kad回調.\n半選中狀態將僅針對NAT-T客戶設定(推薦使用)"
+    IDS_X_REUSE_TCP_PORT    "重新使用TCP連線埠"
+    IDS_X_REUSE_TCP_PORT_INFO 
+                            "為外出TCP連線使用監聽TCP連線埠, 這將會在TCP上啟用Full Cone NAT Traversal"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_MAX_BC_DOWNLOAD_INFO 
+                            "允許的最大下載, 輸入0可進行自動估計"
+    IDS_X_USE_DBT           "使用下載頻寬節流系統"
+    IDS_X_USE_DBT_INFO      "當您設定了下載限制時, 推薦使用這個功能, 它可以更有效地使用可用頻寬"
+    IDS_X_NETWORK_TWEAKS    "網絡調整"
+    IDS_X_NETWORK_TWEAKS_INFO "Neo的網絡設定"
+    IDS_X_MANAGE_CONNECTIONS "管理活動連線"
+    IDS_X_MANAGE_CONNECTIONS_INFO 
+                            "在可用頻寬範圍內管理活動連接數"
+    IDS_X_NAFC              "網絡適配器反饋控制(NAFC)"
+    IDS_X_NAFC_INFO         "網絡適配器反饋控制(Network Adapter Feedback Control)(NAFC)功能將會直接根據網絡適配器的狀態估計頻寬的使用"
+    IDS_X_NAFC_ENABLE       "啟用NAFC"
+    IDS_X_NAFC_ENABLE_INFO  "當一個自訂適配器被指定後, NAFC將在獨立模式下檢查這個連線, 設定為半選中狀態將停用這個檢查"
+    IDS_X_NAFC_ADAPTER      "自訂適配器"
+    IDS_X_NAFC_ADAPTER_INFO "選擇您的網際網路 IP"
+    IDS_X_NAFC_ADAPTER_MASK "IP掩碼"
+    IDS_X_NAFC_ADAPTER_MASK_INFO 
+                            "選擇IP掩碼, 255.255.0.0為預設值, 當您使用的是靜態網際網路 IP時請使用255.255.255.255"
+    IDS_X_BIND              "綁定到這個適配器"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CD_NAT_TRAVERSAL  "NAT Traversal:"
+    IDS_X_NAT_TRAVERSAL     "NAT Traversal"
+    IDS_X_CD_S              "支援"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_XS_WAITCBK        "等待交換回調"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ERR_KNOWNPREFSMET_UNKNOWN_VERSION 
+                            "錯誤: 檔案knownprefs.met未知, 無法載入已知的參數設定"
+    IDS_X_ERR_KNOWNPREFSMET_ENTRY_CORRUPT 
+                            "knownprefs.met項目%s已損壞"
+    IDS_X_ERR_KNOWNPREFSASYNCHRONIZED 
+                            "在known.met中未發現knownprefs.met項目%s"
+    IDS_X_ERR_KNOWNPREFSMET_BAD 
+                            "錯誤: 檔案knownprefs.met已損壞, 無法載入已知的參數設定"
+    IDS_X_ERR_KNOWNPREFSMET_UNKNOWN 
+                            "當讀取knownprefs.met時發生意外的檔案錯誤: %s, 無法載入已知的參數設定"
+    IDS_X_ERR_COMMENTSMET_UNKNOWN_VERSION 
+                            "comments.met檔案版本未知, 無法載入"
+    IDS_X_ERR_COMMENTSMET_ENTRY_CORRUPT 
+                            "檔案%s的comments.met項目已損壞"
+    IDS_X_ERR_COMMENTSASYNCHRONIZED 
+                            "在known.met中未發現comments.met項目%s"
+    IDS_X_ERR_COMMENTSMET_BAD 
+                            "錯誤: 檔案comments.met已損壞, 無法載入註解清單"
+    IDS_X_ERR_COMMENTSMET_UNKNOWN 
+                            "comments.met檔案版本未知, 無法載入"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UNSHARE_FILE      "不分享這個檔案"
+    IDS_X_CONFIRM_FILEUSHARE 
+                            "您真的想將這個檔案從分享清單中移除嗎?"
+    IDS_X_ERR_UNSHARE       "檔案%s不是一個獨立的已分享檔案, 您不能以這個方式停止分享."
+    IDS_X_SHARE_FILE        "分享單個檔案"
+    IDS_X_DROPED_FILES      "是否增加以下檔案到分享清單:\n\n"
+    IDS_X_DROPED_FOLDERS    "是否增加以下資料夾和子資料夾到分享清單:\n是 - 連同子資料夾一起增加\n否 - 僅增加母資料夾\n取消 - 不增加\n\n"
+    IDS_X_SHARED            "已分享檔案"
+    IDS_X_KNOWN             "已知檔案"
+    IDS_X_KN_FILES          "已知檔案"
+    IDS_X_ERR_SAVENEO       "錯誤: 當儲存Neo檔案時: %s(%s)"
+    IDS_X_ERR_OPENNEO       "錯誤: 開啟part.met.neo檔案失敗!(%s=>%s)"
+    IDS_X_ERR_BADNEOVERSION "錯誤: part.met.neo檔案版本無效!(%s=>%s)"
+    IDS_X_ERR_NEOMEOCORRUPT "錯誤: %s(%s)已經損壞, 無法載入檔案"
+    IDS_X_ERR_FILEERROR     "當讀取%s(%s)時發生意外的檔案錯誤: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_EXPORTPARTS_ERR_INCOMPLET "未完成區塊%i跳過輸出."
+    IDS_X_EXPORTPARTS_ERR_CANTREAD 
+                            "輸出失敗: 不能讀取%s在區塊%i中!"
+    IDS_X_EXPORTPARTS_PARTIMPORTEDGOOD "區塊%i: 輸出."
+    IDS_X_EXPORTPARTS_ERR_FILE 
+                            "輸出失敗, 例外檔案%s, 當輸出區塊%i(從%s到%s)時!"
+    IDS_X_EXPORTPARTS_EXPORTFINISH 
+                            "輸出完成. %i區塊已輸出%i跳過%s."
+    IDS_X_IMPORTPARTS_ERR_NULL 
+                            "輸入失敗: 嘗試輸入無效區塊!"
+    IDS_X_IMPORTPARTS_ERR_ALREADYCOMPLETE 
+                            "輸入失敗: 您不能輸入到一個已完成下載的檔案."
+    IDS_X_IMPORTPARTS_ERR_HASHSETINCOMPLETE 
+                            "%s的片段切細值不完整(%i切細在%i區塊)."
+    IDS_X_IMPORTPARTS_ERR_FILETOOSMALL "輸入失敗: 檔案太小."
+    IDS_X_IMPORTPARTS_ERR_CANTOPENFILE "輸入失敗: 無法開啟%s."
+    IDS_X_IMPORTPARTS_IMPORTSTART "輸入%u區塊到%s."
+    IDS_X_IMPORTPARTS_FOUND "區塊%i: 已找到%i."
+    IDS_X_IMPORTPARTS_NOT_FOUND "區塊%i: 未找到!"
+    IDS_X_IMPORTPARTS_PARTSKIPPEDALREADYCOMPLETE 
+                            "區塊%i: 跳過, 已完成."
+    IDS_X_IMPORTPARTS_PARTIMPORTEDGOOD "區塊%i: 已輸入."
+    IDS_X_IMPORTPARTS_INCOMPLETE 
+                            "將檔案%s未完成區塊輸入到這個下載的空區塊\n如果是的話, 所有區塊將被標記為錯誤並且AICH將嘗試去還原它們."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_IMPORTPARTS_PARTIMPORTEDBAD "區塊%i: 輸入給ICH處理."
+    IDS_X_IMPORTPARTS_PARTSKIPPEDDONTMATCH 
+                            "區塊%i: 跳過, 與已完成的區塊部分不相符."
+    IDS_X_IMPORTPARTS_BLOCKS 
+                            "是否要將檔案%s的未完成區塊輸入到這個下載的未完成區塊? \n如果是, 所有區塊將被標記為損壞並且AICH將嘗試去還原它們. 如果失敗, 所有已經下載這個這區塊的資料都將會失去"
+    IDS_X_IMPORTPARTS_IMPORTFINISH 
+                            "載入到%s已完成: %i區塊已輸入; %i未完成區塊已輸入; %i區塊跳過"
+    IDS_X_IMPORTPARTS_ERR_FILE 
+                            "輸入失敗, 例外檔案%s, 當輸入區塊%i(從%s到%s)時!"
+    IDS_X_PREALOCATE        "提前分配空間"
+    IDS_X_AUTO_TEMP_DIR     "自動選擇"
+    IDS_X_DL_FOLDER         "臨時目錄"
+    IDS_X_MTD_MOVE          "移動區塊檔案到臨時目錄"
+    IDS_X_Q_UNLOADDL2       "您確定您想要停止並且卸載這個檔案嗎?\n"
+    IDS_X_Q_UNLOADDL        "您確定您想要停止並且卸載這些檔案嗎?\n"
+    IDS_X_TEMPMOVE2         "您確定您想要移動這些臨時檔案嗎?\n"
+    IDS_X_TEMPMOVE          "您確定您想要移動這些臨時檔案嗎?\n"
+    IDS_X_MTD_UNLOAD        "卸載區塊檔案"
+    IDS_X_TEMPDIRMENUTITLE  "臨時目錄管理"
+    IDS_X_MTD_LOAD          "載入區塊檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_MTD_LOADDIR       "載入臨時目錄"
+    IDS_X_MTD_SELECT        "選擇預設臨時目錄"
+    IDS_X_MOVING            "正在移動"
+    IDS_X_ERR_FILEMOVETHREAD "建立檔案移動執行緒失敗"
+    IDS_X_ERR_BADTEMPDIR    "臨時目錄%s不存在, 檔案%s不能被移動到這個處"
+    IDS_X_ERR_NOTEMPDIRSPACE 
+                            "臨時目錄%s的可用空間不足, %s不能被移動到這個處"
+    IDS_X_ERR_MOVEINGFAILED "當移動%s時發生意外的檔案錯誤. 檔案已暫停, 請重新啟動eMule後再試, 或關閉eMule後手動移動檔案"
+    IDS_X_ERR_MOVE          "移動%s到%s失敗"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VIEW3             " (與子目錄一同分享)"
+    IDS_X_ADD_UNC           "增加UNC目錄"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_BANDWIDTH_CONTROL "頻寬控制設定"
+    IDS_X_BANDWIDTH_CONTROL_INFO 
+                            "所有可用於控制您客戶端的頻寬使用的設定"
+    IDS_X_BANDWIDTH_GENERAL "一般頻寬設定"
+    IDS_X_BANDWIDTH_GENERAL_INFO 
+                            "上傳與下載管理的一般設定"
+    IDS_X_INCLUDE_OVERHEAD  "包括額外支出"
+    IDS_X_INCLUDE_OVERHEAD_INFO "包括頻寬限制裡的額外支出"
+    IDS_X_INCLUDE_TCP_ACK   "包括ACK封包"
+    IDS_X_INCLUDE_TCP_ACK_INFO 
+                            "精確測速, IP協定的額外支出將被計算"
+    IDS_X_CONNECTIONS_OVERHEAD "包括連線支出"
+    IDS_X_CONNECTIONS_OVERHEAD_INFO 
+                            "精確測速, IP連線協定的額外支出將被計算"
+    IDS_X_UPLOAD_MANAGEMENT "上傳管理"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UPLOAD_MANAGEMENT_INFO 
+                            "關於客戶端上傳行為的配置"
+    IDS_X_MINIMIZE_OPENED_SLOTS "將開啟的通道數減到最少"
+    IDS_X_MINIMIZE_OPENED_SLOTS_INFO "將開啟的通道數減到最少"
+    IDS_X_CUMULATE_BANDWIDTH "累積頻寬"
+    IDS_X_CUMULATE_BANDWIDTH_INFO "一個通道的累積的頻寬"
+    IDS_X_BADWOLFS_UPLOAD   "Badwolf上傳通道"
+    IDS_X_BADWOLFS_UPLOAD_INFO 
+                            "使用Badwolf上傳通道管理\n使某些Tricky通道作為緩衝一直開啟(""最大保留通道""限制在10K以上, 1代表較少). 非常推薦使用這個功能"
+    IDS_X_UPLOAD_SLOT_TWEAKS "上傳通道設定"
+    IDS_X_UPLOAD_SLOT_TWEAKS_INFO 
+                            "上傳通道設定, 如果您的網速非常快, 推薦增加每個通道的上傳數量"
+    IDS_X_MAX_SLOTS         "最大上傳通道數"
+    IDS_X_MAX_SLOTS_INFO    "可以允許達到的最大上傳通道數"
+    IDS_X_MIN_SLOTS         "最小上傳通道數"
+    IDS_X_MIN_SLOTS_INFO    "一般都能達到的最小上傳通道數"
+    IDS_X_UL_PER_SLOT       "每個通道的上傳"
+    IDS_X_UL_PER_SLOT_INFO  "每個通道的上傳速度, 如果您的網速非常快, 推薦增加每個通道的上傳, 檢查並停用自動調整"
+    IDS_X_UL_RES_SLOT       "最大保留通道"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UL_RES_SLOT_INFO  "保留上傳通道的最大數量"
+    IDS_X_INCREASE_TRICKLE_SPEED "增加流量速度"
+    IDS_X_INCREASE_TRICKLE_SPEED_INFO 
+                            "強制設定一個指定的最小流量速度"
+    IDS_X_OPEN_MORE_SLOTS   "必要時開啟更多通道"
+    IDS_X_OPEN_MORE_SLOTS_INFO 
+                            "如果目前通道未能使頻寬充分利用, 那麼將會開啟更多通道, 強烈推薦使用這個功能"
+    IDS_X_CHECK_SLOT_DATARATE_SLOTS "檢查通道資料速度"
+    IDS_X_CHECK_SLOT_DATARATE_SLOTS_INFO 
+                            "如果某通道超過推薦速度, 或一個流量通道有一個異常高的速度, 這個時更多通道將被開啟"
+    IDS_X_TRICKLE_BLOCKING  "Blocking Socket流量"
+    IDS_X_TRICKLE_BLOCKING_INFO "降級Blocking Socket的流量"
+    IDS_X_DROP_BLOCKING     "必要時捨棄Blocking客戶端"
+    IDS_X_DROP_BLOCKING_INFO 
+                            "如果通道過多, 將捨棄Blocking客戶端"
+    IDS_X_ZZ_RATIO          "使用工作階段比例"
+    IDS_X_ZZ_RATIO_INFO     "只要這個工作階段比例不違反規定, 將允許無限制的下載"
+    IDS_X_UPLOAD_SYSTEM     "上傳系統"
+    IDS_X_UPLOAD_SYSTEM_INFO "選擇客戶端對於封包傳送的管理方法"
+    IDS_X_USE_BLOCKED_QUEUE "使用加速傳送"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_USE_BLOCKED_QUEUE_INFO "對於忙碌的Socket進行加速處理"
+    IDS_X_BC_TIME_UP        "傳送間隔"
+    IDS_X_BC_TIME_UP_INFO   "封包傳送的時間間隔(單位:毫秒)"
+    IDS_X_BC_PRIORITY_UP    "執行緒優先權"
+    IDS_X_BC_PRIORITY_UP_INFO "上傳頻寬節流執行緒優先權"
+    IDS_X_UPLOAD_BUFFER     "Socket緩衝"
+    IDS_X_UPLOAD_BUFFER_INFO 
+                            "為檔案傳輸Socket設定自訂上傳Socket緩衝區, 如設定為半選中狀態將使用動態緩衝(推薦)"
+    IDS_X_DOWNLOAD_SYSTEM   "下載系統"
+    IDS_X_DOWNLOAD_SYSTEM_INFO 
+                            "選擇客戶端對於封包接收的管理方法"
+    IDS_X_BC_TIME_DOWN      "接受間隔"
+    IDS_X_BC_TIME_DOWN_INFO "封包接收的時間間隔(單位:毫秒)"
+    IDS_X_BC_PRIORITY_DOWN  "執行緒優先權"
+    IDS_X_BC_PRIORITY_DOWN_INFO "下載頻寬節流執行緒優先權"
+    IDS_X_DOWNLOAD_BUFFER   "Socket緩衝"
+    IDS_X_DOWNLOAD_BUFFER_INFO 
+                            "為檔案傳輸Socket設定自訂下載Socket緩衝區, 如設定為半選中狀態將使用動態緩衝"
+    IDS_X_DATARATE_SAMPLES  "平均速度計算時間"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DATARATE_SAMPLES_INFO "計算客戶端資料傳輸速度的平均時間(單位:秒)"
+    IDS_X_BANDWIDTH_UPLOAD  "上傳控制設定"
+    IDS_X_BANDWIDTH_UPLOAD_INFO "有關上傳頻寬控制的設定"
+    IDS_X_UPLOAD_CONTROL_NONE "無"
+    IDS_X_UPLOAD_CONTROL_NONE_INFO "無速度控制"
+    IDS_X_UPLOAD_CONTROL_NAFC "NAFC控制"
+    IDS_X_UPLOAD_CONTROL_NAFC_INFO 
+                            "使用網絡適配器反饋控制, 注意: 最大下載速度必須適當設定, 以與您的真實連線能力相對應!"
+    IDS_X_UPLOAD_CONTROL_USS "上傳速度檢測"
+    IDS_X_UPLOAD_CONTROL_USS_INFO "使用Ping估算適當的上傳速度"
+    IDS_X_BASE_PING_UP      "最大Ping"
+    IDS_X_BASE_PING_UP_INFO "允許的最大Ping值"
+    IDS_X_PING_UP_TOLERANCE "Ping容差"
+    IDS_X_PING_UP_TOLERANCE_INFO 
+                            "最大Ping將以最低Ping值和輸入數值為基礎估算, 請輸入1到24之間的數值, 1-低上傳快速SURF, 24-高上傳慢速SURF"
+    IDS_X_PING_UP_PROZENT   "最大百分比"
+    IDS_X_PING_UP_PROZENT_INFO 
+                            "最大Ping將根據最低Ping的百分比估算"
+    IDS_X_DYN_UP_GOING_DIVIDER "使用手動分配"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DYN_UP_GOING_DIVIDER_INFO 
+                            "使用手動設定上行分配與下行分配, 自動計算"
+    IDS_X_DYN_UP_GOING_UP_DIVIDER "上行分配"
+    IDS_X_DYN_UP_GOING_UP_DIVIDER_INFO "手動上行分配"
+    IDS_X_DYN_UP_GOING_DOWN_DIVIDER "下行分配"
+    IDS_X_DYN_UP_GOING_DOWN_DIVIDER_INFO "手動下行分配"
+    IDS_X_MIN_BC_UPLOAD     "最小上傳"
+    IDS_X_MIN_BC_UPLOAD_INFO "允許的最小上傳"
+    IDS_X_MAX_BC_UPLOAD     "最大上傳"
+    IDS_X_MAX_BC_UPLOAD_INFO 
+                            "允許的最大上傳, 輸入0可進行自動估計"
+    IDS_X_BANDWIDTH_DOWNLOAD "下載控制設定"
+    IDS_X_BANDWIDTH_DOWNLOAD_INFO "有關下載頻寬控制的設定"
+    IDS_X_DOWNLOAD_CONTROL_NONE "無"
+    IDS_X_DOWNLOAD_CONTROL_NONE_INFO "無速度控制"
+    IDS_X_DOWNLOAD_CONTROL_NAFC "NAFC控制"
+    IDS_X_DOWNLOAD_CONTROL_NAFC_INFO 
+                            "使用網絡適配器反饋控制, 注意: 最大下行必須適當設定, 以與您的真實連線能力相對應!"
+    IDS_X_DOWNLOAD_CONTROL_DSS "下載速度檢測"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DOWNLOAD_CONTROL_DSS_INFO 
+                            "使用Ping估算適當的下載速度"
+    IDS_X_BASE_PING_DOWN    "最大Ping"
+    IDS_X_BASE_PING_DOWN_INFO "允許的最大Ping值"
+    IDS_X_PING_DOWN_TOLERANCE "Ping容差"
+    IDS_X_PING_DOWN_TOLERANCE_INFO 
+                            "最大Ping將以最低Ping值和輸入數值為基礎估算, 請輸入1到24之間的數值, 1-低下載快速SURF, 24-高下載慢速SURF"
+    IDS_X_PING_DOWN_PROZENT "最大百分比"
+    IDS_X_PING_DOWN_PROZENT_INFO 
+                            "最大Ping將根據最低Ping的百分比估算"
+    IDS_X_DYN_DOWN_GOING_DIVIDER "使用手動分配"
+    IDS_X_DYN_DOWN_GOING_DIVIDER_INFO 
+                            "使用手動設定上行分配與下行分配, 自動計算"
+    IDS_X_DYN_DOWN_GOING_UP_DIVIDER "上行分配"
+    IDS_X_DYN_DOWN_GOING_UP_DIVIDER_INFO "手動上行分配"
+    IDS_X_DYN_DOWN_GOING_DOWN_DIVIDER "下行分配"
+    IDS_X_DYN_DOWN_GOING_DOWN_DIVIDER_INFO "手動下行分配"
+    IDS_X_MIN_BC_DOWNLOAD   "最小下載"
+    IDS_X_MIN_BC_DOWNLOAD_INFO "允許的最小下載"
+    IDS_X_MAX_BC_DOWNLOAD   "最大下載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_BIND_INFO         "綁定所有Socket到這個自訂適配器"
+    IDS_X_MSS               "自動最大區段大小|手動MSS"
+    IDS_X_MSS_INFO          "設定您網際網路連線的MSS, 預設值是1300\n選中後將不會自動檢查NAFC選擇"
+    IDS_X_USE_DOUBLE_SEND_SIZE "使用雙倍傳送大小"
+    IDS_X_USE_DOUBLE_SEND_SIZE_INFO 
+                            "一次傳送兩個區段以允許分享通用ACK的封包, 推薦使用"
+    IDS_X_PINGER            "Pinger設定"
+    IDS_X_PINGER_INFO       "Pinger一般用來檢查連線與判斷速度"
+    IDS_X_CHECK_CONNECTION  "檢查連線"
+    IDS_X_CHECK_CONNECTION_INFO 
+                            "當客戶端處於獨立模式下時, 在失去連線時得知這一情況是非常重要的, 因這個推薦使用這個功能"
+    IDS_X_PING              "Ping模式"
+    IDS_X_PING_INFO         "指定使用的Ping的類型"
+    IDS_X_PING_ICMP         "ICMP"
+    IDS_X_PING_ICMP_INFO    "這是的標準的方法, 它使用了Windows程式庫"
+    IDS_X_PING_RAW          "RAW"
+    IDS_X_PING_RAW_INFO     "這個方法更為精確, 它使用自帶的RAW Socket"
+    IDS_X_PING_UDP          "UDP"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PING_UDP_INFO     "這個方法佔用的支出比以上兩種方法更少"
+    IDS_X_NOTTL             "無TTL終止"
+    IDS_X_NOTTL_INFO        "無活動時間(Time-to-Live)(TTL)終止"
+    IDS_X_HOST_TO_PING      "Ping自訂伺服器"
+    IDS_X_HOST_TO_PING_INFO "輸入一個需要Ping的自訂伺服器"
+    IDS_X_STATIC_LOWEST_PING "靜態最低Ping"
+    IDS_X_STATIC_LOWEST_PING_INFO 
+                            "最低Ping值將在啟動時被檢測出, 但是如果之後檢測出一個更低的Ping值, 則這個數值將被更新. 使用這個選項可避免這個情況, 這在連線受損時很有用"
+    IDS_X_PING_SVR_ERR      "Ping的網址/IP無效! 請重新輸入一個有效的"
+    IDS_X_PRIO_HIGH         "高"
+    IDS_X_PRIO_ABOVE        "高於一般"
+    IDS_X_PRIO_NORMAL       "一般"
+    IDS_X_PRIO_BELOW        "低於一般"
+    IDS_X_PRIO_LOW          "低"
+    IDS_X_NAFC_SELECT       "NAFC: 已選擇適配器: %s; IP: %s"
+    IDS_X_TRAYDLG_USS_SPEED "上傳控制"
+    IDS_X_TRAYDLG_DSS_SPEED "下載控制"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_TRAYDLG_MINUP     "最小上傳:"
+    IDS_X_TRAYDLG_MAXUP     "最大上傳:"
+    IDS_X_TRAYDLG_STREAM    "最大流量:"
+    IDS_X_TRAYDLG_PING      "最大Ping:"
+    IDS_X_TRAYDLG_SURF      "網絡SURF:"
+    IDS_X_TRAYDLG_SURF_F    "快速"
+    IDS_X_TRAYDLG_SURF_N    "一般"
+    IDS_X_TRAYDLG_SURF_S    "緩慢"
+    IDS_X_TRAYDLG_MINDOWN   "最小下載:"
+    IDS_X_TRAYDLG_MAXDOWN   "最大下載:"
+    IDS_X_KBYTESEC          "KB/s"
+    IDS_X_SS_PREPARING      "準備中..."
+    IDS_X_SS_TIMEOUT        "逾時"
+    IDS_X_SS_FAILED         "已失敗"
+    IDS_X_CD_ADAPTER        "網絡適配器"
+    IDS_X_IP                "IP:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CD_PINGER         "Pinger"
+    IDS_X_PING_SERVER       "Ping伺服器"
+    IDS_X_SS_WORKING        "工作"
+    IDS_X_BIND_SOCKETS      "正在綁定Socket到適配器: %s"
+    IDS_X_PW_NETWORK        "網絡設定"
+    IDS_X_PW_BANDWIDTH      "頻寬控制"
+    IDS_X_UPLOAD_MODE       "上傳控制模式"
+    IDS_X_UP                " 上"
+    IDS_X_UP_STREAM         "最大適配器上行流量"
+    IDS_X_DOWNLOAD_MODE     "下載控制模式"
+    IDS_X_DOWN              " 下"
+    IDS_X_MANAGE_CONNECTIONS_FACTOR "管理活動連線係數"
+    IDS_X_SCHED_MODE        "控制模式: 0-無\n1-NAFC\n2-SS"
+    IDS_X_SCHED_BOOL        "請輸入新的布爾值: 1-true; 0-false"
+    IDS_X_DOWN_STREAM       "最大適配器下行流量"
+    IDS_X_ST_DLSLOTSNOOVERHEAD "下載 目前(不包括額外支出)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ST_DLADAPTER      "適配器下行"
+    IDS_X_ST_DLIMIT         "下載限制"
+    IDS_X_ST_ULADAPTER      "適配器上行"
+    IDS_X_ST_ULIMIT         "上傳限制"
+    IDS_X_ST_CPU            "CPU使用量"
+    IDS_X_ST_MEM            "記憶體使用量"
+    IDS_X_ST_SRC            "總來源"
+    IDS_X_ST_QUEUE          "在佇列中"
+    IDS_X_ST_PING           "Ping"
+    IDS_X_ST_DLSLOTSOVERHEAD "目前(包括額外支出)"
+    IDS_X_ST_ULSLOTSOVERHEAD "目前(包括額外支出)"
+    IDS_X_TCP_DISABLE_NAGLE "停用Nagle運算法則"
+    IDS_X_TCP_DISABLE_NAGLE_INFO 
+                            "停用延遲可以增強Socket性能"
+    IDS_X_USE_HYPER_DOWNLOAD "使用加速下載"
+    IDS_X_USE_HYPER_DOWNLOAD_INFO 
+                            "這個功能可以加速從Socket接收資料, 因而連線迅速\n半選中狀態將僅針對TCP(使用LanCast時推薦)"
+    IDS_X_ERR_LANCAST_NOTCONNECTED "LanCast未工作"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LANCAST           "LanCast"
+    IDS_X_LANSUPPORT        "LAN支援"
+    IDS_X_LANSUPPORT_INFO   "區域網路(Local Area Network)(LAN)的各種功能"
+    IDS_X_LAN_UPLOAD        "LAN上傳設定"
+    IDS_X_LAN_UPLOAD_INFO   "LAN上傳的設定"
+    IDS_X_MAX_LAN_UPLOAD    "最大LAN上傳"
+    IDS_X_MAX_LAN_UPLOAD_INFO "最大LAN上傳速度, 輸入0代表無限制"
+    IDS_X_LAN_UPLOAD_SLOTS  "LAN通道設定"
+    IDS_X_LAN_UPLOAD_SLOTS_INFO "LanCast的上傳通道設定"
+    IDS_X_MAX_LAN_SLOTS     "最大LAN上傳通道"
+    IDS_X_MAX_LAN_SLOTS_INFO 
+                            "可同時下載的最大使用者數"
+    IDS_X_LAN_UPLOAD_BUFFER "Socket緩衝"
+    IDS_X_LAN_UPLOAD_BUFFER_INFO "設定自訂上傳Socket緩衝區"
+    IDS_X_LAN_DOWNLOAD      "LAN下載設定"
+    IDS_X_LAN_DOWNLOAD_INFO "LAN下載的設定"
+    IDS_X_MAX_LAN_DOWNLOAD  "最大LAN下載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_MAX_LAN_DOWNLOAD_INFO "最大LAN下載速度, 輸入0代表無限制"
+    IDS_X_LAN_DOWNLOAD_BUFFER "Socket緩衝"
+    IDS_X_LAN_DOWNLOAD_BUFFER_INFO "設定自訂下載Socket緩衝區"
+    IDS_X_LAN_ADAPTER       "自訂適配器"
+    IDS_X_LAN_ADAPTER_INFO  "指定一個LanCast使用的適配器, 當沒有指定任何適配器時, 所有的可用適配器將被使用"
+    IDS_X_LAN_MASK          "適配器掩碼"
+    IDS_X_LAN_MASK_INFO     "當您只為適配器指定了局部IP時, 必須設定掩碼; 當IP完整時, 掩碼可以為空, 因為它將被自動搜尋取得"
+    IDS_X_LANCAST_MAIN      "LanCast設定"
+    IDS_X_LANCAST_MAIN_INFO "LanCast是一種在區域網路中啟用檔案快速分享的功能"
+    IDS_X_LAN_ENABLE        "啟用LanCast"
+    IDS_X_LAN_ENABLE_INFO   "啟用LanCast系統"
+    IDS_X_LAN_GROUPE        "自訂群組"
+    IDS_X_LAN_GROUPE_INFO   "使用自訂LanCast群組"
+    IDS_X_LAN_PORT          "連線埠"
+    IDS_X_LAN_PORT_INFO     "群組連線埠"
+    IDS_X_LAN_REASK         "重新要求設定"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LAN_REASK_INFO    "LanCast客戶端重新要求的時間間隔"
+    IDS_X_LAN_GET_SRC_TIME  "來源搜尋間隔"
+    IDS_X_LAN_GET_SRC_TIME_INFO 
+                            "LanCast將在這個時間間隔後搜尋來源(單位:分鐘)"
+    IDS_X_LAN_DL_REASK      "下載重新要求間隔"
+    IDS_X_LAN_DL_REASK_INFO "將在這個時間間隔後重新要求LAN客戶端下載(單位:分鐘)"
+    IDS_X_LAN_NNP_REASK     "無所需區塊重新要求間隔"
+    IDS_X_LAN_NNP_REASK_INFO 
+                            "沒有我們所需要的區塊的LAN客戶端將在這個間隔後被重新要求下載(單位:分鐘)"
+    IDS_X_LAN_BROADCAST     "Broadcast 切細功能"
+    IDS_X_LAN_BROADCAST_INFO 
+                            "當您在一個擁有舊客戶端的LAN中時, 為增強兼容性應該啟用這個選項(單位:秒)"
+    IDS_X_USE_LAN_MULTI_TRANSFER "使用LAN多檔案傳輸"
+    IDS_X_USE_LAN_MULTI_TRANSFER_INFO 
+                            "允許同時傳輸多個檔案\n如果在您的LAN中有較舊的客戶端的話則應停用這個功能, 因為版本過舊的客戶端不能處理多檔案連線"
+    IDS_X_LANCAST_UNK_OPCODE "LanCast: 未知操作碼"
+    IDS_X_LANCAST_ERR_MULITC "LanCast: 接受多點傳送資料錯誤"
+    IDS_X_ERR_LANCAST_TTL   "LanCast: 警告; 設定TTL錯誤"
+    IDS_X_LANCAST_JOIN_FAILED 
+                            "加入LanCast Broadcast群組%s於連線埠%u失敗"
+    IDS_X_LANCAST_JOIN_SUCCEEDED 
+                            "成功加入LanCast Broadcast群組%s於連線埠%u"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LANCAST_LEAVE_FAILED "LanCast: 離開LAN Broadcast群組失敗"
+    IDS_X_LANCAST_LEAVE_SUCCEEDED 
+                            "LanCast: 成功離開LAN Broadcast群組"
+    IDS_X_PW_LANCAST        "LAN調整"
+    IDS_X_QUICK_START       "快速開始"
+    IDS_X_QUICK_START_INFO  "在eMule啟動階段連線上限將會顯著提高.\n設定為半選中狀態將在伺服器或Kad連線建立之後使用快速開始功能."
+    IDS_X_QUICK_START_ENABLE "啟動時執行快速開始"
+    IDS_X_QUICK_START_ENABLE_INFO 
+                            "快速開始功能將會在eMule啟動時執行, 注意: 您也可以在任何時候從工具選單中手動執行快速開始功能"
+    IDS_X_QUICK_START_TIME  "最大快速開始時間"
+    IDS_X_QUICK_START_TIME_INFO 
+                            "快速開始功能持續執行的最大時間"
+    IDS_X_QUICK_START_TIME_PER_FILE "每個檔案時間"
+    IDS_X_QUICK_START_TIME_PER_FILE_INFO 
+                            "每個檔案的快速開始時間(單位:秒)"
+    IDS_X_QUICK_START_MAXPER5 "每5秒最大連接數"
+    IDS_X_QUICK_START_MAXPER5_INFO 
+                            "推薦使用一般設定的200%"
+    IDS_X_QUICK_START_MAXHALF "最大半開連接數"
+    IDS_X_QUICK_START_MAXHALF_INFO 
+                            "推薦使用一般設定的200%"
+    IDS_X_QUICK_START_MAXCON "最大開啟連接數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_QUICK_START_MAXCON_INFO 
+                            "推薦使用一般設定的200%"
+    IDS_X_ON_ID_CHANGE      "當ID改變時"
+    IDS_X_ON_ID_CHANGE_INFO "設定當您的ID或IP改變時要執行的操作"
+    IDS_X_CHECK_ID_CHANGES  "檢測ID/IP改變"
+    IDS_X_CHECK_ID_CHANGES_INFO 
+                            "監控您的客戶端的ID或IP的改變, 設定為半選中狀態將會不報告Kad範圍內的改變"
+    IDS_X_CHECK_L2H_CHANGES "也檢測低-ID/高-ID的改變"
+    IDS_X_CHECK_L2H_CHANGES_INFO 
+                            "不推薦使用這個選項, 當您的ID狀態改變時您仍然可以連線"
+    IDS_X_INFORM_ON_ID_CHANGE "當ID改變時通知客戶端"
+    IDS_X_INFORM_ON_ID_CHANGE_INFO 
+                            "所有下載資源和在佇列中等待的客戶端將獲得ID改變的通知"
+    IDS_X_REASK_ON_ID_CHANGE "當ID改變時重新要求來源"
+    IDS_X_REASK_ON_ID_CHANGE_INFO 
+                            "當ID改變時重新要求所有下載來源, 不推薦使用這個功能, 您可以使用""當ID改變時通知客戶端""功能來代替這個功能"
+    IDS_X_QUICK_START_ON_ID_CHANGE "當ID改變時執行快速開始"
+    IDS_X_QUICK_START_ON_ID_CHANGE_INFO 
+                            "如果您使用快速開始功能您將同樣可以在這個情況下使用這個功能"
+    IDS_X_RECONNECTKAD_ON_ID_CHANGE "當IP改變時重連Kad"
+    IDS_X_RECONNECTKAD_ON_ID_CHANGE_INFO 
+                            "當您的公網IP改變時Kad將會被重新連線, 推薦使用"
+    IDS_X_REBIND_SOCKETS_ON_IP_CHANGE "當IP改變時重新綁定Socket"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_REBIND_SOCKETS_ON_IP_CHANGE_INFO 
+                            "不推薦使用, 但在某些情況下您可能會在自動ISP重新連線之後出現低-ID的問題, 那時這個功能將會給您一些幫助"
+    IDS_FIREWALLED_CHECK    "重新檢查Kad防火牆"
+    IDS_FIREWALLED_CHECK_INFO 
+                            "在這個時間間隔後重新檢查Kad防火牆狀態"
+    IDS_LOW_ID_RETRY        "低-ID時重新連線"
+    IDS_LOW_ID_RETRY_INFO   "當您得到低-ID的時候重試伺服器連線, 推薦使用這個選項, 但請記住您必須有能力得到一個高-ID, 不然的話它只會產生額外的支出"
+    IDS_X_ID_CHANGE         "發現IP從%s(%sID)變至%s(%sID)..."
+    IDS_X_INFORM_ON_IP_CHANGE "所有客戶端將被通知"
+    IDS_X_QUICK_START_STOP  "停止快速開始"
+    IDS_X_QUICK_START_START "啟動快速開始"
+    IDS_X_QUICK_START_BEGIN "正在使用快速開始功能, 這個功能將在開始%.2f分鐘後結束"
+    IDS_X_QUICK_START_END   "快速開始已完成"
+    IDS_X_RECONECT_ON_LOW_ID "正在重新連線, 因為您得到了一個低-ID"
+    IDS_X_VOODOO_NAME       "名稱"
+    IDS_X_VOODOO_ADRESS     "位址"
+    IDS_X_VOODOO_ACTION     "動作"
+    IDS_X_VOODOO_TYPE       "軟體"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_USABLE     "可用"
+    IDS_X_VOODOO_STATUS     "狀態"
+    IDS_X_VOODOO_SPEED      "上傳/下載"
+    IDS_X_VOODOO_EDITOR     "Voodoo客戶端"
+    IDS_X_VOODOO_IPADDRESS  "IP或位址:"
+    IDS_X_VOODOO_PORT       "連線埠:"
+    IDS_X_VOODOO_NICK       "名稱:"
+    IDS_X_VOODOO_CLIENT_ACTION "動作:"
+    IDS_X_VOODOO_CLIENT_SOFTWARE "軟體:"
+    IDS_X_VOODOO_NOTHING    "無"
+    IDS_X_VOODOO_SLAVE      "Slave"
+    IDS_X_VOODOO_MASTER     "Master"
+    IDS_X_VOODOO_PARTNER    "夥伴"
+    IDS_X_VOODOO_BLOCK      "區塊"
+    IDS_X_VOODOO_OTHER      "未知"
+    IDS_X_VOODOO_ED2K       "eMule/eD2K"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_BITTORRENT "Bittorrent"
+    IDS_X_VOODOO_CONNECT_TO "連線到"
+    IDS_X_VOODOO_CONNECT    "連線"
+    IDS_X_VOODOO_DISCONNECT "下線"
+    IDS_X_VOODOO_SEARCH_ORDER "搜尋"
+    IDS_X_VOODOO_ADD        "增加"
+    IDS_X_VOODOO_EDIT       "編輯"
+    IDS_X_VOODOO_REMOVE     "移除"
+    IDS_X_ST_DVOODOO        "Voodoo下載"
+    IDS_X_ST_UVOODOO        "Voodoo上傳"
+    IDS_X_EM_VOODOO         "&Voodoo"
+    IDS_X_VOODOO_LIST       "Voodoo清單"
+    IDS_X_VOODOO_MAIN       "Voodoo"
+    IDS_X_VOODOO_MAIN_INFO  "Voodoo是一種通用的區塊檔案互動界面, 它允許一個Slave客戶端完全脫離區塊檔案而進行工作, 因為它使用的是它的Master客戶端中的區塊檔案"
+    IDS_X_USE_VOODOO_TRANSFER "使用Voodoo傳輸"
+    IDS_X_USE_VOODOO_TRANSFER_INFO 
+                            "使用Voodoo系統作為Master來上傳或下載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SLAVE_ALLOWED     "允許Slave"
+    IDS_X_SLAVE_ALLOWED_INFO "允許這個客戶端作為Slave被使用"
+    IDS_X_SLAVE_HOSTING     "Slave主機"
+    IDS_X_SLAVE_HOSTING_INFO "允許Slave連線到這個Master"
+    IDS_X_AUTO_CONNECT_VOODOO "自動連線"
+    IDS_X_AUTO_CONNECT_VOODOO_INFO 
+                            "嘗試連線到從Voodoo清單中選擇出的Voodoo客戶端, 並在失去連線時重新連線, 設定為半選中狀態時將只重新連線"
+    IDS_X_USE_VIRTUAL_VOODOO_FILES "使用虛擬Voodoo檔案"
+    IDS_X_USE_VIRTUAL_VOODOO_FILES_INFO 
+                            "不要儲存配置檔案'*.met.*'的本地副本. 設定為半選中狀態可以在這個工作階段結束之前僅在記憶體中儲存這個檔案的副本"
+    IDS_X_HIDE_VOODOO_FILES "隱藏Voodoo檔案"
+    IDS_X_HIDE_VOODOO_FILES_INFO "從預設清單中隱藏Voodoo檔案"
+    IDS_X_USE_VOODOO_SOURCE_EXCHANGE "使用Voodoo來源交換"
+    IDS_X_USE_VOODOO_SOURCE_EXCHANGE_INFO 
+                            "這個Voodoo來源交換僅能夠為那些可兼容eD2K協定並且支援這個特殊功能的客戶端工作.\n設定為半選中狀態將僅在連線建立時輸出來源一次"
+    IDS_X_USE_VOODOO_SEARCH "使用Voodoo搜尋轉發"
+    IDS_X_USE_VOODOO_SEARCH_INFO "Voodoo搜尋將轉發到Slave"
+    IDS_X_VOODOO_NEO_COMMANDS "啟用延伸命令支援"
+    IDS_X_VOODOO_NEO_COMMANDS_INFO 
+                            "啟用分配收集/重新要求/捨棄下載指令支援"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_NEO_PREFERENCES "啟用Neo參數設定支援"
+    IDS_X_VOODOO_NEO_PREFERENCES_INFO 
+                            "分配檔案配置到Slave"
+    IDS_X_VOODOO_SPELL      "Voodoo密碼"
+    IDS_X_VOODOO_SPELL_INFO "連線端必須提供的密碼"
+    IDS_X_VOODOO_SOCKET_PORT "Voodoo連線埠"
+    IDS_X_VOODOO_SOCKET_PORT_INFO "Voodoo Socket連線埠"
+    IDS_X_VOODOOCAST        "Voodoo Cast"
+    IDS_X_VOODOOCAST_INFO   "LanCast延伸用於搜尋Voodoo客戶端"
+    IDS_X_SEARCH_FOR_SLAVES "搜尋Slave"
+    IDS_X_SEARCH_FOR_SLAVES_INFO 
+                            "在LAN中搜尋Slave, 設定為半選中狀態將僅在啟動時搜尋, 搜尋將在這個時間間隔後執行(單位:分鐘)"
+    IDS_X_SEARCH_FOR_MASTER "搜尋Master"
+    IDS_X_SEARCH_FOR_MASTER_INFO 
+                            "在LAN中搜尋Slave, 設定為半選中狀態將僅在啟動時搜尋, 搜尋將在這個時間間隔後執行(單位:分鐘)"
+    IDS_X_VOODOO_SEARCH     "Voodoo: 正在於LAN中搜尋Voodoo客戶端"
+    IDS_X_VOODOO_ADD_BOX_DENIDED 
+                            "這個主機:連線埠的新Voodoo客戶端未增加, 這個客戶端目前已存在"
+    IDS_X_VOODOO_ADD_BOX_SUCCES 
+                            "增加完成, 您想嘗試這個連線嗎?"
+    IDS_X_VOODOO_EDIT_BOX_DENIDED "已連線客戶端不能被編輯"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CONFIRM_VOODOODELETE 
+                            "您真的想要從清單中移除所有被選中的Voodoo客戶端嗎?"
+    IDS_X_VOODOODELETE_SKIPPED 
+                            "%u客戶端正在使用中而且無法被移除"
+    IDS_X_VOODOO            "Voodoo"
+    IDS_X_SEARCH_VOODOO     "使用Voodoo搜尋"
+    IDS_X_VOODOO_CLIENT_CONENCT_LOST "Voodoo: Voodoo%s: %s:%u未連線"
+    IDS_X_VOODOO_UNKNOWN    "客戶端"
+    IDS_X_VOODOO_CLIENT_CONENCT_FAILED 
+                            "Voodoo: 嘗試連線到Voodoo%s: %s:%u失敗!"
+    IDS_X_VOODOO_CLIENT_CONNECTED "Voodoo: Voodoo客戶端%s:%u已連線"
+    IDS_X_VOODOO_NOT_SLAVE  "Voodoo: 客戶端%s不允許Slave"
+    IDS_X_ACCEPT_SPELL      "Voodoo: Voodoo密碼來自%s: %s已接受"
+    IDS_X_SPELL_ACCEPTED    "Voodoo: Voodoo密碼已被%s接受: %s"
+    IDS_X_SPELL_REJECTED    "Voodoo: Voodoo密碼被%s拒絕"
+    IDS_X_VOODOO_CLIENT_RECONNECT "Voodoo: 重新連線Voodoo%s: %s:%u"
+    IDS_X_VOODOO_FILE_FAILED "Voodoo: Voodoo檔案%s未知, 客戶端%s"
+    IDS_X_VOODOO_FILE_SIZE_FAILED 
+                            "Voodoo: Voodoo檔案%s大小錯誤, 錯誤大小: %I64u, 原有大小: %I64u, 來自客戶端%s"
+    IDS_X_VOODOO_UNKNOWN_FILE "Voodoo: Slave%s對檔案%s未知"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_FILE_MISSING 
+                            "Voodoo: Voodoo檔案%s對於Master不再可用, 正在從下載佇列中移除檔案"
+    IDS_X_NOT_VOODOO_FILE   "Voodoo: Master%s要求對非Voodoo檔案%s的支援!!!"
+    IDS_X_VOODOO_FILE_REAL_ERROR 
+                            "Voodoo: 警告: 檔案%s不能被增加到Slave%s的清單, 它已擁有這個檔案"
+    IDS_X_VOODOO_FILE_NEW_ERROR 
+                            "Voodoo: 錯誤: 增加檔案%s到Slave清單%s失敗"
+    IDS_X_VOODOO_FILE_SIZE_REMOTE_FAILED 
+                            "Voodoo: Voodoo檔案%s在遠程客戶端%s上的大小錯誤"
+    IDS_X_VOODOO_FILE_EXIST_FAILED 
+                            "Voodoo: Voodoo檔案%s已經存在於遠程客戶端%s"
+    IDS_X_VOODOO_FILE_UNAVALIBLE_ERROR 
+                            "Voodoo: 錯誤: 檔案%s在%s: %s上不可用, 原因未知"
+    IDS_X_VOODOO_FILE_FAILED_SYNC 
+                            "Voodoo: Voodoo檔案%s(來自Master%s)未知, 正在通知Master"
+    IDS_X_NOT_VOODOO_KNOWN_FILE 
+                            "Voodoo: Master%s傳送了非Voodoo檔案%s的分享指令!!!"
+    IDS_X_VOODOO_GOODBY     "Voodoo: 客戶端%s決定下線...再見!"
+    IDS_X_VOODOO_OLD_OPCODE "Voodoo: 客戶端%s傳送了舊的/未用的協定操作碼%s"
+    IDS_X_VOODOO_HIERARCHY_VIOLATION 
+                            "Voodoo: 層級違反%s於操作碼%u; %u, 客戶端為%s!!!"
+    IDS_X_VOODOO_GOT_COMPLETED_DATA 
+                            "Voodoo: 已經獲得已寫入區塊, 從Slave%s, 對於檔案%s"
+    IDS_X_VOODOO_FILE_FAILED_NO 
+                            "Voodoo: 檔案%s(被Slave%s要求)不可用"
+    IDS_X_GENERIC_VOODOO_SEARCH_ERROR 
+                            "Voodoo: 一個一般性錯誤發生於Slave客戶端%s, 已提交的搜尋要求可能是無效的!\000"
+    IDS_X_VOODOO_PREFIX     "Voodoo: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_ERR_NOTCONNECTED 
+                            "Voodoo: Voodoo Slave%s不能連線到您正要求搜尋的這個網絡!"
+    IDS_X_VOODOO_SEARCH_DONE "Voodoo: 客戶端%s完成搜尋"
+    IDS_X_VOODOO_CLIENT_NOT_FOUNT "Voodoo: 未找到客戶端%s"
+    IDS_X_VOODOO_SLAVE_CON_UNAVALIBLY 
+                            "Voodoo: Voodoo傳輸未啟用, 您不能連線到Slave"
+    IDS_X_VOODOO_MASTER_CON_UNAVALIBLY 
+                            "Voodoo: Voodoo Slave未啟用, 您不能連線到Master"
+    IDS_X_VOODOO_CLIENT_CONENCT "Voodoo: 嘗試連線Voodoo%s: %s:%u"
+    IDS_X_VOODOO_CLIENT_ALREADY_CONENCTED 
+                            "Voodoo: Voodoo%s: %s:%u已連線"
+    IDS_X_VOODOO_CASCADE    "不支援Voodoo層疊"
+    IDS_X_VOODOO_UL_FAILD_NO_MASTER 
+                            "Voodoo: Voodoo檔案%s上傳失敗, Master未找到."
+    IDS_X_VOODOO_UL_FAILD_BAD_SIZE 
+                            "Voodoo: Voodoo檔案%s上傳失敗, Master傳送的檔案資料大小有誤"
+    IDS_X_VOODOO_CLIENT_CONENCT_CLOSED 
+                            "VOODOO: Voodoo%s: %s:%u已中止連線"
+    IDS_X_VOODOO_ERR_COMPLETE_FILE 
+                            "VOODOO: Master%s需要完整檔案%s的支援(這個檔案可能在另一個Master上)!!!"
+    IDS_X_VOODOO_COMPLETE_FAILED 
+                            "VOODOO: 完整的Voodoo檔案%s在遠程客戶端%s(或它的Master)上!!!"
+    IDS_X_COMPLETE_VOODOO_FILE 
+                            "VOODOO: Master%s需要分享我們正在下載的完整檔案%s!!!"
+    IDS_X_EDIT_SVR          "編輯伺服器"
+    IDS_X_VD_TITLE          "Voodoo詳細資訊"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VD_GENERAL        "Voodoo客戶端詳細資訊"
+    IDS_X_VD_SOCKET         "Voodoo協定詳細資訊"
+    IDS_X_VD_ERRORS         "Voodoo檔案錯誤(!)"
+    IDS_X_VD_NAME           "名稱:"
+    IDS_X_VD_ADRESS         "位址:"
+    IDS_X_VD_ACTION         "動作:"
+    IDS_X_VD_TYPE           "類型:"
+    IDS_X_VD_STATUS         "狀態:"
+    IDS_X_VD_USABLE         "可用性:"
+    IDS_X_VD_VERSION        "Voodoo版本:"
+    IDS_X_VD_LARGEFILE      "大於4GB支援上限:"
+    IDS_X_VD_CORRUPTION_HANDLING "檔案出錯處理:"
+    IDS_X_VD_TRANSFER_SYNCHRONSATION "傳送同步:"
+    IDS_X_VD_STATISTICS     "統計:"
+    IDS_X_VD_VOODOO_SEARCH  "Voodoo搜尋:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VD_SRC_EXC        "來源交換:"
+    IDS_X_VD_DL_CMDS        "Neo下載註解:"
+    IDS_X_VD_FILE_PREFS     "Neo檔案優先權:"
+    IDS_X_VD_LSTERR_NAME    "檔案名稱"
+    IDS_X_VD_LSTERR_HASH    "檔案ID"
+    IDS_X_VD_LSTERR_ERROR   "錯誤"
+    IDS_X_VD_UNKNOWN_NAME   "無"
+    IDS_X_VD_RET_REAL       "Slave有真實檔案"
+    IDS_X_VD_RET_NEW        "Slave新增Voodoo檔案失敗"
+    IDS_X_VD_RET_UNAVALIBLY "檔案在Master上不可用"
+    IDS_X_VD_RET_UNKNOWN    "Slave無法識別這個檔案"
+    IDS_X_VD_RET_BADSIZE    "!!!檔案大小不匹配!!!"
+    IDS_X_VD_RET_EXIST      "???"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VD_RET_COMPLETE   "Slave(或它的其他Master)擁有這個完整檔案"
+    IDS_X_VD_UNKNOWN_RET    "未知錯誤代碼!"
+    IDS_X_VOODOO_PERM       "許可"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_TO_OLD     "Voodoo: 遠程客戶端%s的協定版本過舊, 請更新!!!"
+    IDS_X_VIALANCAST        "經由LanCast"
+    IDS_X_VIAVOODOO         "經由Voodoo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VOODOO_XS_1       "啟用完全交換"
+    IDS_X_VOODOO_XS_1_INFO  "在開始時對新來源和來源清單啟用Voodoo的來源交換"
+    IDS_X_VOODOO_XS_2       "啟用引導交換"
+    IDS_X_REQUEST_INTERVALS_INFO "來源要求的時間間隔"
+    IDS_X_CLIENT_REQUEST_INTERVALS "同客戶端要求間隔"
+    IDS_X_CLIENT_REQUEST_INTERVALS_INFO 
+                            "傳送要求到相同客戶端的時間間隔"
+    IDS_X_CLIENT_DELAY      "要求延遲"
+    IDS_X_CLIENT_DELAY_INFO "在某些情況下套用的的間隔值"
+    IDS_X_RARE_LIMIT        "稀有限制"
+    IDS_X_RARE_LIMIT_INFO   "來源少於這個數量的檔案將被認為是稀有檔案"
+    IDS_X_KAD_MAX_FILES     "最大檔案數"
+    IDS_X_KAD_MAX_FILES_INFO 
+                            "同時搜尋的最大檔案數. 可用於對Kad來源要求進行優先權排列."
+    IDS_X_KAD_DELAY         "要求延遲"
+    IDS_X_KAD_DELAY_INFO    "套用的要求時間間隔的最大值. 每個要求加1數值, 直到達到這個最大值停止"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UDP_SOURCE        "UDP伺服器來源"
+    IDS_X_UDP_SOURCE_INFO   "設定對伺服器的UDP要求方法"
+    IDS_X_ENABLE            "啟用"
+    IDS_X_ENABLE_INFO       "啟用這個功能"
+    IDS_X_DISABLE           "停用"
+    IDS_X_DISABLE_INFO      "停用這個功能"
+    IDS_X_DEFAULT           "預設"
+    IDS_X_DEFAULT_INFO      "使用預設設定"
+    IDS_X_GLOBAL            "全球"
+    IDS_X_GLOBAL_INFO       "使用全球設定"
+    IDS_X_REQUEST_LIMIT     "來源限制"
+    IDS_X_REQUEST_LIMIT_INFO "要求來源時的來源限制"
+    IDS_X_REQUEST_INTERVALS "要求間隔"
+    IDS_X_VOODOO_XS_2_INFO  "開始時僅啟用來源清單交換"
+    IDS_X_MAIN_READY        "%s - 已備妥"
+    IDS_X_INFORM_ON_BUDDY_CHANGE "當Buddy改變時通知客戶端"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PROBLEMATIC       "有問題的"
+    IDS_X_UDP_MAX_FILES_INFO "在一個要求週期中傳送的最大要求數"
+    IDS_X_SPREAD_REASK      "伸展式重新要求"
+    IDS_X_SPREAD_REASK_INFO "重新要求間隔時間使用亂數變化值(推薦)"
+    IDS_X_DOWNLOAD_REASK_TWEAKS "下載重新要求調整"
+    IDS_X_DOWNLOAD_REASK_TWEAKS_INFO 
+                            "設定客戶端重新要求來源的方法"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FCFG_CLEAR        "清除"
+    IDS_X_FCFG_COPY         "複製"
+    IDS_X_FCFG_PASTE        "貼上"
+    IDS_X_FCFG_PASTE2       "貼上(僅下載)"
+    IDS_X_FILE_TWEAKS       "檔案配置"
+    IDS_X_FCFG_CMD          "檔案配置操作"
+    IDS_X_CATEGORIZED_FILES "已分類檔案"
+    IDS_X_SHARED_CATS       "已分享類別"
+    IDS_X_INVALID_CAT       "錯誤: 這個類別無效!\n這個類別可能已被移除"
+    IDS_X_CAT_TWEAKS        "配置"
+    IDS_X_FCFG_PASTE_Q_YESNO "從剪貼簿中貼上已知的參數設定?"
+    IDS_X_FCFG_PASTE_Q_YESNOCANCEL 
+                            "從剪貼簿中貼上已知的與區塊的參數設定? \n選擇否將僅貼上區塊的參數設定"
+    IDS_X_FCFG_RESET_Q_YESNO "重設已知的參數設定?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FCFG_RESET_Q_YESNOCANCEL 
+                            "重設已知的與區塊的參數設定? \n選擇否將僅重設區塊的參數設定"
+    IDS_X_PW_SOURCE         "來源設定"
+    IDS_X_SOURCE_REQUEST_TWEAKS "來源要求調整"
+    IDS_X_SOURCE_REQUEST_TWEAKS_INFO 
+                            "設定客戶端收集來源的方法"
+    IDS_X_MAX_SOURCE        "來源限制"
+    IDS_X_MAX_SOURCE_INFO   "來源的限制"
+    IDS_X_SOURCE_MANAGEMENT_TWEAKS "管理"
+    IDS_X_SOURCE_MANAGEMENT_TWEAKS_INFO "附加的特殊設定"
+    IDS_X_SWAP_LIMIT        "轉移限制"
+    IDS_X_SWAP_LIMIT_INFO   "來源達到這個數值之後, 客戶端將嘗試將來源轉移至另一個檔案"
+    IDS_X_XS_SOURCE         "來源交換"
+    IDS_X_XS_SOURCE_INFO    "設定來源交換的方法"
+    IDS_X_SVR_SOURCE        "伺服器來源"
+    IDS_X_SVR_SOURCE_INFO   "設定對伺服器的來源要求"
+    IDS_X_KAD_SOURCE        "Kad來源"
+    IDS_X_KAD_SOURCE_INFO   "設定Kad的使用方法"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_RELEASE_LEVEL_INFO 
+                            "決定檔案被加速的強度(這個強度與檔案優先權有關)."
+    IDS_X_RELEASE_TIMER     "計算間隔"
+    IDS_X_RELEASE_TIMER_INFO 
+                            "重新調整釋放加速和強力分享狀態的時間間隔"
+    IDS_X_RELEASE_LIMIT     "釋放限制"
+    IDS_X_RELEASE_LIMIT_INFO "釋放檔案大小的百分比的限制"
+    IDS_X_RELEASE_RELEASE_LIMIT "釋放限制"
+    IDS_X_RELEASE_RELEASE_LIMIT_INFO "檔案釋放的限制"
+    IDS_X_RELEASE_COMPLETE_LIMIT "已完成釋放限制"
+    IDS_X_RELEASE_COMPLETE_LIMIT_INFO 
+                            "正在釋放的已完成檔案大小的百分比的限制"
+    IDS_X_SRS_LIMIT_HIGH    "最高限制"
+    IDS_X_SRS_LIMIT_HIGH_INFO "最高限制值"
+    IDS_X_SRS_LIMIT_LOW     "最低限制"
+    IDS_X_SRS_LIMIT_LOW_INFO "最低限制值"
+    IDS_X_RELEASE_SOURCE_LIMIT "來源限制"
+    IDS_X_RELEASE_SOURCE_LIMIT_INFO "網絡上來源的限制"
+    IDS_X_SOURCE_LIMIT      "來源限制"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SOURCE_LIMIT_INFO "一個檔案可以擁有的來源最大數量"
+    IDS_X_SOURCE_COMPLETE_LIMIT "完整來源限制"
+    IDS_X_SOURCE_COMPLETE_LIMIT_INFO "完整來源的限制"
+    IDS_X_DROP_ALL_FRIENDSLOTS "捨棄所有好友通道"
+    IDS_X_COPY_FRIEND       "複製好友"
+    IDS_X_PASTE_FRIEND      "貼上好友"
+    IDS_X_FRIENDADDED       "好友'%s'已增加"
+    IDS_X_VDS_MFILE         "為檔案設定虛擬目錄"
+    IDS_X_VDS_VIRTDIRTITLE  "虛擬目錄"
+    IDS_X_PREVIEWREQUESTED  "預覽被要求 - 請等待"
+    IDS_X_VDS_CHANGEMAP     "改變對應為'%s'"
+    IDS_X_VDS_VIRTUALFILE   "為這個檔案輸入新的虛擬目錄:"
+    IDS_X_VDS_VIRTUALDIR    "為這個資料夾輸入新的虛擬目錄:"
+    IDS_X_VDS_VIRTUALSUBDIR "為這個資料夾及它的所有子資料夾輸入新的虛擬目錄:"
+    IDS_X_REQUESTING_SHARED_FILES 
+                            "正在進行對使用者%s(%u)所分享的檔案的要求"
+    IDS_X_LOCAL_FILES       "瀏覽本地檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_GLOBAL_INTERVAL   "全球間隔"
+    IDS_X_GLOBAL_INTERVAL_INFO "傳送待處理要求的全球間隔"
+    IDS_X_UDP_MAX_FILES     "最大檔案數"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_NORMAL_REASK_INTERVALS "一般重新要求間隔"
+    IDS_X_NORMAL_REASK_INTERVALS_INFO 
+                            "一般下載重新要求的時間間隔"
+    IDS_X_FULLQ_REASK_INTERVALS "FullQ重新要求間隔"
+    IDS_X_FULLQ_REASK_INTERVALS_INFO 
+                            "FullQ下載重新要求的時間間隔"
+    IDS_X_NNP_REASK_INTERVALS "NNP重新要求間隔"
+    IDS_X_NNP_REASK_INTERVALS_INFO 
+                            "NNP下載重新要求的時間間隔"
+    IDS_X_DROP_TIME         "來源捨棄時間"
+    IDS_X_DROP_TIME_INFO    "不增加被捨棄來源的時間"
+    IDS_X_DEAD_TIME         "空載時間(每個檔案)"
+    IDS_X_DEAD_TIME_INFO    "在特殊檔案的連線嘗試失敗之後不增加來源的時間"
+    IDS_X_DEAD_TIME_FW      "FW係數"
+    IDS_X_DEAD_TIME_FW_INFO "低-ID客戶端的時間係數"
+    IDS_X_GLOBAL_DEAD_TIME  "空載時間(全球)"
+    IDS_X_GLOBAL_DEAD_TIME_INFO 
+                            "在任何檔案的連線嘗試失敗之後不增加來源的時間"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_BAD_DROP          "損壞來源捨棄"
+    IDS_X_BAD_DROP_INFO     "捨棄所有無用來源"
+    IDS_X_NNP_DROP          "NnP來源捨棄"
+    IDS_X_NNP_DROP_INFO     "捨棄無所需區塊(NnP)(No needed Parts)的來源"
+    IDS_X_FULLQ_DROP        "FullQ來源捨棄"
+    IDS_X_FULLQ_DROP_INFO   "捨棄已滿佇列(FullQ)(Full Queue)的來源"
+    IDS_X_HIGHQ_DROP        "HighQ來源捨棄"
+    IDS_X_HIGHQ_DROP_INFO   "捨棄高佇列值(HighQ)(High Queue)的來源"
+    IDS_X_SOURCES_DROP_TWEAKS "來源捨棄調整"
+    IDS_X_SOURCES_DROP_TWEAKS_INFO 
+                            "使客戶端移除不需要的來源"
+    IDS_X_DONT_DROP         "不捨棄"
+    IDS_X_DONT_DROP_INFO    "不捨棄這些來源"
+    IDS_X_DO_DROP           "捨棄"
+    IDS_X_DO_DROP_INFO      "捨棄這些來源"
+    IDS_X_TRY_SWAP          "嘗試轉移"
+    IDS_X_TRY_SWAP_INFO     "嘗試轉移這些來源到另一個檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DROP_LIMIT        "捨棄限制"
+    IDS_X_DROP_LIMIT_INFO   "使來源捨棄功能生效的限制"
+    IDS_X_DROP_LIMIT_TOTAL  "完整模式(官方功能)"
+    IDS_X_DROP_LIMIT_TOTAL_INFO "來源完整數量"
+    IDS_X_DROP_LIMIT_RELATIV "相對模式"
+    IDS_X_DROP_LIMIT_RELATIV_INFO 
+                            "這些來源的相對數量百分比"
+    IDS_X_DROP_LIMIT_SPECIFIC "特殊模式"
+    IDS_X_DROP_LIMIT_SPECIFIC_INFO "這個類型來源的數量"
+    IDS_X_DROP_INTERVALS    "捨棄間隔"
+    IDS_X_DROP_INTERVALS_INFO "捨棄來源的時間"
+    IDS_X_DROP_INTERVALS_PROGRESSIV "推進模式(官方功能)"
+    IDS_X_DROP_INTERVALS_PROGRESSIV_INFO "每個時間間隔捨棄一個來源"
+    IDS_X_DROP_INTERVALS_DISTRIBUTIV "分配模式"
+    IDS_X_DROP_INTERVALS_DISTRIBUTIV_INFO 
+                            "捨棄在這個狀態下達到時間間隔的來源"
+    IDS_X_DROP_INTERVALS_CUMULATIV "累計模式(舊版/Sivka功能)"
+    IDS_X_DROP_INTERVALS_CUMULATIV_INFO 
+                            "立刻在指定的時間間隔內捨棄所有這個類型的來源"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_HIGHQ_MAX_RANK    "最大排名"
+    IDS_X_HIGHQ_MAX_RANK_INFO "最大佇列排名值"
+    IDS_X_HIGHQ_MAX_RANK_NORMAL "一般"
+    IDS_X_HIGHQ_MAX_RANK_NORMAL_INFO 
+                            "一般模式, 需輸入最大佇列排名值"
+    IDS_X_HIGHQ_MAX_RANK_AVERAGE "平均"
+    IDS_X_HIGHQ_MAX_RANK_AVERAGE_INFO 
+                            "平均模式, 需輸入百分比(排名值必須在所有來源的平均值之上)"
+    IDS_X_TCP_CONNECTION_RETRY "重新連線"
+    IDS_X_TCP_CONNECTION_RETRY_INFO 
+                            "啟用重試失敗的TCP連線"
+    IDS_X_CONNECTION_RETRY  "等待連線重試"
+    IDS_X_SOURCE_CACHE      "來源快取"
+    IDS_X_SOURCE_CACHE_INFO "超出最大來源限制時快取已收集的來源"
+    IDS_X_SOURCE_CACHE_LIMIT "快取限制"
+    IDS_X_SOURCE_CACHE_LIMIT_INFO "快取來源的數量"
+    IDS_X_SOURCE_CACHE_TIME "快取時間"
+    IDS_X_SOURCE_CACHE_TIME_INFO "快取來源的時間"
+    IDS_X_CACHED            "已快取"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_AUTO_SOFT_LOCK    "自動軟性鎖定"
+    IDS_X_AUTO_SOFT_LOCK_INFO 
+                            "根據正在等待連線的來源數量控制來源收集"
+    IDS_X_AUTO_SOFT_LOCK_LIMIT "鎖定限制"
+    IDS_X_AUTO_SOFT_LOCK_LIMIT_INFO 
+                            "根據正在等待重新要求的來源數量延緩新來源的收集"
+    IDS_X_AUTO_HARD_LIMIT   "自動硬性限制"
+    IDS_X_AUTO_HARD_LIMIT_INFO 
+                            "根據有效來源數量計算出適當的硬性限制"
+    IDS_X_LIMIT_RECALCULATION_TIME "重新計算間隔"
+    IDS_X_LIMIT_RECALCULATION_TIME_INFO 
+                            "隔多長時間重新計算更新限制"
+    IDS_X_CATEGORY_SOURCE_LIMIT "類別來源限制"
+    IDS_X_CATEGORY_SOURCE_LIMIT_INFO "每個類別的來源限制"
+    IDS_X_LIMIT_LIMIT       "來源限制"
+    IDS_X_LIMIT_LIMIT_INFO  "保管的來源限制"
+    IDS_X_GLOBAL_SOURCE_LIMIT "全球來源限制"
+    IDS_X_GLOBAL_SOURCE_LIMIT_INFO "來源總數的限制"
+    IDS_X_MIN_SOURCE_PER_FILE "每個檔案最少來源"
+    IDS_X_MIN_SOURCE_PER_FILE_INFO 
+                            "能被上面的自動管理功能控制的來源數量的最小值"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SOURCE_LIMITS     "來源限制"
+    IDS_X_ERR_SOURCESMET_UNKNOWN_VERSION 
+                            "錯誤: 檔案sources.met的版本未知, 不能載入來源清單"
+    IDS_X_SOURCESFILELOADED "來源清單檔案已載入, %u來源已知"
+    IDS_X_SOURCESEXPIRED    ", %i客戶端被移除(5個月內未聯繫)"
+    IDS_X_SOURCESFILECORRUPT 
+                            "錯誤: 來源清單檔案已損壞並將被取代!"
+    IDS_X_ERR_SOURCESFILEREAD 
+                            "在讀取來源清單檔案時發生意外的檔案錯誤: %s"
+    IDS_X_SOURCE_DATABASE_LOADED 
+                            "在%u毫秒內載入來源資料庫完畢; %i來源已知"
+    IDS_X_ERR_FAILED_SOURCESSAVE "儲存來源清單檔案失敗"
+    IDS_X_SOURCESFOUND      "客戶端檔案清單: %u來源被發現(關於檔案%s)"
+    IDS_X_CLIENT_DATABASE   "客戶端資料庫"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LOADED            "已載入"
+    IDS_X_ERR_SAVESRC       "錯誤: 當儲存src檔案時: %s(%s)"
+    IDS_X_ERR_OPENSRC       "錯誤: 開啟part.met.src檔案失敗!(%s => %s)"
+    IDS_X_ERR_BADSRCVERSION "錯誤: 無效的part.met.src檔案版本!(%s => %s)"
+    IDS_X_ERR_SRCMEOCORRUPT "錯誤: %s(%s) 已損壞, 不能載入檔案"
+    IDS_X_ERR_LOADSOURCEFILE 
+                            "載入來源清單檔案失敗, 一個新的檔案將被建立"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CLIENT_DATABASE_INFO 
+                            "客戶端資料庫正在為來源IP分析而收集統計資訊"
+    IDS_X_ENABLE_CLIENT_DATABASE "啟用資料庫"
+    IDS_X_ENABLE_CLIENT_DATABASE_INFO "啟用客戶端資料庫"
+    IDS_X_CLIENT_DATABASE_EXPIRATION "客戶端終止時間"
+    IDS_X_CLIENT_DATABASE_EXPIRATION_INFO 
+                            "在這個時間內未見的客戶端將被移除出資料庫"
+    IDS_X_CLIENT_DATABASE_CLEANUP "運行時清理"
+    IDS_X_CLIENT_DATABASE_CLEANUP_INFO 
+                            "啟用這個選項可以在運行時移除不再需要的項目"
+    IDS_X_CLIENT_FILE_LIST  "啟用檔案清單"
+    IDS_X_CLIENT_FILE_LIST_INFO 
+                            "檔案清單允許針對特殊來源, 為所有已知檔案儲存檔案狀態資訊"
+    IDS_X_CLIENT_FILE_LIST_EXPIRATION "檔案終止時間"
+    IDS_X_CLIENT_FILE_LIST_EXPIRATION_INFO 
+                            "移除這個時間內未被使用的檔案項目"
+    IDS_X_CLIENT_DATABASE_SECURITY "IP安全"
+    IDS_X_CLIENT_DATABASE_SECURITY_INFO 
+                            "這個功能可以確保壞客戶端不會過多地佔據資料庫"
+    IDS_X_CHECK_IP_ZONE     "檢查IP地區"
+    IDS_X_CHECK_IP_ZONE_INFO 
+                            "檢查網際網路每個客戶端的子網絡並移除很可能不屬於客戶端的區段記錄"
+    IDS_X_MONITOR_HASH_CHANGES "監控切細改變"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_MONITOR_HASH_CHANGES_INFO 
+                            "這個功能將不允許頻繁改變切細的特殊客戶端"
+    IDS_X_IP_TABLE_HANDLING "IP表格處理"
+    IDS_X_IP_TABLE_HANDLING_INFO 
+                            "資料庫中的記錄生成與更新處理"
+    IDS_X_IP_TABLE_AMOUNT   "儲存數量"
+    IDS_X_IP_TABLE_AMOUNT_INFO 
+                            "每個客戶端的最大IP記錄儲存數"
+    IDS_X_IP_TABLE_IGNORE_UNKNOWN "未見間隔容差"
+    IDS_X_IP_TABLE_IGNORE_UNKNOWN_INFO 
+                            "上次看見這個客戶端至今的時間在這個時間間隔之類的話, 將被認為客戶端始終可用"
+    IDS_X_IP_TABLE_IGNORE_FAILD "失敗間隔容差"
+    IDS_X_IP_TABLE_IGNORE_FAILD_INFO 
+                            "失敗的來源在這個時間間隔之內再次可用的話, 將不認為其不可用"
+    IDS_X_SOURCE_ANALYZER   "來源IP分析"
+    IDS_X_SOURCE_ANALYZER_INFO 
+                            "允許在兩工作階段之間的長時間間隔之後, 確定哪些來源仍然可用, 這樣能夠允許成功重新要求更多儲存的來源"
+    IDS_X_ENABLE_SOURCE_ANALYZER "啟用IP分析"
+    IDS_X_ENABLE_SOURCE_ANALYZER_INFO "啟用來源IP分析"
+    IDS_X_CLIENT_ANALYZER_INTERVALS "分析間隔"
+    IDS_X_CLIENT_ANALYZER_INTERVALS_INFO 
+                            "為來源計算統計值的時間間隔"
+    IDS_X_IP_TABLES_TO_ANALYZER "分析的IP表格"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_IP_TABLES_TO_ANALYZER_INFO 
+                            "需要被分析資料庫中的IP表格數量"
+    IDS_X_HANDLE_IP_TABLE_GAPS "處理IP表格空缺"
+    IDS_X_HANDLE_IP_TABLE_GAPS_INFO 
+                            "移除IP表格中的錯誤記錄"
+    IDS_X_PRIOR_GAP_RATIO   "優先權空缺比例"
+    IDS_X_PRIOR_GAP_RATIO_INFO 
+                            "發現空缺中的空缺, 並且當第二個空缺比第一個大出這個比例係數時, 這個空缺將不會被清理"
+    IDS_X_MAX_GAP_SIZE      "最大空缺大小"
+    IDS_X_MAX_GAP_SIZE_INFO "能被清除的空缺的最大大小, 即在空缺之內的錯誤表格最大數量"
+    IDS_X_MAX_GAP_TIME      "最大空缺時間"
+    IDS_X_MAX_GAP_TIME_INFO "能被清理的空缺最大長度"
+    IDS_X_ADVANCED_ANALYZER "進階分析"
+    IDS_X_ADVANCED_ANALYZER_INFO "進階分析設定"
+    IDS_X_MAX_MINDLE_DESCR_HIGH "最大中高差異"
+    IDS_X_MAX_MINDLE_DESCR_HIGH_INFO 
+                            "與中間值的差異比這個數值還要大的最大值將被捨棄"
+    IDS_X_MAX_MINDLE_DESCR_LOW "最大中低差異"
+    IDS_X_MAX_MINDLE_DESCR_LOW_INFO 
+                            "與中間值的差異比這個數值還要大的最小值將被捨棄"
+    IDS_X_DUAL_LINKED_TABLE_GRAVITY "雙重連線表格重要性"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DUAL_LINKED_TABLE_GRAVITY_INFO 
+                            "表格連線在開始和結束時極為可靠, 因而這個功能將增加它們的中間數值計算中的重要性"
+    IDS_X_CALCULATION       "概率計算"
+    IDS_X_CALCULATION_INFO  "概率計算設定"
+    IDS_X_MAX_MIDLE_ENHANCED_FACTOR "概率增強係數"
+    IDS_X_MAX_MIDLE_ENHANCED_FACTOR_INFO 
+                            "根據公式(中間值×g1+最大值×g2)/(g1+g2)來提供最高的效率, 如果g>0, 則g1=1且g2=g, 否則g1=(1-g)×10+1且g2=1"
+    IDS_X_FRESH_SOURCE_TRESHOLD "新來源時間臨界"
+    IDS_X_FRESH_SOURCE_TRESHOLD_INFO 
+                            "定義在多長時間間隔之後來源將不再確認為可用"
+    IDS_X_TEMPRAL_IP_BORDERLINE "臨時IP界限"
+    IDS_X_TEMPRAL_IP_BORDERLINE_INFO 
+                            "定義來源必須至少擁有的有效IP時間, 以不將其認定為臨時來源"
+    IDS_X_ADVANCED_CALCULATION "進階計算"
+    IDS_X_ADVANCED_CALCULATION_INFO "進階計算設定"
+    IDS_X_LAST_SEEN_THRESHOLD "最後可見持續時間臨界"
+    IDS_X_LAST_SEEN_THRESHOLD_INFO 
+                            "當最後可見持續時間比總分析時間除以這個臨界值還要長的時候, 最後可見持續時間將會被捨棄. 這個功能僅適用於動態IP來源"
+    IDS_X_LINK_TIME_THRESHOLD "時間連線臨界"
+    IDS_X_LINK_TIME_THRESHOLD_INFO 
+                            "當這個時間差異比這個數值更小的時候, 這個時間將被認為已連線. 當目前表格連線到先前表格時, 概率將被增加"
+    IDS_X_SCALE_RELIABLE_TIME "概率擴大時間"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SCALE_RELIABLE_TIME_INFO 
+                            "當某個客戶端的最後可見時間小於這個數值時, 這個概率將被相應地擴大(聽起來有點怪, 的確, 不過測試顯示這個功能效果很好)"
+    IDS_X_SOURCE_STORAGE    "來源儲存"
+    IDS_X_AUTO_SAVE_SOURCES "自動儲存來源"
+    IDS_X_AUTO_SAVE_SOURCES_INFO "來源儲存到儲存清單中"
+    IDS_X_AUTO_SAVE_SOURCES_1 "儲存時間間隔"
+    IDS_X_AUTO_SAVE_SOURCES_1_INFO 
+                            "每隔給定的時間間隔自動儲存來源"
+    IDS_X_AUTO_SAVE_SOURCES_2 "僅在停止時儲存"
+    IDS_X_AUTO_SAVE_SOURCES_2_INFO 
+                            "僅在檔案停止或客戶端軟體關閉時儲存來源"
+    IDS_X_SAVE_SOURCES_LIMIT "儲存限制"
+    IDS_X_SAVE_SOURCES_LIMIT_INFO 
+                            "儲存來源的最大數量, 推薦儲存所有可用來源"
+    IDS_X_AUTO_SAVE_SOURCES_INTERVALS "儲存間隔"
+    IDS_X_AUTO_SAVE_SOURCES_INTERVALS_INFO "儲存來源的時間間隔"
+    IDS_X_SAVE_A4AF_SOURCES "儲存A4AF來源"
+    IDS_X_SAVE_A4AF_SOURCES_INFO "同時也儲存A4AF來源"
+    IDS_X_AUTO_LOAD_SOURCES "自動載入來源"
+    IDS_X_AUTO_LOAD_SOURCES_INFO "自動載入來源"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_AUTO_LOAD_SOURCES_1 "繼續時載入來源"
+    IDS_X_AUTO_LOAD_SOURCES_1_INFO 
+                            "檔案繼續或客戶端軟體啟動時載入來源"
+    IDS_X_AUTO_LOAD_SOURCES_2 "僅在啟動時載入來源"
+    IDS_X_AUTO_LOAD_SOURCES_2_INFO "僅在客戶端軟體啟動時載入來源"
+    IDS_X_LOAD_SOURCES_CLEANUP_TIME "清理時間"
+    IDS_X_LOAD_SOURCES_CLEANUP_TIME_INFO 
+                            "在這個時間間隔之後移除所有載入的但是沒有被重新要求的(不需要的)來源"
+    IDS_X_LOAD_SOURCES_REASK_LIMIT "來源重新要求限制"
+    IDS_X_LOAD_SOURCES_REASK_LIMIT_INFO 
+                            "在這個來源限制之下, 方可允許重新要求儲存的來源"
+    IDS_X_SOURCE_RESTORE    "來源還原"
+    IDS_X_SOURCE_RESTORE_INFO 
+                            "如果儲存不超過幾個小時的話, 允許重新要求所有的已載入來源, 在這樣短的時間內所有的來源應該仍然可用"
+    IDS_X_SOURCE_RESTORE_NO_LOW "啟用(但不針對低-ID客戶端)"
+    IDS_X_SOURCE_RESTORE_NO_LOW_INFO 
+                            "啟用這個功能, 但不儲存/還原連線性降低的客戶端(推薦)"
+    IDS_X_STORAGE_REASK_MANAGEMENT "重新要求管理"
+    IDS_X_STORAGE_REASK_MANAGEMENT_INFO 
+                            "重新要求管理的進階設定"
+    IDS_X_REASK_PROPABILITY "需要可用性"
+    IDS_X_REASK_PROPABILITY_INFO 
+                            "給出的來源的需要可用性概率以便重新要求它"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UNPREDICTED_PROPABILITY "試探性概率"
+    IDS_X_UNPREDICTED_PROPABILITY_INFO 
+                            "試探性概率計算是一種計算那些情況不太明瞭, 無法使用一般方法分析的客戶端的可用性可能的方法"
+    IDS_X_STORAGE_REASK_DELAY "重新要求延遲"
+    IDS_X_STORAGE_REASK_DELAY_INFO 
+                            "對於延遲重新要求儲存來源, 以便給網絡時間幫我們找到新來源(推薦使用延遲, 但設定為0也可)"
+    IDS_X_GROUPE_STORAGE_REASKS "小批次重新要求"
+    IDS_X_GROUPE_STORAGE_REASKS_INFO 
+                            "不一次重新要求所有儲存來源, 而是小批次地對它們進行重新要求, 每個批次之間有時間間隔"
+    IDS_X_GROUPE_STORAGE_REASKS_INTERVALS "批次時間間隔"
+    IDS_X_GROUPE_STORAGE_REASKS_INTERVALS_INFO 
+                            "每個重新要求批次之間的時間間隔"
+    IDS_X_GROUPE_STORAGE_REASKS_SIZE "批次大小"
+    IDS_X_GROUPE_STORAGE_REASKS_SIZE_INFO "每批重新要求來源的大小"
+    IDS_X_SOURCE_STORAGE_INFO 
+                            "工作階段之間的儲存來源儲存和檔案還原來源清單"
+    IDS_X_IP_ZONE           "IP地區:"
+    IDS_X_IP_PORT           " IP:連線埠"
+    IDS_X_SRC_LIST_ABORT    "您確定您想要放棄這個清單的載入嗎?"
+    IDS_X_SOURCES_LIST_COUNT "已知來源(%i)"
+    IDS_X_CONFIRM_SRCDELETE "您真的想要從資料庫中移除所有被選中的來源嗎?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SRCDELETE_SKIPPED "%u來源正在使用中而且無法被移除"
+    IDS_X_SOURCE_INFO       "來源詳細資訊"
+    IDS_X_FIRSTSEEN         "首次可見"
+    IDS_X_LASTSEEN          "最後可見"
+    IDS_X_UNREAHABLE        "固定"
+    IDS_X_IPTABLESCOUNT     "已存IP清單(%i)"
+    IDS_X_SEENFILESCOUNT    "可見檔案(%i)"
+    IDS_X_STATIC            "靜態"
+    IDS_X_DYNAMIC           "動態"
+    IDS_X_TEMPORARY         "臨時"
+    IDS_X_LINKED            " (已連線)"
+    IDS_X_UNKNOWN           "未知"
+    IDS_X_ERASE             "移除這個條目"
+    IDS_X_REMOVE_IPTABLE_DENIDED 
+                            "錯誤: IP表格目前正在被使用, 移除被拒絕!"
+    IDS_X_CIDENTITY         "客戶段身份"
+    IDS_X_GENERALINFO       "一般資訊"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LAST_SEEN         "最後可見:"
+    IDS_X_LAST_SEEN_DURATION "最後可見持續時間:"
+    IDS_X_TOTAL_SEEN_DURATION "總分析時間間隔:"
+    IDS_X_ANALYSIS          "分析"
+    IDS_X_ANALYSIS_QUALITY  "分析質量:"
+    IDS_X_EIPTYPE           "估計IP類型:"
+    IDS_X_PAVALIBILITY      "有效性概率:"
+    IDS_X_IP_TIME           "IP有效時間:"
+    IDS_X_ON_TIME           "在線上上時間:"
+    IDS_X_OFF_TIME          "離線時間:"
+    IDS_X_RESUME_COUNT      "重新開始數:"
+    IDS_X_LAST_ANALYSIS     "最後分析:"
+    IDS_X_ANALISE_NOW       "執行分析"
+    IDS_X_PW_SOURCE_STORAGE "來源儲存"
+    IDS_X_STORAGE           "儲存"
+    IDS_X_VIASTORAGE        "經由來源儲存"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LOADSRCMANUALLY   "載入來源"
+    IDS_X_SAVESRCMANUALLY   "儲存來源"
+    IDS_X_FINDSOURCES       "發現來源"
+    IDS_X_SOURCE_DATABASE   "檢視已知來源清單"
+    IDS_X_PART_WANTED       "原始"
+    IDS_X_PARTPRIO_WANTED   "要求"
+    IDS_X_PARTPRIO_DEFAULT  "一般"
+    IDS_X_INFOCREDITS       "額度:"
+    IDS_X_KLF_CON_ACCEPTED  "被伺服器接受的連線: %s "
+    IDS_X_KLF_CON_ACCEPTED2 "花費: 100額度 --- 剩餘額度: %u"
+    IDS_X_KLF_ENABLE        "連線到被偵測到的Lugdunum伺服器(最初額度: %u)"
+    IDS_X_KLF_DISABLE       "連線到被偵測到的非Lugdunum伺服器(停用額度監視)"
+    IDS_X_KLF_SENT          "傳送已已分享檔案清單到伺服器: %s"
+    IDS_X_KLF_SENT2         "檔案: %u --- 花費額度: %u --- 剩餘額度: %u"
+    IDS_X_KLF_ASKED         "傳送來源要求到伺服器: %s"
+    IDS_X_KLF_ASKED2        "檔案: %u --- 花費額度: %u --- 剩餘額度: %u"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_COLLECT_KAD_DONE  "Kademlia重新要求%s"
+    IDS_X_COLLECT_SVR_DONE  "向伺服器重新要求%s"
+    IDS_X_COLLECT_UDP_DONE  "向UDP伺服器重新要求%s"
+    IDS_X_REMOVE_SOURCE     "捨棄%u來源(從檔案%s)"
+    IDS_X_COLLECT_ALL_SOURCES "獲得全部來源"
+    IDS_X_COLLECT_XS_SOURCES "獲得資源交換來源"
+    IDS_X_COLLECT_SVR_SOURCES "獲得伺服器來源"
+    IDS_X_COLLECT_KAD_SOURCES "獲得Kademlia來源"
+    IDS_X_COLLECT_UDP_SOURCES "獲得UDP伺服器來源"
+    IDS_X_AHL_INCREASE      "增加自動硬性限制"
+    IDS_X_AHL_DECREASE      "減少自動硬性限制"
+    IDS_X_SOURCE_COLLECTING "來源要求"
+    IDS_X_DROP_NNP          "無所需區塊"
+    IDS_X_DROP_FULLQ        "已滿佇列"
+    IDS_X_DROP_HIGHQ        "高佇列值"
+    IDS_X_DROP_WAITINGRETRY "等待連線重試"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DROP_CACHED       "已快取"
+    IDS_X_DROP_LOADED       "已載入"
+    IDS_X_DROP_TOMANY       "連接數過多"
+    IDS_X_DROP_LOW2LOW      "低-ID到低-ID"
+    IDS_X_DROP              "捨棄來源"
+    IDS_X_STANDBY           "待命"
+    IDS_X_DL_FORCE          "強制"
+    IDS_X_DL_STANDBY        "待命"
+    IDS_X_DL_SUSPEND        "延緩"
+    IDS_X_SUSPEND           "延緩"
+    IDS_X_STALLED           "等待中(延遲)"
+    IDS_X_CAT_COLORDER      "線形優先權"
+    IDS_X_CAT_SELDLGTXT     "從清單中選擇一個類別或輸入一個新類別的標題:"
+    IDS_X_CAT_SELDLGCAP     "選擇類別"
+    IDS_X_A4AF_FORCEALL     "獲得全部A4AF"
+    IDS_X_CAT_MNUAUTOINC    "自動增加已選擇項"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CAT_MNUSTEPTHRU   "逐項設定"
+    IDS_X_CAT_MNUALLSAME    "設定為同一值"
+    IDS_X_CAT_SETORDER      "設定線性優先權"
+    IDS_X_CAT_ORDER         "輸入一個大於或等於零的整數. 數值越小, 越優先重新開始"
+    IDS_X_CAT_EXPAUTOINC    "輸入一個非負數的起始數字:"
+    IDS_X_CAT_EXPSTEPTHRU   "輸入一個非負數, 數值越小, 越優先重新開始.\n檔案:"
+    IDS_X_CAT_ABORTSTEPTHRU "您希望放棄這個線性優先權的步驟嗎?"
+    IDS_X_ABORT             "放棄?"
+    IDS_X_CAT_EXPALLSAME    "輸入一個非負數, 這個數值將被套用到所有被選中的檔案:"
+    IDS_X_CAT_ADVA4AF       "進階A4AF"
+    IDS_X_A4AF_BALANCE      "均分來源"
+    IDS_X_A4AF_STACK        "集中來源"
+    IDS_X_CAT_THISCAT       "這個類別"
+    IDS_X_CAT_SUSPENDFILTERS "延緩檢視過濾器"
+    IDS_X_CAT_STOPLAST      "停止最後"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CAT_PAUSELAST     "暫停最後"
+    IDS_X_CAT_RESUMENEXT    "繼續執行下一個"
+    IDS_X_A4AF_ADVMODE      "進階A4AF處理"
+    IDS_X_STATIC_UL_PRIO    "這個類別的上傳優先權"
+    IDS_X_STATIC_RELEASE    "釋放選項"
+    IDS_X_CHECK_RELEASE     "啟動釋放優先權"
+    IDS_X_CAT_AUTOCAT       "進階關鍵詞過濾篩選(用符號'|'分隔)"
+    IDS_X_CAT_MINIMUM       "最小"
+    IDS_X_CAT_MAXIMUM       "最大"
+    IDS_X_CAT_DLGHELP       "這些檢查框簡要說明了在為新檔案選擇類別時使用什麼樣的標準"
+    IDS_X_CAT_FS            "     檔案大小(MB)"
+    IDS_X_CAT_RS            "剩餘大小(MB)"
+    IDS_X_CAT_RT            "剩餘時間(分鐘)"
+    IDS_X_CAT_SC            "來源數"
+    IDS_X_CAT_ASC           "可用來源數"
+    IDS_X_CAT_FILTERS       "類別過濾篩選"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CAT_RESUMEFILEONLYINSAMECAT 
+                            "僅繼續下載同類別的暫停檔案"
+    IDS_X_DOWNHISTORY_CHECK1 
+                            "這個檔案曾被下載:\n"
+    IDS_X_DOWNHISTORY_CHECK2 
+                            "%i檔案曾以相同檔案名稱(%s)被下載:\n"
+    IDS_X_DOWNHISTORY_CHECK3 "想要繼續下載這個檔案嗎?"
+    IDS_X_DOWNHISTORY_CHECK4 
+                            "這個檔案曾被下載後取消:\n"
+    IDS_X_A4AF_FLAGS        "進階A4AF標記"
+    IDS_X_A4AF_FLAGS_INFO   "進階Morph A4AF標記"
+    IDS_X_A4AF_NONEFLAG     "不要強制A4AF"
+    IDS_X_A4AF_NONEFLAG_INFO "移除Morph A4AF標記"
+    IDS_X_A4AF_ONFLAG       "強制開啟A4AF"
+    IDS_X_A4AF_ONFLAG_INFO  "設定強制開啟MorphA4AF標記"
+    IDS_X_A4AF_OFFFLAG      "強制關閉A4AF"
+    IDS_X_A4AF_OFFFLAG_INFO "設定強制關閉MorphA4AF標記"
+    IDS_X_ADVANCED_A4AF_MODE "智慧型A4AF控制(SAC)"
+    IDS_X_ADVANCED_A4AF_MODE_INFO "Morph進階A4AF控制"
+    IDS_X_ADVANCED_A4AF_MODE_DISABLED "停用"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ADVANCED_A4AF_MODE_DISABLED_INFO "停用進階A4AF處理"
+    IDS_X_ADVANCED_A4AF_MODE_BALANCE "均分來源"
+    IDS_X_ADVANCED_A4AF_MODE_BALANCE_INFO 
+                            "均分來源, 使每個檔案來源數都相等"
+    IDS_X_ADVANCED_A4AF_MODE_STACK "集中來源"
+    IDS_X_ADVANCED_A4AF_MODE_STACK_INFO "集中來源於單個檔案"
+    IDS_X_SMART_A4AF_SWAPPING "啟用智慧型A4AF轉移"
+    IDS_X_SMART_A4AF_SWAPPING_INFO "啟用Morph智慧型A4AF轉移"
+    IDS_X_DOWNHISTORY       "下載歷史"
+    IDS_X_TW_NEO            "Neo"
+    IDS_X_MIXED             "混合模式"
+    IDS_X_SEP               "-----"
+    IDS_X_PW_INTERGACE      "GUI設定"
+    IDS_X_NEO_BTN           "Neo按鈕%u"
+    IDS_X_MORPH_CATS        "智慧型類別控制(SCC)"
+    IDS_X_MORPH_CATS_INFO   "智慧型類別控制(Smart Category Control)(SCC), 出自Morph Mod的功能"
+    IDS_X_SHOW_CAT_NAMES    "完整類別名稱"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SHOW_CAT_NAMES_INFO "在類別欄中顯示完整類別名稱"
+    IDS_X_SHOW_CAT_FLAGS    "顯示類別旗"
+    IDS_X_SHOW_CAT_FLAGS_INFO "標籤裡顯示彩色的類別旗"
+    IDS_X_SEL_CAT_ON_ADD    "使用類別選擇對話框"
+    IDS_X_SEL_CAT_ON_ADD_INFO "顯示'選擇類別'對話框"
+    IDS_X_ACTIVE_CAT_DEFAULT "新下載檔案使用活動類別"
+    IDS_X_ACTIVE_CAT_DEFAULT_INFO 
+                            "對於新下載檔案使用傳輸視窗中的目前類別"
+    IDS_X_USE_AUTO_CAT      "檢視過濾器過濾後增加"
+    IDS_X_USE_AUTO_CAT_INFO "增加新下載任務到類別時使用檢視過濾器"
+    IDS_X_CHECK_ALREADY_DOWNLOADED "檢查曾下載過的檔案"
+    IDS_X_CHECK_ALREADY_DOWNLOADED_INFO 
+                            "當下載曾經被下載過的檔案時, 要求確認是否繼續下載"
+    IDS_X_START_NEXT_FILE_BY_PRIORITY "使用優先權繼續下載檔案"
+    IDS_X_START_NEXT_FILE_BY_PRIORITY_INFO 
+                            "只使用線性優先權開始下一個檔案"
+    IDS_X_AUTO_SET_RESUME_ORDER "自動優先權"
+    IDS_X_AUTO_SET_RESUME_ORDER_INFO 
+                            "自動提高並分配線性優先權"
+    IDS_X_PART_TRAFFIC      "啟用區塊傳遞"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SMALL_FILE_DL_PUSH "優先下載小型檔案"
+    IDS_X_SMALL_FILE_DL_PUSH_INFO "優先下載小於這個大小的較小檔案(單位:KB)"
+    IDS_X_START_DL_IN_EMPTY_CATS "在新類別中開始下載的檔案數"
+    IDS_X_START_DL_IN_EMPTY_CATS_INFO 
+                            "當增加到新類別時開始下載的檔案數"
+    IDS_X_SHOW_NEO_TOOLBAR  "顯示Neo工具列"
+    IDS_X_SHOW_NEO_TOOLBAR_INFO 
+                            "顯示帶有自訂按鈕的附加工具列"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PARTTRAFFIC       "區塊傳遞"
+    IDS_X_UPLOADS           "完整上傳"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CONFIRM_RESET_ALL_TRAFFIC 
+                            "您真的想要針對所有被選中項目重置整個時間統計嗎?"
+    IDS_X_CONFIRM_RESET_TRAFFIC 
+                            "您真的想要針對所有被選中項目重置工作階段統計嗎?"
+    IDS_X_ERR_TRAFFICMET_UNKNOWN_VERSION 
+                            "錯誤: traffic.met檔案版本未知, 無法讀取區塊傳遞"
+    IDS_X_ERR_TRAFFICMET_ENTRY_CORRUPT 
+                            "檔案%s的traffic.met項目已損壞"
+    IDS_X_ERR_TRAFFICASYNCHRONIZED 
+                            "在known.met中未發現traffic.met項目%s"
+    IDS_X_ERR_TRAFFICMET_BAD 
+                            "錯誤: 檔案traffic.met已損壞, 無法讀取區塊傳遞"
+    IDS_X_ERR_TRAFFICMET_UNKNOWN 
+                            "當讀取traffic.met時發生意外的檔案錯誤: %s, 無法讀取區塊傳遞"
+    IDS_X_RELEASE_MENU      "釋放管理"
+    IDS_X_RECALC_PS         "更新區塊狀態"
+    IDS_X_CLEARALLSTATS     "重置統計資訊"
+    IDS_X_CLEARSTATS        "重置工作階段統計資訊"
+    IDS_X_PARTPRIO_ON       "一般"
+    IDS_X_PARTPRIO_HIDEN    "隱藏"
+    IDS_X_PARTPRIO_BLOCKED  "封鎖"
+    IDS_X_PARTPRIO_NORMAL   "預設"
+    IDS_X_PARTPRIO          "管理"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_RECALC_IPS        "重新計算IPS管理"
+    IDS_X_PARTPERM_ACCESS_BLOCKED 
+                            "客戶端%s嘗試取得被封鎖的區塊%u(來自檔案'%s')"
+    IDS_X_IPS_MODE          "計算模式"
+    IDS_X_IPS_MODE_INFO     "決定區分超出分享狀態/超出可用狀態/低於可用狀態的方法"
+    IDS_X_ENABLE_KF         "對於已完成檔案啟用"
+    IDS_X_ENABLE_KF_INFO    "僅對於分享的已完成檔案啟用這個功能"
+    IDS_X_ENABLE_PF         "對於臨時檔案啟用"
+    IDS_X_ENABLE_PF_INFO    "僅對於正在下載的臨時檔案啟用這個功能"
+    IDS_X_IPS_MODE_MULTI_INFO 
+                            "如果某一個區塊的可用或上傳達到最低的區塊的x倍(x為您所設定的數值), 則認為是超出可用或超出分享狀態"
+    IDS_X_IPS_MODE_ADD      "加法"
+    IDS_X_IPS_MODE_ADD_INFO "如果某一個區塊的來源或上傳超過最低的區塊的x(x為您所設定的數值), 則認為是超出可用或超出分享狀態"
+    IDS_X_IPS_MODE_MULTI    "乘法"
+    IDS_X_INTELIGENT_PART_SHARING "智慧型區塊分享(IPS)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_INTELIGENT_PART_SHARING_INFO 
+                            "智慧型區塊分享(Inteligent Part Sharing)(IPS)功能, 包含隱藏超出已分享檔案段的延伸功能與僅分享所需要資料的功能"
+    IDS_X_INTELIGENT_PART_SHARING_INTERVALS "計算的時間間隔"
+    IDS_X_INTELIGENT_PART_SHARING_INTERVALS_INFO 
+                            "在這個時間間隔後, IPS管理將會重新計算, 在第一次啟動時計算將會稍有些頻繁"
+    IDS_X_INTELIGENT_PART_SHARING_MAXIMUM "最大隱藏百分比"
+    IDS_X_INTELIGENT_PART_SHARING_MAXIMUM_INFO 
+                            "IPS將隱藏的區塊的最大百分比"
+    IDS_X_HIDE_OVER_AVALIBLY "隱藏超出可用區塊"
+    IDS_X_HIDE_OVER_AVALIBLY_INFO 
+                            "這個設定包含只分享所需資料的功能"
+    IDS_X_INTELIGENT_PART_SHARING_VALUE "修正"
+    IDS_X_INTELIGENT_PART_SHARING_VALUE_INFO "修正計算"
+    IDS_X_IPS_OS_CALC       "分享計算方法"
+    IDS_X_IPS_OS_CALC_INFO  "決定區塊分享值的計算方法"
+    IDS_X_IPS_OS_CALC_HIGH  "高"
+    IDS_X_IPS_OS_CALC_HIGH_INFO 
+                            "高計算指的是傳輸大小/區塊大小, 它並不十分精確, 因為局部的上傳區塊不代表是新來源"
+    IDS_X_IPS_OS_CALC_LOW   "低"
+    IDS_X_IPS_OS_CALC_LOW_INFO 
+                            "分析區塊上傳並且僅計算已完成上傳區塊, 以確保這個區塊是作為新來源存在的, 強烈推薦使用這個功能"
+    IDS_X_IPS_BLOCK_PARTS   "阻止區塊"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_IPS_BLOCK_PARTS_INFO 
+                            "過高超出分享或超出可用的區塊將會被阻止"
+    IDS_X_IPS_BLOCK_PARTS_VALUE "區塊係數"
+    IDS_X_IPS_BLOCK_PARTS_VALUE_INFO 
+                            "如果一個區塊超出了修正值×係數的限制, 它將會被阻止"
+    IDS_X_HIDE_OVER_SHARED  "隱藏超出已分享檔案段"
+    IDS_X_HIDE_OVER_SHARED_INFO 
+                            "這個設定包含隱藏超出已分享檔案段的功能"
+    IDS_X_SHOW_ALWAYS_SOME_PARTS "總是顯示某些區塊"
+    IDS_X_SHOW_ALWAYS_SOME_PARTS_INFO 
+                            "如果可用的話, 總是提供一些可下載的區塊給客戶端"
+    IDS_X_SHOW_ALWAYS_SOME_PARTS_VALUE "最小數量"
+    IDS_X_SHOW_ALWAYS_SOME_PARTS_VALUE_INFO 
+                            "如果我們有充足的區塊並且它們未被阻止, 我們總是顯示給客戶端的區塊數量"
+    IDS_X_SHOW_ALWAYS_INCPMPLETE_PARTS "總是顯示未完成的區塊"
+    IDS_X_SHOW_ALWAYS_INCPMPLETE_PARTS_INFO 
+                            "如果某個客戶端未完成某個區塊, 而我們擁有完整的這個區塊, 那麼不隱藏這個區塊以允許這個客戶端完成它"
+    IDS_X_SHOW_UNDER_AVALIBLY "顯示低於可用的區塊"
+    IDS_X_SHOW_UNDER_AVALIBLY_INFO 
+                            "當某個區塊超出分享, 但在網絡中又十分稀有時, 檔案將不被隱藏"
+    IDS_X_PW_RELEASE        "釋放設定"
+    IDS_X_PERM_HIDDEN       "隱藏"
+    IDS_X_PERM_FRIENDS      "僅好友"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PERM_PUBLIC       "公用"
+    IDS_X_PERM_DEFAULT      "預設"
+    IDS_X_PRIOVERYHIGH      "非常高"
+    IDS_X_SRS_SINGLE        "啟用高限"
+    IDS_X_SRS_SINGLE_INFO   "僅啟用最高限制"
+    IDS_X_SRS_DISABLE       "停用"
+    IDS_X_SRS_DISABLE_INFO  "停用限制"
+    IDS_X_SRS_BOOTH         "啟用高限與低限"
+    IDS_X_SRS_BOOTH_INFO    "啟用最低限制與最高限制"
+    IDS_X_SRS_MODE          "限制模式"
+    IDS_X_SRS_MODE_INFO     "決定限制的數學特徵"
+    IDS_X_SRS_SIMPLE        "簡單模式"
+    IDS_X_SRS_SIMPLE_INFO   "在簡單模式中當達到限制值時, 加速將被關閉"
+    IDS_X_SRS_LINEAR        "線性模式"
+    IDS_X_SRS_LINEAR_INFO   "在線上上性模式中加速將依照限制線性減少"
+    IDS_X_SRS_EXPONENTIAL   "指數模式"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SRS_EXPONENTIAL_INFO 
+                            "在指數模式中加速將依照限制按指數減少"
+    IDS_X_SRS_LINK          "連線詞"
+    IDS_X_SRS_LINK_INFO     "上方和下方的限制的連線詞"
+    IDS_X_SRS_AND           "和"
+    IDS_X_SRS_AND_INFO      "A和B"
+    IDS_X_SRS_OR            "或"
+    IDS_X_SRS_OR_INFO       "A或B"
+    IDS_X_SMART_RELEASE_SHARING "智慧型釋放分享"
+    IDS_X_SMART_RELEASE_SHARING_INFO 
+                            "這個設定提供了釋放優先權和/或強力分享的功能"
+    IDS_X_SRS_BOOST         "釋放加速"
+    IDS_X_SRS_BOOST_INFO    "按釋放等級設定決定檔案的加速"
+    IDS_X_SRS_POWER         "強力分享"
+    IDS_X_SRS_POWER_INFO    "將檔案強力分享"
+    IDS_X_SRS_MIXED         "結合模式"
+    IDS_X_SRS_MIXED_INFO    "釋放加速和強力分享兩功能的結合模式"
+    IDS_X_RELEASE_LEVEL     "釋放等級"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PART_TRAFFIC_INFO "啟用/停用區塊傳輸, 在下拉選單中可設定顏色風格"
+    IDS_X_TWEAK_QUEUE       "調整上傳佇列"
+    IDS_X_TWEAK_QUEUE_INFO  "上傳佇列的調整, 有關無限佇列及佇列擴增等的設定"
+    IDS_X_SAVE_QUEUE        "儲存上傳佇列等待時間"
+    IDS_X_SAVE_QUEUE_INFO   "儲存上傳佇列等待時間到credits2.met"
+    IDS_X_MULTI_QUEUE       "一個檔案一個佇列"
+    IDS_X_MULTI_QUEUE_INFO  "一個檔案使用一個佇列, 推薦使用這個選項"
+    IDS_X_RANDOM_QUEUE      "使用可假想佇列"
+    IDS_X_RANDOM_QUEUE_INFO "客戶端將得到亂數的上傳, 非常推薦釋放者使用"
+    IDS_X_NEO_SCORE_SYSTEM  "使用Neo檔案積分系統"
+    IDS_X_NEO_SCORE_SYSTEM_INFO 
+                            "強烈推薦使用這個功能. \n等待時間將按指數計算積分, 並且額度系統也將在其中起到適當的作用"
+    IDS_X_CREDIT_SYSTEM     "額度系統"
+    IDS_X_CREDIT_SYSTEM_INFO "選擇您想使用的額度系統"
+    IDS_X_CREDIT_SYSTEM_OFFICIAL "使用官方額度系統"
+    IDS_X_CREDIT_SYSTEM_OFFICIAL_INFO 
+                            "一般官方客戶端使用的預設額度系統"
+    IDS_X_NEO_CREDIT_SYSTEM "使用Neo額度系統"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_NEO_CREDIT_SYSTEM_INFO 
+                            "Neo額度系統目前是唯一真正公平的系統, 強烈推薦使用這個系統"
+    IDS_X_OTHER_CREDIT_SYSTEM "使用其它額度系統"
+    IDS_X_OTHER_CREDIT_SYSTEM_INFO 
+                            "使用一個其它的非預設的額度系統, 不推薦"
+    IDS_X_UNLIMITED_QUEUE   "無限佇列"
+    IDS_X_UNLIMITED_QUEUE_INFO 
+                            "啟用無限佇列, 這個選項對釋放者和和快速連線並24小時運行eMule的人有益, 在其它情況下不推薦使用這個功能, 它會因為少數使用者的限制而浪費來源"
+    IDS_X_OVERFLOW_QUEUE    "佇列擴增設定"
+    IDS_X_OVERFLOW_QUEUE_INFO 
+                            "允許客戶端在特殊的情況下進入您的已滿的佇列, 推薦使用這個功能"
+    IDS_X_OVERFLOW_QUEUE_RELEASE "釋放擴增"
+    IDS_X_OVERFLOW_QUEUE_RELEASE_INFO 
+                            "釋放擴增可以使在釋放模式下要求檔案的客戶端進入佇列"
+    IDS_X_OVERFLOW_QUEUE_EXTENDED "延伸擴增"
+    IDS_X_OVERFLOW_QUEUE_EXTENDED_INFO 
+                            "延伸擴增可以使要求稀有檔案的客戶端進入佇列"
+    IDS_X_OVERFLOW_QUEUE_DEFAULT "標準擴增"
+    IDS_X_OVERFLOW_QUEUE_DEFAULT_INFO 
+                            "標準eMule佇列擴增, 讓高等級(積分×檔案優先權)客戶端進入佇列"
+    IDS_X_OVERFLOW_QUEUE_COMFIRND "好友/社團擴增"
+    IDS_X_OVERFLOW_QUEUE_COMFIRND_INFO 
+                            "允許好友和社團成員進入已滿的佇列"
+    IDS_X_PUSH_SMALL_RARE_FILES "加速小型/稀有檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PUSH_SMALL_RARE_FILES_INFO 
+                            "加速小型的或稀有的檔案, 推薦使用這個功能"
+    IDS_X_PUSH_SMALL_FILES  "加速小型檔案"
+    IDS_X_PUSH_SMALL_FILES_INFO 
+                            "加速小型檔案, 這個數值將用來決定需加速的檔案大小的最大值以及加速的數值"
+    IDS_X_PUSH_RARE_FILES   "加速稀有檔案"
+    IDS_X_PUSH_RARE_FILES_INFO 
+                            "加速稀有的檔案, 這個數值將用來決定需加速的來源數以及加速的數值"
+    IDS_X_PUSH_RATIO_FILES  "按比例加速檔案"
+    IDS_X_PUSH_RATIO_FILES_INFO 
+                            "加速那些下載多於上傳的檔案"
+    IDS_X_FRIEND_UPLOAD     "好友通道管理"
+    IDS_X_FRIEND_UPLOAD_INFO 
+                            "對好友通道檔案使用單獨的通道和頻寬限制"
+    IDS_X_FRIEND_SLOT_LIMIT "好友通道限制"
+    IDS_X_FRIEND_SLOT_LIMIT_INFO 
+                            "當停用時只允許使用一個好友通道\n好友通道數量最小值為1"
+    IDS_X_FRIEND_BANDWIDTH  "使用單獨好友頻寬"
+    IDS_X_FRIEND_BANDWIDTH_INFO 
+                            "為好友通道使用單獨的頻寬限制"
+    IDS_X_FRIEND_SLOT_SPEED "好友通道速度"
+    IDS_X_FRIEND_SLOT_SPEED_INFO "好友通道的速度"
+    IDS_X_FRIEND_BANDWIDTH_PERCENTAGE "好友頻寬百分比"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FRIEND_BANDWIDTH_PERCENTAGE_INFO 
+                            "分配給好友通道的可用上傳頻寬的百分比"
+    IDS_X_RELEASE_UPLOAD    "釋放上傳管理"
+    IDS_X_RELEASE_UPLOAD_INFO "為釋放檔案使用單獨的頻寬"
+    IDS_X_RELEASE_SLOT_LIMIT "最大釋放通道"
+    IDS_X_RELEASE_SLOT_LIMIT_INFO 
+                            "能同時開啟的釋放通道的最大數量"
+    IDS_X_RELEASE_BANDWIDTH "單獨的釋放頻寬"
+    IDS_X_RELEASE_BANDWIDTH_INFO 
+                            "為釋放通道使用單獨的頻寬限制"
+    IDS_X_RELEASE_SLOT_SPEED "釋放通道速度"
+    IDS_X_RELEASE_SLOT_SPEED_INFO "釋放通道的速度"
+    IDS_X_RELEASE_BANDWIDTH_PERCENTAGE "釋放頻寬百分比"
+    IDS_X_RELEASE_BANDWIDTH_PERCENTAGE_INFO 
+                            "分配給釋放通道的可用上傳頻寬百分比"
+    IDS_X_LOCAL_SHARED_FILES "本地已分享檔案"
+    IDS_X_DENIESSHARE       "%s拒絕對已分享檔案的存取"
+    IDS_X_SHAREDFILES2      "%s的已分享檔案清單"
+    IDS_X_USERSSHAREDFILES  "%s的已分享檔案"
+    IDS_X_GETTING_FILE_LIST " (正在取得檔案清單)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CMT_REFRESH         "重新整理(&R)"
+    IDS_X_REFRESH_ROOT      "重新整理分享的目錄清單"
+    IDS_X_VDS_MM            "對應管理"
+    IDS_X_VDS_MDIR          "為資料夾設定虛擬目錄"
+    IDS_X_VDS_MSDIR         "為資料夾和子資料夾設定虛擬目錄"
+    IDS_X_VDS_REMOVE        "移除這個項目的虛擬目錄"
+    IDS_X_REFRESH_DIR       "重新整理目錄清單"
+    IDS_X_VDS_MMTYPE        "類型"
+    IDS_X_VDS_MMORIG        "實際目錄"
+    IDS_X_VDS_MMVIRT        "虛擬目錄"
+    IDS_X_VDS_FILEMAP       "檔案"
+    IDS_X_VDS_DIRMAP        "資料夾"
+    IDS_X_VDS_SUBDIRMAP     "和子資料夾"
+    IDS_X_VDS_ADDMAP        "增加新的對應"
+    IDS_X_VDS_REMOVEMAP     "移除對應"
+    IDS_X_VDS_COPYMAP       "複製這個對應"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_VDS_CHANGEDIR     "只對應這個資料夾"
+    IDS_X_VDS_CHANGESUBDIR  "對應這個資料夾和子資料夾"
+    IDS_X_PW_VIRTUAL        "虛擬目錄"
+    IDS_X_COLLECT_VOODOO_SOURCES "從Voodoo獲得"
+    IDS_X_ST_URELEASE       "釋放上傳"
+    IDS_X_ST_UFRIENDS       "好友上傳"
+    IDS_X_ST_DRELEASE       "釋放下載"
+    IDS_X_ST_DFRIENDS       "好友下載"
+    IDS_X_CHECK_BUDDY_CHANGES "檢查Buddy改變"
+    IDS_X_CHECK_BUDDY_CHANGES_INFO 
+                            "檢查Buddy是否改變, 如果改變, 通知所有客戶端"
+    IDS_X_REASKING_ON_IP    "所有來源將在同樣的時間間隔後被重新要求"
+    IDS_X_CONTROL_CONNECTIONS "Obelix連線控制"
+    IDS_X_CONTROL_CONNECTIONS_INFO 
+                            "又稱Obelix連線管理. 當x%的在線上上資源被使用時, 來源重新要求功能將被暫時停止"
+    IDS_X_CONNECTION_CHECK  "檢查連線"
+    IDS_X_CONNECTION_CHECK_INFO 
+                            "如果失敗的連接數達到給定數量, 並且上次連線成功距現在的時間超過給定時間(單位:秒), 連線將被認為無效"
+    IDS_X_PREFS_BANNER      "顯示選項視窗邊條幅"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PREFS_BANNER_INFO "在參數設定選項視窗中顯示邊條幅"
+    IDS_X_COLLOR_SHARE_FILES "彩色標記已分享檔案"
+    IDS_X_COLLOR_SHARE_FILES_INFO 
+                            "根據已分享檔案的類別所設定的顏色來設定它們的背景顏色"
+    IDS_X_SMOOTH_STATISTICS_GRAPHS "平滑式統計圖"
+    IDS_X_SMOOTH_STATISTICS_GRAPHS_INFO 
+                            "在統計資訊中使用更平滑的圖表"
+    IDS_X_PAUSE_ON_COMPLETE "檔案完成前暫停"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PAUSE_ON_COMPLETE_INFO 
+                            "完成檔案需要繼續"
+    IDS_X_INTELIGENT_CHUNK_SELECTION "智慧型區塊選擇"
+    IDS_X_INTELIGENT_CHUNK_SELECTION_INFO 
+                            "使用智慧型區塊選擇和未完成區塊狀態, 設定為半選中狀態將僅使用未完成區塊狀態"
+    IDS_X_SUB_CHUNK_TRANSFER "子區塊傳輸"
+    IDS_X_SUB_CHUNK_TRANSFER_INFO 
+                            "使用子區塊傳輸並進行區塊AICH校檢, 設定為半選中狀態將僅進行校檢"
+    IDS_X_PART_STATUS_HISTORY "區塊狀態歷史"
+    IDS_X_PART_STATUS_HISTORY_INFO "偵測被隱藏/被阻止的區塊並顯示它們"
+    IDS_X_L2HAC             "低-ID對高-ID自動回調"
+    IDS_X_L2HAC_INFO        "允許低-ID客戶端自動回調並儲存回調要求"
+    IDS_X_SAVE_COMMENTS     "儲存註解"
+    IDS_X_SAVE_COMMENTS_INFO "在工作階段之間儲存註解"
+    IDS_X_KNOWN_COMMENTS    "使用已知KAD註解"
+    IDS_X_KNOWN_COMMENTS_INFO "對KAD中的已知檔案也公開註解"
+    IDS_X_PREFER_SHARE_ALL  "優先連線分享所有"
+    IDS_X_PREFER_SHARE_ALL_INFO "優先連線可以分享所有檔案的伺服器"
+    IDS_X_LUGDUNUM_CREDITS  "使用Lugdunum額度(推薦)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LUGDUNUM_CREDITS_INFO 
+                            "防止已分享檔案過多的客戶端被禁止"
+    IDS_X_DOWNLOAD_ONLY_COMPLETE_FILES "只下載完整檔案"
+    IDS_X_DOWNLOAD_ONLY_COMPLETE_FILES_INFO 
+                            "只下載有完整來源的檔案"
+    IDS_X_HARDLIMIT         "硬性限制: Neo->來源設定->來源要求調整->來源限制"
+    IDS_X_DISABLE_AUTOSORT  "停用自動分類"
+    IDS_X_DISABLE_AUTOSORT_INFO 
+                            "停用自動分類清單, 推薦設定為半選中狀態"
+    IDS_X_SP_ICONBAR_1      "系統列托盤速度條最大下載顏色"
+    IDS_X_SP_ICONBAR_2      "系統列托盤速度條最小下載顏色"
+    IDS_X_SP_ICONBAR_3      "系統列托盤速度條最大上傳顏色"
+    IDS_X_SP_ICONBAR_4      "系統列托盤速度條最小上傳顏色"
+    IDS_X_LOCK_TRAY         "托盤密碼保護模式"
+    IDS_X_LOCK_TRAY_PW      "請輸入托盤保護的密碼"
+    IDS_X_SPEEDMETER        "在工具列中顯示速度表"
+    IDS_X_PPGSTATS_UMRATIO  "活動記憶體使用比例:"
+    IDS_X_PPGSTATS_UTRATIO  "傳輸連線比例:"
+    IDS_X_PPGSTATS_USRATIO  "來源總數/佇列數量比例:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_REFRESH_SHARE     "分享重新整理"
+    IDS_X_REFRESH_SHARE_INFO 
+                            "每隔這個時間(單位:分鐘)重新載入一次已分享檔案, 以尋找新近增加的檔案"
+    IDS_X_CTRLKEY           "CTRL"
+    IDS_X_ALTKEY            "ALT"
+    IDS_X_SHIFTKEY          "SHIFT"
+    IDS_X_NSTI              "新圖示"
+    IDS_X_NSTI_INFO         "新式系統列圖示設定"
+    IDS_X_NSTI_UL           "顯示上傳條"
+    IDS_X_NSTI_UL_INFO      "在系統列托盤上顯示上傳速度條"
+    IDS_X_NSTI_UL_THIN      "狹窄型速度條"
+    IDS_X_NSTI_UL_THIN_INFO "在系統列圖示上顯示狹窄型樣式的速度條"
+    IDS_X_NSTI_MAX          "75%顏色"
+    IDS_X_NSTI_MAX_INFO     "當達到75%時的顏色"
+    IDS_X_STATIC_TRAY_ICON  "始終顯示托盤"
+    IDS_X_STATIC_TRAY_ICON_INFO 
+                            "圖示將會始終顯示在系統列上"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_INVISIBLE_MODE    "隱藏模式"
+    IDS_X_INVISIBLE_MODE_INFO 
+                            "啟動隱藏模式後eMule系統列圖示將會隱藏, 只有按下特定的熱鍵組合才能顯示主視窗"
+    IDS_X_INVISIBLE_KEY_MOD "輔助鍵"
+    IDS_X_INVISIBLE_KEY_MOD_INFO "輔助鍵"
+    IDS_X_INVISIBLE_KEY     "主鍵"
+    IDS_X_INVISIBLE_KEY_INFO "主鍵"
+    IDS_X_TRAY_PASSWORD_PROTECTION "托盤密碼保護"
+    IDS_X_TRAY_PASSWORD_PROTECTION_INFO 
+                            "使用密碼保護托盤狀態, 使用者需輸入密碼才能還原視窗. 密碼為空則為動態密碼, 即每次最小化為托盤時都要設定當次的密碼"
+    IDS_X_PLUS_METER        "在工具列中顯示附加速度表"
+    IDS_X_PLUS_METER_INFO   "在工具列中顯示eMule附加速度表"
+    IDS_X_USE_RCD           "使用相關區塊顯示"
+    IDS_X_USE_RCD_INFO      "顯示與最後可用區塊相關的區塊可用性"
+    IDS_X_USE_SYS_INFO      "顯示系統資訊圖"
+    IDS_X_USE_SYS_INFO_INFO "在連線統計資料示意圖中, 您將可以看到您的客戶端的CPU使用量和記憶體使用量"
+    IDS_X_USE_SYS_INFO_TITLE "顯示標題欄系統資訊"
+    IDS_X_USE_SYS_INFO_TITLE_INFO 
+                            "系統資訊將會在視窗的標題欄中顯示"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_USE_DOTS          "使用區塊劃分"
+    IDS_X_USE_DOTS_INFO     "在進度條中劃分區塊"
+    IDS_X_SHOW_CLIENT_PERCENTAGE "顯示客戶端百分比"
+    IDS_X_SHOW_CLIENT_PERCENTAGE_INFO 
+                            "在狀態列顯示客戶端可用區塊百分比"
+    IDS_X_TWEAKS2_WARNING   "這個功能為官方功能, 請檢視幫助/更新日誌以便瞭解更多關於這些功能的詳細內容...\n注意: 標記有*號的設定將會直接儲存到perferences.ini檔案中."
+    IDS_X_HIGHRES_TIMER     "啟用高計時精確度(推薦用於極快速的佇列)"
+    IDS_X_FILE_BUFFER_SIZE  "檔案緩衝大小(單位:位元組)"
+    IDS_X_FILE_BUFFER_TIME  "檔案緩衝時間(單位:秒)"
+    IDS_X_ICH               "智慧型損壞處理(ICH)"
+    IDS_X_DONTCOMPRESSBLOCKS "不壓縮區塊"
+    IDS_X_DONTCOMPRESSAVI   "不壓縮avi檔案"
+    IDS_X_REMOVE2BIN        "將被移除檔案移至資源回收筒"
+    IDS_X_SHOWCOPYED2KLINK  "顯示'複製eD2K連結'命令"
+    IDS_X_SERVERUDPPORT     "UDP伺服器連線埠(0=停用; 65535=亂數)"
+    IDS_X_RESTORELASTMAINWNDDLG "還原到上次的主視窗"
+    IDS_X_RESTORELASTLOGPANE "還原到上次的日誌面板"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ICON_FLASH_ON_NEW_MESSAGE "在有新訊息時閃爍圖示"
+    IDS_X_ENABLEMINIMULE    "啟用迷您騾"
+    IDS_X_MINIMULEAUTOCLOSE "自動關閉迷您騾"
+    IDS_X_MINIMULETRANSPARENCY "* 透明"
+    IDS_X_PREVIEWSMALLBLOCKS "預覽較小的區塊"
+    IDS_X_PREVIEWCOPIEDARCHIVES "預覽已複製檔案"
+    IDS_X_PREVIEWONICONDBLCLK "雙擊圖示預覽檔案"
+    IDS_X_SHOWACTIVEDOWNLOADSBOLD "正在下載的檔案顯示為粗體"
+    IDS_X_RTLWINDOWSLAYOUT  "* 使用RTL版式視窗(這個為試用功能;仍在開發中)"
+    IDS_X_REBARTOOLBAR      "* 設定工具列"
+    IDS_X_STRAIGHTWINDOWSTYLES "直式視窗風格"
+    IDS_X_MAXCHATHISTORY    "最大聊天歷史記錄數"
+    IDS_X_MAXMSGSESSIONS    "最大資訊工作階段"
+    IDS_X_PREFERRESTRICTEDOVERUSER 
+                            "安全 - 對所有受限制的(無特權的)使用者"
+    IDS_X_TRUSTEVERYHASH    "信任任何AICH 切細(不推薦)"
+    IDS_X_SHOWVERTICALHOURMARKERS "狀態 - 顯示縱軸的小時數標記"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_INSPECTALLFILETYPES "檢查所有檔案類型"
+    IDS_X_WEBFILEUPLOADSIZELIMITMB 
+                            "Web界面 - 網絡檔案上傳大小限制(單位:MB)"
+    IDS_X_ALLOWEDREMOTEACCESSIPS "Web界面 - 允許遠程訪問的IP"
+    IDS_X_ALLOWADMINHILEVFUNC "Web界面 - 允許管理員進階功能"
+    IDS_X_MAXLOGFILESIZE    "最大日誌檔案大小(單位:位元組)"
+    IDS_X_MAXLOGBUFFER      "最大日誌緩衝大小"
+    IDS_X_LOGFILEFORMAT     "Utf8/Unicode日誌檔案格式"
+    IDS_X_TXTEDITOR         "預設文字編輯器"
+    IDS_X_USEUSERSORTEDSERVERLIST "使用者分類伺服器清單"
+    IDS_X_CRYPTTCPPADDINGLENGTH "加密TCP Padding長度= [1-254]"
+    IDS_X_DEBUGSEARCHDETAILLEVEL "調試搜尋詳細資訊級別"
+    IDS_X_ADJUSTNTFSDAYLIGHTFILETIME "調整NTFS檔案夏令時時間"
+    IDS_X_PEERCACHESHOW     "顯示PeerCache資訊"
+    IDS_X_DATETIMEFORMAT    "日期時間格式"
+    IDS_X_DATETIMEFORMAT4LOG "日誌中的日期時間格式"
+    IDS_X_LOGERROR          "標記錯誤日誌的顏色"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_LOGWARNING        "標記警告日誌的顏色"
+    IDS_X_LOGSUCCESS        "標記成功日誌的顏色"
+    IDS_X_WINSOCK2          "* 啟用Windows Socket v2"
+    IDS_X_CREATECRASHDUMP   "* 程式崩潰時建立轉儲檔案"
+    IDS_X_INTERNETSECURITYZONE "* 網際網路安全區域"
+    IDS_X_PW_TWEAK2         "延伸設定II"
+    IDS_X_APP_PRIORITY      "NeoMule程式優先權"
+    IDS_X_APP_PRIORITY_INFO "為NeoMule程式設定程式優先權"
+    IDS_X_PROTOCOL_TWEAKS   "協定調整"
+    IDS_X_PROTOCOL_TWEAKS_INFO "可選的Mod延伸協定的設定"
+    IDS_X_USE_NTS           "使用Neo樹狀風格"
+    IDS_X_USE_NTS_INFO      "已分享檔案及傳輸視窗使用Neo樹狀風格"
+    IDS_X_DLP_LOG           "DLP資訊: %s"
+    IDS_X_ARGOS_DLP_FILE_MISSING "Argos: dlp.dll檔案丟失"
+    IDS_X_ARGOS_DLP_LOADED  "Argos: DLP程式庫已載入"
+    IDS_X_ARGOS_DLP_LOAD_FAILED "Argos: 載入DLP程式庫失敗, 錯誤: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FATAL             "重大錯誤"
+    IDS_X_INTERNAL          "內部"
+    IDS_X_GENERIC           "一般"
+    IDS_X_ARGOS_DLP_UNLOADED "Argos: DLP程式庫已卸載"
+    IDS_X_ZERO_SCORE_NON_GPL "給違反GPL者0分"
+    IDS_X_ZERO_SCORE_NON_GPL_INFO 
+                            "不禁止違反GPL者的IP, 而是將他們的積分降為0"
+    IDS_X_BAN_TIME          "IP禁止時間"
+    IDS_X_BAN_TIME_INFO     "禁止一個客戶端多長時間(單位:分鐘)"
+    IDS_X_MAELA_BACKDOOR    "不允許檔案過度傳遞"
+    IDS_X_MAELA_BACKDOOR_INFO 
+                            "當一個客戶端得到一個特殊檔案(比如*.cue檔案)的傳遞通道, 但之後又要求另一個檔案(比如*.bin檔案), 那麼它將失去傳遞通道並回到等待佇列上"
+    IDS_X_DLP               "動態Leecher防護"
+    IDS_X_DLP_INFO          "使用dlp.dll偵測指定的已知Leecher客戶端"
+    IDS_X_DLP_LOW           "低"
+    IDS_X_DLP_LOW_INFO      "僅偵測最壞的Leecher"
+    IDS_X_DLP_NORMAL        "一般"
+    IDS_X_DLP_NORMAL_INFO   "一般敏感級別"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DLP_HIGH          "高"
+    IDS_X_DLP_HIGH_INFO     "偵測所有Leecher"
+    IDS_X_DLP_MOD           "經由Mod String"
+    IDS_X_DLP_MOD_INFO      "經由Mod String偵測"
+    IDS_X_DLP_NICK          "經由使用者名稱"
+    IDS_X_DLP_NICK_INFO     "經由使用者名稱偵測"
+    IDS_X_DLP_HASH          "經由使用者切細"
+    IDS_X_DLP_HASH_INFO     "經由使用者切細偵測"
+    IDS_X_ANTI_UPLOAD_FAKER "禁止偽造上傳"
+    IDS_X_ANTI_UPLOAD_FAKER_INFO 
+                            "禁止佇列中上傳嘗試多次失敗的客戶端"
+    IDS_X_ANTI_FILE_FAKER   "禁止檔案偽造"
+    IDS_X_ANTI_FILE_FAKER_INFO 
+                            "禁止沒有這個檔案但仍然響應要求的客戶端"
+    IDS_X_ANTI_RANK_FLOODER "禁止排名溢出(官方功能)"
+    IDS_X_ANTI_RANK_FLOODER_INFO 
+                            "禁止傳送未要求的排名資訊的客戶端"
+    IDS_X_ANTI_XS_EXPLOIT   "禁止過度徵用來源"
+    IDS_X_ANTI_XS_EXPLOIT_INFO "禁止過度要求來源交換的客戶端"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ANTI_FILE_SCANNER "禁止檔案掃瞄(官方功能)"
+    IDS_X_ANTI_FILE_SCANNER_INFO 
+                            "偵測多次要求我們所沒有的檔案的客戶端"
+    IDS_X_ANTI_SPAMER       "禁止垃圾資訊傳送"
+    IDS_X_ANTI_SPAMER_INFO  "禁止傳送垃圾資訊的客戶端, 您可以在官方的""訊息與註解""選項頁面中設定資訊過濾.\n完全啟用 - 偵測訊息與註解中的垃圾資訊\n半選中 - 僅偵測訊息中的垃圾資訊"
+    IDS_X_ANTI_AGRESSION    "禁止攻擊性客戶端(官方功能)"
+    IDS_X_ANTI_AGRESSION_INFO 
+                            "禁止要求檔案過於頻繁的客戶端(設定為半選中狀態將僅針對TCP要求, 完全選中則針對TCP和UDP要求)"
+    IDS_X_ANTI_HASH_CHANGE  "禁止切細變換"
+    IDS_X_ANTI_HASH_CHANGE_INFO 
+                            "禁止變換切細的客戶端(設定為半選中狀態將使用Argos機制(推薦), 完全選中則使用官方機制(不推薦)) "
+    IDS_X_ANTI_HASH_THIEF   "禁止切細竊取"
+    IDS_X_ANTI_HASH_THIEF_INFO "禁止盜用我們切細的客戶端"
+    IDS_X_ANTI_NICK_THIEF   "禁止使用者名稱竊取"
+    IDS_X_ANTI_NICK_THIEF_INFO "禁止盜用我們使用者名稱的客戶端"
+    IDS_X_ANTI_MOD_THIEF    "禁止Mod竊取"
+    IDS_X_ANTI_MOD_THIEF_INFO "禁止偽造我們的Mod ID的客戶端"
+    IDS_X_PW_ARGOS          "Argos反Leecher"
+    IDS_X_PWPROT_SHOW       "顯示受保護檔案"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PWPROT_HIDE       "隱藏受保護檔案"
+    IDS_X_PWPROT_SET        "保護檔案"
+    IDS_X_PWPROT_CHANGE     "變更密碼"
+    IDS_X_PWPROT_UNSET      "取消檔案保護"
+    IDS_X_PWPROT_SETIBTITLE "設定新密碼"
+    IDS_X_PWPROT_SETIBDESC  "請為您想要保護的檔案輸入新密碼"
+    IDS_X_PWPROT_OLDPWIBTITLE "舊密碼"
+    IDS_X_PWPROT_OLDPWIBDESC 
+                            "這個檔案已經設定有一個密碼.\n請輸入舊密碼"
+    IDS_X_PWPROT_CLEARPW    "設定為一個空白的密碼將停用對所選檔案的保護.\n您希望繼續嗎?"
+    IDS_X_PWPROT_SHOWIBTITLE "輸入密碼"
+    IDS_X_PWPROT_UNSETIBDESC 
+                            "請為您想要取消保護的檔案輸入原密碼"
+    IDS_X_PWPROT_SHOWIBDESC "為您想要顯示的被保護檔案輸入密碼"
+    IDS_X_PWPROT_MENU       "受保護檔案"
+    IDS_X_RELEASE_ADDON     " (釋放通道)"
+    IDS_X_FRIEND_ADDON      " (好友通道)"
+    IDS_X_COPYFEEDBACK_US   "您想將英文的檔案資料資料複製到剪貼簿嗎?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FEEDBACK_FROM     "資料資料來自%s於[%s]"
+    IDS_X_FEEDBACK_FILENAME "檔案名稱: %s"
+    IDS_X_FEEDBACK_FILETYPE "檔案類型: %s"
+    IDS_X_FEEDBACK_FILESIZE "大小: %s"
+    IDS_X_FEEDBACK_DOWNLOADED "下載: %s"
+    IDS_X_FEEDBACK_TRANSFERRED "傳輸: %s(%s)"
+    IDS_X_FEEDBACK_REQUESTED "要求: %i(%i)"
+    IDS_X_FEEDBACK_ACCEPTED "接受要求: %i(%i)"
+    IDS_X_FEEDBACK_TOTAL    "總計來源: %i"
+    IDS_X_FEEDBACK_AVAILABLE "可用來源: %i"
+    IDS_X_FEEDBACK_NONEEDPART "無所需區塊來源: %i"
+    IDS_X_FEEDBACK_COMPLETE "完整來源: %i"
+    IDS_X_COPYFEEDBACK      "將檔案資料資料複製到剪貼簿"
+    IDS_X_SEARCHHASH        "搜尋相關檔案"
+    IDS_X_RELEASE_CHUNKS    "釋放區塊"
+    IDS_X_RELEASE_CHUNKS_INFO 
+                            "在一個釋放上傳工作階段中的上傳區塊"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SUSPEND_SHORT     "等待中(延緩)"
+    IDS_X_STANDBY_STALLED   "待命(延遲)"
+    IDS_X_ENCRYPTCERTNAME   "* 通報加密信件確定名稱"
+    IDS_X_CHECKCOMCTL32     "* 檢查Comctl32"
+    IDS_X_CHECKSHELL32      "* 檢查Shell32"
+    IDS_X_IGNOREINSTANCES   "略過實例"
+    IDS_X_MEDIAINFODLLPATH  "MediaInfo.Dll路徑 "
+    IDS_X_MEDIAINFO_RIFF    "MediaInfo_RIFF"
+    IDS_X_MEDIAINFO_ID3LIB  "MediaInfo_ID3LIB"
+    IDS_X_MEDIAINFO_RM      "MediaInfo_RM"
+    IDS_X_SVR_IP_BANNED     "您不能連線被過濾了的伺服器: %s, %s"
+    IDS_X_DONT_REMOVE_STATIC "不移除靜態伺服器"
+    IDS_X_DONT_REMOVE_STATIC_INFO 
+                            "不移除無效的靜態伺服器"
+    IDS_X_SS_E_CC           "正在儲存客戶額度"
+    IDS_X_SS_E_FS           "正在完成關閉"
+    IDS_X_SS_PREP_DQ        "正在載入下載佇列"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SS_LOAD_SRC       "正在載入來源"
+    IDS_X_SS_DONE           "備妥"
+    IDS_X_SS_E_ED           "正在關閉"
+    IDS_X_SS_E_SKF          "正在儲存已知檔案"
+    IDS_X_SS_E_CL           "正在清除清單"
+    IDS_X_SS_E_SAVE_SRC     "正在儲存來源"
+    IDS_X_SS_E_CLEAR_SRC    "正在移除來源"
+    IDS_X_SS_E_SS           "正在儲存來源資料庫"
+    IDS_X_SS_E_SD           "關閉已完成"
+    IDS_X_SS_INIT_PREFS     "載入參數設定"
+    IDS_X_SS_PREP           "正在準備啟動"
+    IDS_X_SS_INIT_CL        "正在初始化客戶端清單"
+    IDS_X_SS_INIT_KFL       "正在初始化已知檔案清單"
+    IDS_X_SS_INIT_CCL       "正在初始化客戶額度清單"
+    IDS_X_SS_INIT_IPF       "正在初始化IP過濾檔案"
+    IDS_X_SS_INIT_SDB       "正在初始化來源清單"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SS_SHOW_MAIN      "正在建立主視窗"
+    IDS_X_SS_PREP_VD        "正在啟動Voodoo"
+    IDS_X_CLEARBLOCK        "區塊清理管理"
+    IDS_X_CLEARCOMMENTS     "清除註解"
+    IDS_X_CONFIRM_RESET_CONNENTS 
+                            "您真的想清除這個檔案的所有已知註解嗎?"
+    IDS_X_LANCAST_ADDON     " [LAN客戶端]"
+    IDS_X_SS_E_DL           "清理下載佇列"
+    IDS_X_COPYBLOCK         "複製管理"
+    IDS_X_PASTEBLOCK        "貼上管理"
+    IDS_X_CLEARWANTED       "清除要求"
+    IDS_X_LINEARWANTED      "設定線性要求"
+    IDS_X_NEW_NEO_VERSION   "有新版本的Neo Mule可用"
+    IDS_X_NEW_NEO_VERSION_DOWNLAOD 
+                            "有新版本的Neo Mule可用\n您想下載它嗎?"
+    IDS_X_NO_NEW_NEO_VERSION "偵測到新版本的Neo Mule"
+    IDS_X_CB_TBN_ONNEWVERSION "未偵測到新版本的Neo Mule"
+    IDS_X_VERSIONCHECK      "檢查Neo版本(&V)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_ND_DAT            "從網址更新nodes.dat"
+    IDS_X_ND_UPDATE         "更新"
+    IDS_X_NDR_NOURLAV       "無可用網址"
+    IDS_X_DOWNLOADING_NODESDAT_FROM "正在從%s下載nodes.dat"
+    IDS_X_DOWNLOADING_NODESDAT "正在下載nodes.dat..."
+    IDS_X_ERR_FAILEDDOWNLOADDAT "從%s下載節點清單失敗"
+    IDS_X_SS_INIT_IP2C      "正在初始化IP地區對應"
+    IDS_X_IP2COUNTRY_MAIN   "IP地區對應"
+    IDS_X_IP2COUNTRY_MAIN_INFO 
+                            "提供關於伺服器/客戶端的位置資訊"
+    IDS_X_IP2COUNTRY_DISABLED "停用"
+    IDS_X_IP2COUNTRY_DISABLED_INFO "停用IP地區對應"
+    IDS_X_IP2COUNTRY_SHORT  "顯示兩個字母"
+    IDS_X_IP2COUNTRY_SHORT_INFO "僅顯示兩個字母的地區縮寫"
+    IDS_X_IP2COUNTRY_MIDLE  "顯示三個字母"
+    IDS_X_IP2COUNTRY_MIDLE_INFO "僅顯示三個字母的地區縮寫"
+    IDS_X_IP2COUNTRY_LONG   "顯示完整名稱"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_IP2COUNTRY_LONG_INFO "顯示完整的地區名稱"
+    IDS_X_IP2COUNTRY_FLAGS  "顯示旗幟"
+    IDS_X_IP2COUNTRY_FLAGS_INFO "顯示地區旗幟<<譯者注: 設定為半選中狀態將僅在使用者名稱中顯示旗幟; 全選中狀態將僅在地區欄中顯示旗幟>>"
+    IDS_X_IP2COUNTRY_NASHORT "N/A"
+    IDS_X_IP2COUNTRY_NALONG "沒有可適用的"
+    IDS_X_IP2COUNTRY_MSG1   "IP地區對應檔案採用了由WebHosting.Info所提供的IP-to-Country資料庫"
+    IDS_X_IP2COUNTRY_MSG2   "(http://www.webhosting.info), 來自網站: http://ip-to-country.webhosting.info"
+    IDS_X_IP2COUNTRY_LOADED "IP地區對應檔案已載入"
+    IDS_X_IP2COUNTRY_UNLOADED "IP地區對應檔案已卸載"
+    IDS_X_IP2COUNTRY_LOADED2 "從""%s""載入IP地區對應檔案在%u毫秒內完畢"
+    IDS_X_IP2COUNTRY_INFO   "解析行數:%u  發現IP對應地區  範圍:%u  重複:%u  合併:%u"
+    IDS_X_IP2COUNTRY_ERROR3 "載入失敗"
+    IDS_X_IP2COUNTRY_ERROR4 "地區旗幟停用, 載入失敗"
+    IDS_X_IP2COUNTRY_ERROR5 "resID無效, 您可能需要更新您的地區旗幟圖示程式庫"
+    IDS_X_IP2COUNTRY_FLAGLOAD "地區旗幟檔案已載入"
+    IDS_X_IP2COUNTRY_FILELOAD "IP地區對應檔案已卸載"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_IP2COUNTRY_FLAGUNLD "地區旗幟檔案已卸載"
+    IDS_X_COUNTRY           "地區"
+    IDS_X_IDENTNEED         "所需的"
+    IDS_X_IDBADGUY          "無效IP"
+    IDS_X_MASSRENAME        "批量重命名..."
+    IDS_X_SC_ADD            "增加(&A)"
+    IDS_X_SC_DELETE         "移除(&D)"
+    IDS_X_SC_EDIT           "編輯(&E)"
+    IDS_X_SC_HEADLINE       "簡單清除"
+    IDS_X_SC_REPLACEBY      "取代為:"
+    IDS_X_SC_SEARCHFOR      "搜尋:"
+    IDS_X_REPLACECHAR       "取代"
+    IDS_X_REPLACECHARBY     "為"
+    IDS_X_CHECKDOTTOSPACE   "將"".""轉換為"" """
+    IDS_X_CHECKUNDERLINETOSPACE "將""_""轉換為"" """
+    IDS_X_CHECKCONVERTAPOSTROPHES 
+                            "將非標準的撇號""′"", ""`""轉換為標準撇號"" ' """
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CHECKCONVERTHEX   "將十六進位數字""%xx""轉換為字元"
+    IDS_X_CHECKSEARCHANDREPLACE "搜尋並取代:"
+    IDS_X_CHECKCASESENSITIVE "區分大小寫搜尋"
+    IDS_X_CHECKCHARACTERREPLACE "取代字元:"
+    IDS_X_SEARCHFORCHAR     "搜尋"
+    IDS_X_REPLACEBYCHAR     "取代為"
+    IDS_X_MASSRENAME1       "檔案名稱掩飾(這裡將會對以下的全部檔案名稱稱做出改變):"
+    IDS_X_MASSRENAME2       "原始檔案名稱:"
+    IDS_X_MASSRENAME3       "新檔案名稱:"
+    IDS_X_SIMPLECLEANUP     "簡單清除(&S)"
+    IDS_X_INSERTTEXTCOLUMN  "從剪貼簿插入純文字檔案列(&I)"
+    IDS_X_RESETFILENAMES    "重新設定(&R)"
+    IDS_X_MASSRENAME_TITLE  "批量重命名"
+    IDS_X_NOTENOUGHFILENAMES 
+                            "新檔案名稱清單中的檔案名稱不足. 重命名無法進行"
+    IDS_X_IDENTICALFILENAMES 
+                            "不允許出現同目錄下的兩個或兩個以上的相同檔案名稱(行%d). 重命名無法進行"
+    IDS_X_FAILED_TO_RENAME  "重命名'%s'為'%s'失敗, 錯誤: %hs"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_SUCCESED_TO_RENAME "成功重命名區塊檔案'%s'為'%s'"
+    IDS_X_CRC               "CRC32"
+    IDS_X_OK                "OK"
+    IDS_X_CRC32_CALCULATE   "計算"
+    IDS_X_CRC32_RECALCULATE "重新計算"
+    IDS_X_CRC32_TAG         "在檔案名稱中增加CRC標籤"
+    IDS_CRC32_ABORT         "放棄計算"
+    IDS_X_CRC32             "正在增加CRC32標籤"
+    IDS_X_CRC_TAGING_WRN1   "警告: 一個需要重命名的檔案已不再被分享. 已跳過這個檔案的重命名"
+    IDS_X_CRC_TAGING_WRN2   "警告: 檔案'%s'已不再被分享. 這個檔案未被重命名"
+    IDS_X_CRC_TAGING_PARTFILE 
+                            "不能增加CRC到檔案'%s'; 檔案為區塊檔案而且不完整!"
+    IDS_X_CRC_TAGING_MISSING 
+                            "不能增加CRC32到檔案'%s'; 未計算CRC!"
+    IDS_X_CRC_TAGING_ALREADY_TAGED 
+                            "檔案'%s'已包含正確的CRC32標籤, 重命名將不進行"
+    IDS_X_CRC_TAGING_RENAME "檔案'%s'將被重命名為'%s'..."
+    IDS_X_CRC_TAGING_RENAME_ERROR "不能重命名檔案'%s'! 錯誤: %hs"
+    IDS_X_CRC32_TITLE       "CRC32到檔案名稱"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_CRC_PREFIX        "在檔案名稱末CRC32前增加的首碼:"
+    IDS_X_CRC_SUFFIX        "在檔案名稱末CRC32後增加的尾碼:"
+    IDS_X_CRC_FORCEADDING   "在檔案名稱中增加CRC32/標籤, 即使檔案名稱中已包含有效的CRC32"
+    IDS_X_CRC_FORCEUPPERCASE 
+                            "如果檔案名稱中已包含有效的CRC32, 則將其轉換為大寫字母"
+    IDS_X_CRC_DONTADDCRC    "不要在檔案名稱中增加CRC32/尾碼, 只將首碼作為靜態純文字檔案增加"
+    IDS_X_LOG_CRC32_WRN1    "警告: 需要計算CRC32的檔案已不再被分享. 計算已跳過"
+    IDS_X_LOG_CRC32_WRN2    "警告: 檔案'%s'已不再被分享. CRC32計算已跳過"
+    IDS_X_LOG_CRC32_SKIP1   "檔案'%s'的CRC32計算跳過 - 已計算"
+    IDS_X_LOG_CRC32_SKIP2   "檔案'%s'不能計算CRC32; 檔案為區塊檔案而且不完整!"
+    IDS_X_LOG_CRC32_CALC    "正在計算檔案'%s'的CRC32..."
+    IDS_X_LOG_CRC32_ADORT   "CRC32計算已中止"
+    IDS_X_LOG_CRC32_COMPLETED 
+                            "檔案'%s'的CRC32的計算已完成. 檔案CRC: %s"
+    IDS_X_LOG_CRC32_WRN3    "警告: 不能開啟檔案'%s'以進行CRC32計算. 檔案已跳過"
+    IDS_X_SBMSG             "您有未讀訊息, 雙擊開啟閱讀"
+    IDS_X_NOMSG             "無未讀訊息"
+    IDS_X_UL_SP             "<b>速度:</b><t=2> %.2f (%.2f) kB/s<br>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_UL_UL             "<b>上傳中:</b><t> %u<br>"
+    IDS_X_UL_OQ             "<b>在佇列中:</b><t> %u (%u)<br>"
+    IDS_X_UL_BAN            "<b>被禁止:</b><t> %s"
+    IDS_X_SRV_NAME          "<t=2><b>%s</b><br><t=2><b>%s</b><br><hr=100%%><br>"
+    IDS_X_SRV_VERSION       "<b>版本:</b><t=3>%s<br>"
+    IDS_X_SRV_IP            "<b>IP位址:</b><t=2>%s:%u<br>"
+    IDS_X_SRV_FILES         "<b>檔案:</b><t=3>%s<br>"
+    IDS_X_SRV_LIMITS        "<b>已分享檔案:</b><t=2>%u-%u<br>"
+    IDS_X_SRV_USERS         "<b>使用者數:</b><t=2>現有:%s 最大:%s<br>"
+    IDS_X_SRV_TCP           "<hr=100%%><br><b>TCP壓縮:</b><t=6>%s<br>"
+    IDS_X_SRV_UDP1          "<b>來源要求的延伸UDP協定:</b><t>%s<br>"
+    IDS_X_SRV_UDP2          "<b>檔案要求的延伸UDP協定:</b><t>%s<br>"
+    IDS_X_SRV_UDP3          "<b>大檔案支援:</b><t=5>%s<br>"
+    IDS_X_SRV_UDP4          "<b>模糊協定:</b><t=6>%s<br>"
+    IDS_X_SRV_UDP5          "<b>NAT Traversal:</b><t=4>%s<br>"
+    IDS_X_RATING            "<b>級別:<t=5></b>%s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_PARTINFO          "<br><hr=100%%><br>"
+    IDS_X_PARTINFOS         "<b>區塊檔案名稱稱:<t=2></b>%s<br>"
+    IDS_X_STATUS            "<br><b>狀態:<t=5></b>%s<br>"
+    IDS_X_PARTINFOS4        "<b>區塊:<t=4></b>%d, 可用: %d (%.1f%%)<br>"
+    IDS_X_SOURCES           "<b>來源:<t=5></b>%s<br>"
+    IDS_X_LASTSEENCOMPL     "<br><b>最後看見完整檔案:<t></b>%s<br>"
+    IDS_X_LASTCHANGE        "<b>最後接收:<t=4></b>%s<br>"
+    IDS_X_DL_ADD            "<b>增加下載:<t=4></b>%s"
+    IDS_X_QUEUE             "<b>佇列:<t=5></b>%s<br>"
+    IDS_X_TRAFFIC           "<b>傳輸:<t=5></b>%s"
+    IDS_X_DLTAB_TL          "<al_c><b>%s</b><al><br><hr=100%%><br>"
+    IDS_X_FILES             "<b>檔案:</b><t=2>%i<br>"
+    IDS_X_DOWNLOADING       "<b>下載中:</b><t=2>%i<br>"
+    IDS_X_PAUSED            "<b>暫停:</b><t=2>%i<br>"
+    IDS_X_ERRONEOUS         "<b>錯誤:</b><t=2>%i<br>"
+    IDS_X_COMPLETED         "<b>已完成:</b><t=2>%i<br>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_DLTAB_SP          "<b>速度:</b><t=2>%.2f kB/s<br>"
+    IDS_X_DLTAB_SZ          "<b>大小:</b><t=2>%s/%s<br>"
+    IDS_X_DLTAB_DS          "<b>佔用空間:</b><t>%s"
+    IDS_X_DLTAB_PR          "<br><b>優先權:</b><t=2>%s<br>"
+    IDS_X_DL_SP             "<b>速度:</b><t=2>%.2f (%.2f) kB/s<br>"
+    IDS_X_DLTAB_DL          "<b>下載中:</b><t>%i於%i檔案<br>"
+    IDS_X_SESSION_RATIO2    "<br><hr=100%%><br><b>工作階段比: </b><t=2>%s"
+    IDS_X_SESSION_RATIO_ENABLED_ZZ "即時變化並處於ZZ模式下(1:3)"
+    IDS_X_SESSION_RATIO_ENABLED "即時變化"
+    IDS_X_SESSION_RATIO_DISABLED "非即時變化"
+    IDS_X_ZZRATIO_CHECK02   "<br><b>達到工作階段比: </b><t=1>%s"
+    IDS_X_ZZRATIO_CHECK12   "<br><b>使用者選擇: </b><t=2>%s"
+    IDS_X_ZZRATIO_CHECK22   "<br><b>好友通道: </b><t=2>%s"
+    IDS_X_FILENAME          "<t=2><b>%s</b>"
+    IDS_X_HASH              "<br><t=2><b>切細:<t=3></b>%s"
+    IDS_X_FILESIZE          "<br><t=2><b>大小:<t=3></b>%s (%I64u 位元組)<br><hr=100%%><br>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_USERINFO          "<t=2><b>%s</b><br><t=2><b>使用者ID:</b> %u (%s) [%s]<br><hr=100%%><br>"
+    IDS_X_USERINFO2         "<t=2><b>?</b><br><br><hr=100%%><br>"
+    IDS_X_LASTASK           "<b>最後要求這個客戶:<t=3></b>%s<br>"
+    IDS_X_LASTASK2          "<b>下次對這個客戶的TCP要求:<t=1></b>%s<br>"
+    IDS_X_NEXTASK           "<b>下次對這個客戶的要求:<t=2></b>%s (%s)<br>"
+    IDS_X_SOURCEINFO        "<b>要求數:<t=5></b>%d<br>"
+    IDS_X_SOURCEINFO2       "<b>可用區塊數:<t=3></b>%d<br>"
+    IDS_X_ASKEDFAF          "<br><b>要求另一個檔案:<t=2></b>%s"
+    IDS_X_CLIENTSOURCENAME  "<b>客戶端檔案名稱:<t=3></b>%s"
+    IDS_X_CMT_NONE          "<br><hr=100%%><br>無註解<br>"
+    IDS_X_CMT_READ          "<br><hr=100%%><br><b>檔案註解:</b><t=5><i>%s</i><br>"
+    IDS_X_CMT_RATING        "<b>檔案級別:</b><t=6>%s"
+    IDS_X_A4AF              "<br><br><b>A4AF檔案:</b>"
+    IDS_X_AVAIL_PARTS       "<b>網址:<t=2></b>%s<br><b>可用區塊:<t=2></b>%u"
+    IDS_X_REQUESTED         "<b>被要求檔案:<t=4></b>%s<br>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_FILESTATS_SESSION "<b>這個檔案這個工作階段統計:<t=2></b>接受%d個要求(共%d個要求), 已傳輸%s<br>"
+    IDS_X_FILESTATS_TOTAL   "<b>這個檔案所有工作階段統計:<t=2></b>接受%d個要求(共%d個要求), 已傳輸%s"
+    IDS_X_QL_RATING         "<b>佇列級別:</b><t=4>%i<br>"
+    IDS_X_QL_SCORE          "<b>佇列分數:</b><t=4>%i<br>"
+    IDS_X_QL_LASTSEEN       "<b>最後可見:</b><t=4>%s<br>"
+    IDS_X_ENTEREDQUEUE      "<b>進入佇列:</b><t=4>%s<br>"
+    IDS_X_DOWNLOAD_INFO     "<br><hr=30%%><b> 下載情況 </b><hr=30%%><br>"
+    IDS_X_UPLOAD_INFO       "<br><hr=32%%><b> 上傳情況 </b><hr=32%%><br>"
+    IDS_X_QUEUE_INFO        "<br><hr=32%%><b> 佇列情況 </b><hr=32%%><br>"
+    IDS_X_SERVER            "<b>客戶伺服器:<t=4></b>%s:%d<br>"
+    IDS_X_XP_MENU_STYLE     "XP選單風格"
+    IDS_X_XP_MENU_STYLE_INFO "設定選單風格"
+    IDS_X_OFFICE_MENUS      "Office風格"
+    IDS_X_OFFICE_MENUS_INFO "使用Office選單風格" 
+    IDS_X_START_MENUS       "開始選單風格"
+    IDS_X_START_MENUS_INFO  "使用Windows開始選單風格"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_X_XP_MENUS          "XP風格"
+    IDS_X_XP_MENUS_INFO     "使用Windows XP選單風格"
+    IDS_X_SHOW_XP_SIDEBAR   "顯示工具列"
+    IDS_X_SHOW_XP_SIDEBAR_INFO "顯示選單工具列"
+    IDS_X_SHOW_XP_BITMAP    "顯示背景"
+    IDS_X_SHOW_XP_BITMAP_INFO "顯示選單背景圖片"
+    IDS_X_GRAY_MENU_ICON    "無效按鈕圖示顯示為灰色"
+    IDS_X_GRAY_MENU_ICON_INFO "無效按鈕圖示顯示為灰色, 以代替凸起的正常圖示."
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

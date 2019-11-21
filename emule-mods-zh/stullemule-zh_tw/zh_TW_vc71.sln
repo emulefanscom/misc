@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "languages - Chinese (Taiwan)", "zh_TW_vc71.vcproj", "{DB748474-ADA6-4AEB-8694-F02088D88AD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Dynamic|Win32 = Dynamic|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB748474-ADA6-4AEB-8694-F02088D88AD7}.Dynamic|Win32.ActiveCfg = Dynamic|Win32
+		{DB748474-ADA6-4AEB-8694-F02088D88AD7}.Dynamic|Win32.Build.0 = Dynamic|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
